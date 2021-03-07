@@ -1,0 +1,54 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700233", 256, TRUE);
+	OutputLine(NULL, "　…覚醒剤なんかの薬物中毒を疑っているんですが検出はされませんでした。」",
+		   NULL, "... sospettiamo un'overdose di stimolanti o simili, ma niente è stato rivelato finora dalla scientifica.\"", Line_Normal);
+}
+
+void dialog002()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps2/11/130700241", 540, TRUE);
+	OutputLine(NULL, "……鷹野さんの方はちょっとあやふやですが、富竹さんとほぼ同じ時刻に殺害され、岐阜の山中に遺棄されたと考えるのが妥当でしょうなぁ。」",
+		   NULL, "... è un po' meno chiaro nel caso di Takano-san, ma è plausibile che sia stata uccisa alla stessa ora circa di Tomitake-san, per poi essere scaricata tra le montagne di Gifu.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog003()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700281", 256, TRUE);
+	OutputLine(NULL, "「口封じをされるような、とんでもない物が隠してあったんじゃないですか？",
+		   NULL, "\"Non c'era niente di talmente orripilante che ti avrebbe costretto a tenere la bocca chiusa?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps2/11/130700282", 540, TRUE);
+	OutputLine(NULL, "　…例えば、覚醒剤の山とか。",
+		   NULL, " ... per esempio, una montagna di droghe?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps2/11/130700283", 540, TRUE);
+	OutputLine(NULL, "ケシの秘密工場があったとか。",
+		   NULL, " O una fabbrica segreta di oppio?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps2/11/130700284", 540, TRUE);
+	OutputLine(NULL, "あるいはソ連か中国辺りの拳銃が山ほど積まれていたと。",
+		   NULL, " Forse c'erano una gran quantità di pistole cinesi o sovietiche.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700285", 256, TRUE);
+	OutputLine(NULL, "不審な木箱やコンテナが山積みされてませんでしたか？」",
+		   NULL, " Niente di sospetto, come scatole di cartone o contenitori ammassati?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+}
+
+void dialog004()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700237", 256, TRUE);
+	OutputLine(NULL, "　…管轄が岐阜県さんでね。",
+		NULL, "... ma è sotto la giuristizione del dipartimento di polizia della prefettura di Gifu.", Line_WaitForInput);
+}

@@ -1,0 +1,36 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700099", 256, TRUE);
+	OutputLine(NULL, "「熊ちゃん。",
+		   NULL, "\"Kuma-chan.", Line_Continue);
+
+	// (backup) SetValidityOfInput( FALSE );
+	Wait( 1000 );
+	// (backup) SetValidityOfInput( TRUE );
+
+	OutputLine(NULL, "ゲート車に同行してバイク持ってきてあげて。",
+		   NULL, " Prepara il furgone e vai a recuperare le moto.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700100", 256, TRUE);
+	OutputLine(NULL, "ヤマハのごつい赤いヤツと、テールランプの右側が割れたヤツ。",
+		   NULL, " Sono quella rossa della Yamaha, quella con il fanalino di coda destro rotto,", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700101", 256, TRUE);
+	OutputLine(NULL, "あとシートにガムテ貼ってあった白いヤツ。",
+		   NULL, " e quella bianca che ha la sella rattoppata col nastro adesivo.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700102", 256, TRUE);
+	OutputLine(NULL, "それだろ？",
+		   NULL, " Sono quelle, giusto?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700103", 256, TRUE);
+	OutputLine(NULL, "　兄さんたちのバイク。」",
+		   NULL, " Le vostre modo.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}

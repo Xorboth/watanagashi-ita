@@ -1,0 +1,105 @@
+void main()
+{
+
+//１０深■スクラップ帳よりⅨ
+//*Sub_Tips_039
+//gosub *tip_s
+	EnableJumpingOfReturnIcon();
+	FadeOutBGM( 0, 1000, FALSE );
+	FadeOutBGM( 1, 1000, FALSE );
+	FadeOutBGM( 2, 1000, TRUE );
+	DisableWindow();
+	DrawScene("black", 1000 );
+	PlayBGM( 1, "msys11", 56, 0 );
+	PlaySE( 3, "wa_021", 56, 64 );
+	DrawScene("background/simen3", 1000 );
+
+//locate 6,6
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 6 ); }
+	SetStyleOfMessageSwinging( 1 );
+
+//＜園崎家について￥
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "＜園崎家について＞",
+		   NULL, "<La Famiglia Sonozaki>", Line_Normal);
+	ClearMessage();
+
+	SetStyleOfMessageSwinging( 0 );
+	PlaySE( 3, "wa_021", 56, 64 );
+
+//　戦後、急激に勢力を広げたのが園崎家である＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　戦後、急激に勢力を広げたのが園崎家である。",
+		   NULL, "La famiglia che ha espanso di più la sua influenza nel dopoguerra è stata quella dei Sonozaki.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　その時の当主が、今日でもその座にある園崎お魎（おりょう）である￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その時の当主が、今日でもその座にある園崎お魎（おりょう）である。",
+		   NULL, "La capofamiglia del tempo era Oryou Sonozaki, che ancora ne presiede il vertice.", Line_Normal);
+	ClearMessage();
+
+	PlaySE( 3, "wa_021", 56, 64 );
+
+//　園崎お魎も高齢で、今日では当時の片鱗を見ることもかなわない＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　園崎お魎も高齢で、今日では当時の片鱗を見ることもかなわない。",
+		   NULL, "Oryou Sonozaki è ormai anziana, e oggi in lei splende soltanto una scintilla di quella che era la luce di cui brillava in passato.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+//　だが、伝え聞く話では歴代当主の中で最高と讃えられる名当主だったらしい＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが、伝え聞く話では歴代当主の中で最高と讃えられる名当主だったらしい。",
+		   NULL, "Da quanto mi è stato detto, inoltre, pare sia stata la leader più importante di tutta la storia famigliare.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　すでに高齢で、週に何回かの習い事に出掛ける以外は自宅で静かに過ごしており、セレモニー的なものは跡継ぎである魅音に委ねることが多いようである＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　すでに高齢で、週に何回かの習い事に出掛ける以外は自宅で静かに過ごしており、セレモニー的なものは跡継ぎである魅音に委ねることが多いようである。",
+		   NULL, "Ormai invecchiata, se non per alcune uscite settimanali, passa tutto il tempo a casa in solitudine, e pare delegare tutti gli affari cerimoniali alla sua erede, Mion.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//（なぜ当主の跡継ぎが娘でなく、孫娘である魅音なのかは諸説があるが、娘夫婦の勘当騒ぎが絡んでいると噂されている。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "（なぜ当主の跡継ぎが娘でなく、孫娘である魅音なのかは諸説があるが、娘夫婦の勘当騒ぎが絡んでいると噂されている。）",
+		   NULL, "(Ci sono diverse opinioni sul perché l'erede non sia sua figlia, ma sua nipote Mion, e si dice che abbia a che fare con il disconoscimento di suddetta figlia e del genero.)", Line_Normal);
+	ClearMessage();
+
+	PlaySE( 3, "wa_021", 56, 64 );
+
+//　園崎魅音という奔放な娘に、まだ次代当主としての貫禄は見られない＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　園崎魅音という奔放な娘に、まだ次代当主としての貫禄は見られない。",
+		   NULL, "La giovane nipote, Mion Sonozaki, ancora non mostra alcun segno della dignità che conviene a un capofamiglia.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　だが、園崎家の血を引き、鬼の名を許される以上＠恐らくは巧みに爪と牙を隠す、（過去の当主たちと同様）油断ならぬ人物であるに違いあるまい￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　だが、園崎家の血を引き、鬼の名を許される以上、",
+		   NULL, "Tuttavia, nelle sue vene scorre il sangue dei Sonozaki, e le è stato concesso l'appellativo di 'demone'.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "恐らくは巧みに爪と牙を隠す、（過去の当主たちと同様）油断ならぬ人物であるに違いあるまい。",
+		   NULL, "Rimane indubbio che sia necessaria molta cautela nei suoi confronti, e sono certa che stia nascondendo gli artigli come un'aquila astuta (e come hanno sempre fatto anche i vecchi leader del passato).", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	SetValidityOfInput( FALSE );
+	DrawBustshotWithFiltering(6, "cinema", "x", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 25, 1300, TRUE );
+	DrawBustshot(7, "title02", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 26, 3000, TRUE );
+	Wait( 2000 );
+	DrawBustshot(5, "black", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 3000, TRUE );
+	Wait( 1000 );
+	FadeBustshotWithFiltering( 7, "x", 1, FALSE, 0, 0, 1000, TRUE );
+	DrawScene("black", 1000 );
+	SetValidityOfInput( TRUE );
+
+
+}
+

@@ -1,0 +1,53 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600585", 256, TRUE);
+	OutputLine(NULL, "「……園崎詩音は………魅音姉さまの足元にも及ばない、醜く情け知らずな愚か者でございます…。",
+		   NULL, "\"... Shion Sonozaki... è uno lurido essere inferiore, indegno anche solo di leccare i piedi di sua sorella, Mion...", GetGlobalFlag(GLinemodeSp));
+}
+
+void dialog002()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300673", 256, TRUE);
+	OutputLine(NULL, "「……じゃあそろそろいい？",
+		   NULL, "\"... ora posso iniziare?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300674", 256, TRUE);
+	OutputLine(NULL, "　この拷問はね、とてもシンプル。",
+		   NULL, " Questo metodo di tortura è molto semplice.", Line_Normal);
+}
+
+void dialog003()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300682_1", 256, TRUE);
+	OutputLine(NULL, "「…………他の人を相手にする時にはなんのためらいもなかったけど。",
+		   NULL, "\"............ non ho esitato un momento mentre torturavo gli altri.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300683", 256, TRUE);
+	OutputLine(NULL, "……なぜかあんたにはためらいがあるよ。」",
+		   NULL, " ... perché ora sì?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog004()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300712", 256, TRUE);
+	OutputLine(NULL, "「…………見たことないでしょ。",
+		   NULL, "\"...... immagino tu sappia cos'è.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300713", 256, TRUE);
+	OutputLine(NULL, "本物のスタンガンだよ。",
+		   NULL, " Una vera stun gun.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300714", 256, TRUE);
+	OutputLine(NULL, "…かなり出力が上げられるようになってるけどね。」",
+		   NULL, " ... è illegale ed è stata modificata per aumentarne la potenza.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}

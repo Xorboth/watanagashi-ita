@@ -1,0 +1,172 @@
+{
+	"0": [
+		{
+			"Id": 21,
+			"Script": "wata_tips_01",
+			"UnlockChapter": 1,
+			"Title": "Chi è lo zio di Mion?",
+			"TitleJp": "魅音の叔父さんって？"
+		},
+		{
+			"Id": 22,
+			"Script": "wata_tips_02",
+			"UnlockChapter": 2,
+			"Title": "Shion esiste davvero?",
+			"TitleJp": "詩音って本当にいるの？"
+		},
+		{
+			"Id": 23,
+			"Script": "wata_tips_03",
+			"UnlockChapter": 2,
+			"Title": "Introduzione all'Angel Mort",
+			"TitleJp": "エンジェルモ\u30fcト紹介記事"
+		},
+		{
+			"Id": 24,
+			"Script": "wata_tips_04",
+			"UnlockChapter": 3,
+			"Title": "Era buonissimo",
+			"TitleJp": "ごちそうさま"
+		},
+		{
+			"Id": 25,
+			"Script": "wata_tips_05",
+			"UnlockChapter": 4,
+			"Title": "Dettagli sul Trio di Teppisti",
+			"TitleJp": "三人組の顛末"
+		},
+		{
+			"Id": 26,
+			"Script": "wata_tips_06",
+			"UnlockChapter": 5,
+			"Title": "Non è passato abbastanza tempo",
+			"TitleJp": "初めましてじゃないです"
+		},
+		{
+			"Id": 27,
+			"Script": "wata_tips_07",
+			"UnlockChapter": 7,
+			"Title": "Ritaglio I",
+			"TitleJp": "スクラップ帳より"
+		},
+		{
+			"Id": 28,
+			"Script": "wata_tips_08",
+			"UnlockChapter": 7,
+			"Title": "Ritaglio II",
+			"TitleJp": "スクラップ帳より"
+		},
+		{
+			"Id": 29,
+			"Script": "wata_tips_09",
+			"UnlockChapter": 7,
+			"Title": "Ritaglio III",
+			"TitleJp": "スクラップ帳より"
+		},
+		{
+			"Id": 30,
+			"Script": "wata_tips_10",
+			"UnlockChapter": 7,
+			"Title": "Manca poco al festival",
+			"TitleJp": "いよいよお祭り"
+		},
+		{
+			"Id": 31,
+			"Script": "wata_tips_11",
+			"UnlockChapter": 8,
+			"Title": "Ritaglio IV",
+			"TitleJp": "スクラップ帳より"
+		},
+		{
+			"Id": 32,
+			"Script": "wata_tips_12",
+			"UnlockChapter": 8,
+			"Title": "Ritaglio V",
+			"TitleJp": "スクラップ帳より"
+		},
+		{
+			"Id": 33,
+			"Script": "wata_tips_13",
+			"UnlockChapter": 8,
+			"Title": "Dopo il festival",
+			"TitleJp": "後夜祭"
+		},
+		{
+			"Id": 34,
+			"Script": "wata_tips_14",
+			"UnlockChapter": 10,
+			"Title": "Ritaglio VI",
+			"TitleJp": "スクラップ帳より"
+		},
+		{
+			"Id": 35,
+			"Script": "wata_tips_15",
+			"UnlockChapter": 10,
+			"Title": "Ritaglio VII",
+			"TitleJp": "スクラップ帳より"
+		},
+		{
+			"Id": 36,
+			"Script": "wata_tips_16",
+			"UnlockChapter": 10,
+			"Title": "Telefonata notturna",
+			"TitleJp": "深夜の電話"
+		},
+		{
+			"Id": 37,
+			"Script": "wata_tips_17",
+			"UnlockChapter": 12,
+			"Title": "Ritaglio VIII",
+			"TitleJp": "脅迫"
+		},
+		{
+			"Id": 38,
+			"Script": "wata_tips_18",
+			"UnlockChapter": 12,
+			"Title": "La loro punizione non è ancora finita?",
+			"TitleJp": "４人だけの罪に終わらない？"
+		},
+		{
+			"Id": 39,
+			"Script": "wata_tips_19",
+			"UnlockChapter": 14,
+			"Title": "Ritaglio IX",
+			"TitleJp": "スクラップ帳より"
+		},
+		{
+			"Id": 40,
+			"Script": "wata_tips_20",
+			"UnlockChapter": 14,
+			"Title": "L'anziano leader della famiglia Sonozaki?",
+			"TitleJp": "園崎家の老当主は？"
+		},
+		{
+			"Id": 41,
+			"Script": "wata_tips_21",
+			"UnlockChapter": 14,
+			"Title": "Ritaglio X",
+			"TitleJp": "スクラップ帳より"
+		},
+		{
+			"Id": 42,
+			"Script": "wata_tips_22",
+			"UnlockChapter": 14,
+			"Title": "Richiesta negata",
+			"TitleJp": "請求却下"
+		},
+		{
+			"Id": 43,
+			"Script": "wata_tips_23",
+			"UnlockChapter": 16,
+			"Title": "Ritaglio XI",
+			"TitleJp": "スクラップ帳より"
+		},
+		{
+			"Id": 44,
+			"Script": "wata_tips_24",
+			"UnlockChapter": 16,
+			"Title": "Al Salotto per Mahjong Suzu",
+			"TitleJp": "雀荘「鈴」"
+		}
+	]
+}

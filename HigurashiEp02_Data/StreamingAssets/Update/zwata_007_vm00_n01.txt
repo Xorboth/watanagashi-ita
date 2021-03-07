@@ -1,0 +1,150 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei34750", 256, TRUE);
+	OutputLine(NULL, "「バスト９０以上。",
+		   NULL, "\"Una con almeno una quinta di seno.", Line_Continue);
+	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei34760", 256, TRUE);
+	OutputLine(NULL, "お触りＯＫのボインボイン。」",
+		   NULL, " Più che bendisposta a farsi palpare.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog002()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800037", 256, TRUE);
+	OutputLine(NULL, "「君が噂の転校生、前原圭一くんだね？",
+		   NULL, "\"E così, tu sei lo studente appena trasferito di cui ho sentito parlare... Keiichi Maebara-kun, giusto?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800038", 256, TRUE);
+	OutputLine(NULL, "　今日は張り切って仕事してたね！　感心したよ。」",
+		   NULL, " Sei stato fantastico oggi! Sono impressionato.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+}
+
+void dialog003()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…このカメラマンみたいなおっさん、会ったことがあるような気がするな。",
+		   NULL, "... mi sembra di aver già visto questo fotografo da qualche parte.", Line_Normal);
+	ClearMessage();
+
+//「えー...っと、どこかでお会いしてますよね？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「えー…っと、どこかでお会いしてますよね？」",
+		   NULL, "\"Uhm... ci siamo già incontrati prima d'ora?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog004()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "「覚えててくれてうれしいね。",
+		   NULL, "\"Mi fa piacere che ti sia ricordato.", Line_WaitForInput);
+	OutputLine(NULL, "圭一くんとは道で何度かすれ違ってるよ。",
+		   NULL, " Ci siamo incrociati spesso per le strade, Keiichi-kun.", Line_WaitForInput);
+	OutputLine(NULL, "僕は富竹。",
+		   NULL, " Mi chiamo Tomitake.", Line_WaitForInput);
+	OutputLine(NULL, "東京から来てるフリーのカメラマンさ。」",
+		   NULL, " Sono un fotografo freelancer di Tokyo.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog005()
+{
+//「じゃあ私はわかるかしら...？＠
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>女性</color>", NULL, "<color=#f5e6d3>Donna</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s19/09/500900004", 256, TRUE);
+	OutputLine(NULL, "「じゃあ私はわかるかしら…？」",
+		   NULL, "\"Immagino che ti ricordi di me...?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	DisableWindow();
+	FadeBustshotWithFiltering( 3, "left", 1, FALSE, 0, 0, 300, TRUE );
+}
+
+void dialog006()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800042", 256, TRUE);
+	OutputLine(NULL, "「話には聞いていたけど、一卵性双生児ってのは初めて見たよ。",
+		   NULL, "\"Ho sentito parlare di voi, ma questa è la prima volta che vedo le due gemelle.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800043", 256, TRUE);
+	OutputLine(NULL, "本当にそっくりなんだなぁ！」",
+		   NULL, "  Sembrate proprio due gocce d'acqua!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog007()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s19/09/500900031", 256, TRUE);
+	OutputLine(NULL, "下界との交流を「穢れ（ケガレ）」として忌み嫌ったそうなの。",
+		   NULL, "Ritenevano che interagire con il mondo inferiore avrebbe macchiato le loro anime.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　......だから、村に下界の人間が来ると穢れてオヤシロさまのバチが当たると強く信じ、何者も近寄らせなかったそうよ。￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 9, "ps3/s19/09/500900032", 256, TRUE);
+	OutputLine(NULL, "　……だから、村に下界の人間が来ると穢れてオヤシロさまのバチが当たると強く信じ、何者も近寄らせなかったそうよ。」",
+		   NULL, "...... quindi tutti credevano che sarebbero stati macchiati se qualcuno di un livello inferiore fosse entrato nel villaggio, e che così avrebbero subìto l'ira di Oyashiro-sama. È servito a tenere la gente lontana da qui.\"", Line_Normal);
+}
+
+void dialog008()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800072", 256, TRUE);
+	OutputLine(NULL, "「よそ者を嫌う村、ってよく金田一の小説に出てくるだろ。",
+		   NULL, "\"I villaggi che odiano i forestieri vengono spesso citati nei gialli.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800073", 256, TRUE);
+	OutputLine(NULL, "典型的なそういう村だったらしいんだよ。」",
+		   NULL, " Questo è un classico esempio di villaggio xenofobo.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog009()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "ps2/06/500600486", 540, TRUE);
+	OutputLine(NULL, "「部下と喧嘩して、つるはしで滅多打ちにされて、両手両足、首をもいで捨てられたんだそうです。」",
+		   NULL, "\"Scoppiò una lite tra lui e un suo sottoposto, e quest'ultimo lo uccise a picconate. Gli vennero staccati gli arti e la testa mentre il resto fu fatto sparire.\"", Line_Normal);
+	ClearMessage();
+}
+
+void dialog010()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800078", 256, TRUE);
+	OutputLine(NULL, "「バラバラ殺人だよ。",
+		   NULL, "\"Uno di quegli omicidi con smembramento.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps2/08/500800079", 540, TRUE);
+	OutputLine(NULL, "ひところ流行ったろ。」",
+		   NULL, " Erano frequenti tempo fa.\"", Line_Normal);
+}
+
+void dialog011()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800106", 256, TRUE);
+	OutputLine(NULL, "「その翌年には…何だっけ、ダム推進派の男の弟夫婦の奥さんだっけ？",
+		   NULL, "\"E l'anno scorso... cos'era? La cognata di quel sostenitore della diga?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800107", 256, TRUE);
+	OutputLine(NULL, "　が殺されたんだよな。",
+		   NULL, " È stata uccisa.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "……この事件でも誰かが消え、」",
+		   NULL, " ... anche stavolta, qualcuno è scomp-\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}

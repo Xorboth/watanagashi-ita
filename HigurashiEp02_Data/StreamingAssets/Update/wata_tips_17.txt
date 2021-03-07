@@ -1,0 +1,154 @@
+void main()
+{
+
+//１０■スクラップ帳よりⅧ
+//*Sub_Tips_037
+//gosub *tip_s
+	EnableJumpingOfReturnIcon();
+	FadeOutBGM( 0, 1000, FALSE );
+	FadeOutBGM( 1, 1000, FALSE );
+	FadeOutBGM( 2, 1000, TRUE );
+	DisableWindow();
+	DrawScene("black", 1000 );
+	PlayBGM( 1, "msys11", 56, 0 );
+	PlaySE( 3, "wa_021", 56, 64 );
+	DrawScene("background/simen3", 1000 );
+
+//locate 4,6
+
+	if (GetGlobalFlag(GADVMode) == 0) { SetDrawingPointOfMessage( 0, 6 ); }
+	SetStyleOfMessageSwinging( 1 );
+
+//＜現代の御三家について￥
+	ClearMessage();
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "＜現代の御三家について＞",
+		   NULL, "<Le Tre Famiglie di Oggi>", Line_Normal);
+	ClearMessage();
+	SetStyleOfMessageSwinging( 0 );
+	PlaySE( 3, "wa_021", 56, 64 );
+
+//　前述したように、今日では御三家の合議は形骸化し、事実上、園崎家の独裁となっている＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　前述したように、今日では御三家の合議は形骸化し、事実上、園崎家の独裁となっている。",
+		   NULL, "Come riportato pocanzi, il consiglio delle Tre Famiglie non è altro che una facciata democratica—nei fatti, le decisioni vengono prese in modo quasi dittatoriale dalla famiglia Sonozaki.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+//　公由家にしても古手家にしても、過去の威光とは程遠く、古式ゆかしい伝統を維持しているとは到底思えない￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　公由家にしても古手家にしても、過去の威光とは程遠く、古式ゆかしい伝統を維持しているとは到底思えない。",
+		   NULL, "Sulle famiglie Kimiyoshi e Furude è tramontata l'era della gloria, e pare infatti che non abbiano nemmeno mantenuto le antiche tradizioni.", Line_Normal);
+	ClearMessage();
+
+	PlaySE( 3, "wa_021", 56, 64 );
+
+//　その中にあって園崎家だけは古代からの威光を維持し、鬼ヶ淵村と呼ばれた時代からの数々の伝統を色濃く受け継いでいる＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　その中にあって園崎家だけは古代からの威光を維持し、鬼ヶ淵村と呼ばれた時代からの数々の伝統を色濃く受け継いでいる。",
+		   NULL, "Solo la famiglia Sonozaki ha mantenuto il suo prestigio del passato, ereditando molte tradizioni variegate di quando Hinamizawa si chiamava Onifaguchi.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+//　確認されている中でもっとも新しい「綿流し」だと思われる明治末期の事件も、園崎家主導で行なわれたと考えられる＠（明治末期の御三家の家系図参照￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　確認されている中でもっとも新しい「綿流し」だと思われる明治末期の事件も、園崎家主導で行なわれたと考えられる。",
+		   NULL, "Persino gli esempi più recenti e tangibili del Watanagashi, tenutisi dalla fine del periodo Meiji in poi, sono stati organizzati seguendo gli ordini della famiglia Sonozaki.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "（明治末期の御三家の家系図参照）",
+		   NULL, "(Riferirsi all'albero genealogico delle Tre Famiglie relativo al periodo Meiji)", Line_Normal);
+	ClearMessage();
+
+	PlaySE( 3, "wa_021", 56, 64 );
+
+//　明治以降、園崎家は雛見沢村を牽引すべく、強いリーダーシップを発揮している＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　明治以降、園崎家は雛見沢村を牽引すべく、強いリーダーシップを発揮している。",
+		   NULL, "All'inizio del periodo Meiji, la famiglia Sonozaki incitava allo sviluppo del villaggio di Hinamizawa e prese un ruolo di forte leadership.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　数年前のダム闘争では、反対同盟の会長職に公由家が就いたが、これはあくまでも名目上で、実際には園崎家が影のリーダーとして君臨していた￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　数年前のダム闘争では、反対同盟の会長職に公由家が就いたが、これはあくまでも名目上で、実際には園崎家が影のリーダーとして君臨していた。",
+		   NULL, "Durante gli scontri per la diga di qualche anno fa, i Kimiyoshi si misero a capo della fazione opposta ai lavori, ma soltanto in nome—in verità, era la familia Sonozaki a tirare le fila nell'ombra.", Line_Normal);
+	ClearMessage();
+
+	PlaySE( 3, "wa_021", 56, 64 );
+
+//　公に出来る抵抗運動は公由家主導で行い、公に出来ない抵抗運動を園崎家が行なったのではないかと囁かれている＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　公に出来る抵抗運動は公由家主導で行い、公に出来ない抵抗運動を園崎家が行なったのではないかと囁かれている。",
+		   NULL, "Si dice che la famiglia Kimiyoshi si occupasse degli atti di opposizione che potevano essere mostrati alla luce del sole, mentre i Sonozaki si occupavano di quelli da tenere nascosti.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　ダム騒動中に報じられた不穏な事件の数々（有名な建設省幹部の子息誘拐事件他）も園崎家が行なったと、雛見沢ですら囁かれているくらいだ￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
+	OutputLine(NULL, "　ダム騒動中に報じられた不穏な事件の数々（有名な建設省幹部の子息誘拐事件他）も園崎家が行なったと、雛見沢ですら囁かれているくらいだ。",
+		   NULL, "Persino a Hinamizawa si vocifera che la moltitudine di eventi tragici avvenuti durante le proteste per la diga (tra cui il rapimento del figlio del Ministro delle Infrastrutture) sono stati perpretrati dai Sonozaki.", Line_Normal);
+	ClearMessage();
+
+	PlaySE( 3, "wa_021", 56, 64 );
+
+//　加えて、近年続発している連続怪死事件についても、園崎家の暗躍があったのではないかと言われている＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　加えて、近年続発している連続怪死事件についても、園崎家の暗躍があったのではないかと言われている。",
+		   NULL, "In più, pare che le manovre segrete della famiglia Sonozaki siano responsabili della serie di omicidi e morti accidentali che si sono susseguite nel corso degli ultimi anni.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　連続怪死事件は、紛れもなく、古式ゆかしい「綿流し」の再来である￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　連続怪死事件は、紛れもなく、古式ゆかしい「綿流し」の再来である。",
+		   NULL, "Queste morti sono senza dubbio il ritorno di fiamma del tradizionale 'Watanagashi'.", Line_Normal);
+	ClearMessage();
+
+	PlaySE( 3, "wa_021", 56, 64 );
+
+//　本来の「綿流し」を、ただの村祭りに落ちぶれた「綿流し」の当日に行なうことで、村人たちに、鬼ヶ淵村の戒律を思い出させようとでもしているに違いない￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　本来の「綿流し」を、ただの村祭りに落ちぶれた「綿流し」の当日に行なうことで、村人たちに、鬼ヶ淵村の戒律を思い出させようとでもしているに違いない。",
+		   NULL, "Le tragedie avvengono il giorno del Watanagashi per mettere in scena il Watanagashi originale, ormai caduto al livello di festa paesana, e per ricordare agli abitanti le leggi sacre che vigono nel villaggio di Onigafuchi.", Line_Normal);
+	ClearMessage();
+
+	PlaySE( 3, "wa_021", 56, 64 );
+
+//　園崎家を探ることが、今日における研究の一番の近道であると断言できるだろう＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　園崎家を探ることが、今日における研究の一番の近道であると断言できるだろう。",
+		   NULL, "È lecito dedurre che esplorare i retroscena della famiglia Sonozaki è il metodo più veloce per proseguire le ricerche.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　古手神社の祭具殿を暴くことが出来たなら、次は園崎家に研究対象を絞ろうと思う＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　古手神社の祭具殿を暴くことが出来たなら、次は園崎家に研究対象を絞ろうと思う。",
+		   NULL, "Se riuscissi a scoprire cosa si cela nel magazzino sacro del santuario Furude, riuscirei con certezza a restringere il campo alla famiglia Sonozaki.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+//　園崎家周辺は監視カメラで守られるほどの厳重ぶりだが、幸い、私は当主跡継ぎの魅音・詩音の姉妹とは面識がある＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　園崎家周辺は監視カメラで守られるほどの厳重ぶりだが、幸い、私は当主跡継ぎの魅音・詩音の姉妹とは面識がある。",
+		   NULL, "La magione Sonozaki è sorvegliata da telecamere di sicurezza a ogni angolo, ma fortunatamente ho fatto conoscenza con le due sorelle: Mion—la futura erede—e Shion.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　次なる研究への突破口として繋げていきたい￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　次なる研究への突破口として繋げていきたい。",
+		   NULL, "Voglio che questo diventi il passo determinante da collegare alla mia prossima linea di ricerca.", Line_Normal);
+	ClearMessage();
+	DisableWindow();
+	SetValidityOfInput( FALSE );
+	DrawBustshotWithFiltering(6, "cinema", "x", 1, 0, 0, FALSE, 0, 0, 0, 0, 0, 25, 1300, TRUE );
+	DrawBustshot(7, "title02", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 26, 3000, TRUE );
+	Wait( 2000 );
+	DrawBustshot(5, "black", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 25, 3000, TRUE );
+	Wait( 1000 );
+	FadeBustshotWithFiltering( 7, "x", 1, FALSE, 0, 0, 1000, TRUE );
+	DrawScene("black", 1000 );
+	SetValidityOfInput( TRUE );
+
+
+}

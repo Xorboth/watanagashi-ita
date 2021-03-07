@@ -1,0 +1,83 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500016", 256, TRUE);
+	OutputLine(NULL, "「……他にも、サラ金屋さんとか、地上げ屋さんとか、イメクラ屋さんとか、ソープランド屋さんとか。",
+		   NULL, "\"... tra questi ci sono anche uno strozzino, un abusatore edilizio, uno strip club e un bordello.", Line_Continue);
+	OutputLine(NULL, "いろいろやってると言ってますです。」",
+		   NULL, " Fanno proprio un sacco di cose.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+}
+
+void dialog002()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100056", 256, TRUE);
+	OutputLine(NULL, "「あいつに小銭を借りると、妙に返却期限にうるさいのは、サラ金屋の血が流れてるからかー。",
+		   NULL, "\"Nelle sue vene scorre sangue da strozzino... è per questo che è molto rigida sulle date di restituzione dei soldi che le vengono chiesti in prestito?", Line_WaitForInput);
+	OutputLine(NULL, "納得納得！」",
+		   NULL, " Tutto quadra!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog003()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500017", 256, TRUE);
+	OutputLine(NULL, "「……魅ぃにお買い物代を借りたことをコロリと忘れてしまったら、",
+		   NULL, "\"...... una volta, mi sono completamente dimenticata di restituire a Mii dei soldi che mi aveva dato per fare la spesa,", Line_Continue);
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "耳を揃えて返さんと身売りして風呂に沈めたるどーと凄まれましたのです。」",
+		   NULL, " e mi ha minacciato dicendomi che, se non glieli avessi restituiti, mi avrebbe sbattuto nel quartiere a luci rosse e che avrei passato lì il resto dei miei giorni.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+//　.........梨花ちゃんが借金のかたに特殊な風俗業界に身売り...＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　………梨花ちゃんが借金のかたに特殊な風俗業界に身売り…。",
+		   NULL, "... Rika-chan venduta all'industria dell'intrattenimento perché costretta a pagare i suoi debiti...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+//　......あ、やべ、...鼻血～￥
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……あ、やべ、…鼻血〜☆",
+		   NULL, "... ah, dannazione... mi esce il sangue dal naso~☆", Line_Normal);
+}
+
+void dialog004()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400025", 256, TRUE);
+	OutputLine(NULL, "「お風呂に沈められて溺れ死ぬなんて、おマヌケにもほどがありますわね〜！」",
+		   NULL, "\"Morire solo perché si viene sbattuti in un quartiere con le luci rosse è una delle morti più stupide che abbia mai sentito~!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　......は＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……は？",
+		   NULL, "... eh?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+//　...こいつ、よく意味がわかってないな...＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…こいつ、よく意味がわかってないな…？",
+		   NULL, "... non ha capito niente, vero...?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+
+//　今どきなかなか初々しいヤツ＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　今どきなかなか初々しいヤツ。",
+		   NULL, "È proprio una bambina pura e innocente.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}

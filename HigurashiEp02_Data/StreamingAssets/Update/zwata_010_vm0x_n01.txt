@@ -1,0 +1,83 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100430", 256, TRUE);
+	OutputLine(NULL, "「……うん。",
+		   NULL, "\"... sì.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100431", 256, TRUE);
+	OutputLine(NULL, "…学校に。」",
+		   NULL, " A scuola.\"", Line_Normal);
+}
+
+void dialog002()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…昨日、徹夜明けで早退した魅音だが、今朝も具合は優れないのだろうか。",
+		   NULL, "... Mion ieri è tornata a casa presto perché era stanca, ma nemmeno oggi sembra stare molto bene.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog003()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100434", 256, TRUE);
+	OutputLine(NULL, "「さ、３時ぃ？！　昨日に続いてか？！",
+		   NULL, "\"A-alle tre?! Dopo tutta la giornata di ieri?!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100435", 256, TRUE);
+	OutputLine(NULL, "　おいおい、…夜更かしにも限度ってもんがあるぞ？！",
+		   NULL, " Ehi, non puoi fare tardi tutte le sere!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100436", 256, TRUE);
+	OutputLine(NULL, "　大方、漫画の単行本が面白くなっちゃって、１巻から読破してしまったんだろう。",
+		   NULL, " Ti sarai messa a leggere un manga, poi avrai pensato che era interessante e ti sei letta tutta la serie di fila, vero?", GetGlobalFlag(GLinemodeSp));
+}
+
+void dialog004()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200129", 256, TRUE);
+	OutputLine(NULL, "「りりりり、梨花ちゃんの、大あくび〜〜〜！！　はぅ〜〜〜〜！！！！」",
+		   NULL, "\"L-l-l-l-lo sbadiglio gigante di Rika-chan~~~! Hau~~~~!!!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog005()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200130", 256, TRUE);
+	OutputLine(NULL, "「りりり梨花ちゃんのだけじゃなく、沙都子ちゃんのもかぁいいと思うぉ〜！！",
+		   NULL, "\"P-p-p-però penso che anche Satoko-chan sia carina, non solo R-Rika-chan~!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200131", 256, TRUE);
+	OutputLine(NULL, "　お〜お〜あ〜く〜び〜！！！」",
+		   NULL, " Sbadigliooo~~giganteee~~!!!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog006()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200132", 256, TRUE);
+	OutputLine(NULL, "「は、はぅ〜〜！！",
+		   NULL, "\"H-hau~~!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200133", 256, TRUE);
+	OutputLine(NULL, "　ちらっと見えた、かぁいいの見えた！！",
+		   NULL, " Le ho viste! Che carine!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200134", 256, TRUE);
+	OutputLine(NULL, "　沙都子ちゃんのあくびもかぁいい、お持ち帰り〜〜！！！！」",
+		   NULL, " Anche Satoko-chan è carina! Voglio portarmela a casa~~!!!!\"", Line_Normal);
+	ClearMessage();
+
+//　...レナが沙都子の首根っこを締め上げて、喉の奥を覗き込もうとしている...＠
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…レナが沙都子の首根っこを締め上げる。それはもうあくびとは言えないと思うが…。",
+		   NULL, "... Rena, stai praticamente strangolando Satoko. Non penso conti come sbadiglio...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+}

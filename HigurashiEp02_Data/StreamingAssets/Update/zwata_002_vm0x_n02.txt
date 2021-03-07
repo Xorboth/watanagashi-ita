@@ -1,0 +1,147 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+
+	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300552", 256, TRUE);
+	OutputLine(NULL, "　カチューシャからそりゃもう何から何まで…ぜ〜んぶ揃ってるんだからねぇ！！」",
+		   NULL, "Dal cerchietto alla giarrettiera... ho preparato tutto per te!!\"", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+}
+
+void dialog002()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+
+	ModPlayVoiceLS(4, 5, "ps3/s19/05/990500123", 256, TRUE);
+	OutputLine(NULL, "「……メイドさん衣装、カチューシャ、ニーソックス付きで１位の人の荷物を運ぶのですよ」",
+		   NULL, "\"Vestirsi da cameriera, completo di cerchietto e parigine, mentre porta in spalla la roba del vincitore.\"", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog003()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+
+	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei11480", 256, TRUE);
+	OutputLine(NULL, "「男がエプロンドレスの着方を習って、人生のどこで役に立つってーんだよぉおおぉ！！！」",
+		   NULL, "\"Come diavolo può essere utile un uomo che sa come indossare un grembiuleeeeee!!\"", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog004()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 2, "ps3/s19/02/990200506", 256, TRUE);
+	OutputLine(NULL, "「そ、そうだよ…。",
+		   NULL, "\"H-ha ragione...", Line_WaitForInput);
+
+	ModPlayVoiceLS(4, 2, "ps3/s19/02/990200507", 256, TRUE);
+	OutputLine(NULL, "大騒ぎしたら……",
+		   NULL, " se fai una scenata qui...", Line_Continue);
+
+	// (backup) SetValidityOfInput( FALSE );
+	Wait( 800 );
+	// (backup) SetValidityOfInput( TRUE );
+
+	OutputLine(NULL, "そ、その",
+		   NULL, " g-gli altri...", Line_Continue);
+
+	// (backup) SetValidityOfInput( FALSE );
+	Wait( 1000 );
+	// (backup) SetValidityOfInput( TRUE );
+
+	OutputLine(NULL, "「個性的な」趣味の人だって…勘ぐられちゃうよ？」",
+		   NULL, " scopriranno che sei una persona con gusti... 'particolari'.\"", GetGlobalFlag(GLinemodeSp));
+
+
+
+//　!s200ぅごあぁあぁあああああぁああぁあぁああぁッ！！!sd@
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog005()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300622", 256, TRUE);
+	OutputLine(NULL, "「そうそう。",
+		   NULL, "\"A proposito.", Line_WaitForInput);
+
+	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300623", 256, TRUE);
+	OutputLine(NULL, "男の人ってフリフリとかって好きなんだよねぇ〜。",
+		   NULL, " Agli uomini piacciono i vestiti coi fronzoli.", Line_WaitForInput);
+
+	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300624", 256, TRUE);
+	OutputLine(NULL, "どうよ、それを自分で身に付けてみた感想は☆」",
+		   NULL, " Allora, come ci si sente a indossarne uno☆?\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog006()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
+
+	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300625", 256, TRUE);
+	OutputLine(NULL, "「きゅっとするでしょ。",
+		   NULL, "\"Un colpo al cuore, non trovi?", Line_WaitForInput);
+	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300626", 256, TRUE);
+	OutputLine(NULL, "歩く度に足元スースーするの…ちゃんと感じてる〜？」",
+		   NULL, " La senti l'aria sulle gambe mentre cammini?\"", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+}
+
+void dialog007()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei11550", 256, TRUE);
+	OutputLine(NULL, "「をぼえてろ魅音んんん〜ッ！！！",
+		   NULL, "\"Rimpiangerai questo giorno, Mionnn!!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei11560", 256, TRUE);
+	OutputLine(NULL, "　今日の屈辱はきっと１０倍にして返すッ！！",
+		   NULL, " Questo affronto ti verrà restituito dieci volte tanto!!", Line_WaitForInput);
+
+	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei11570", 256, TRUE);
+	OutputLine(NULL, "　ぜってーに俺が圧勝して、これ以上にすごい服着せてお持ち帰りしてやるー！」",
+		   NULL, " Otterrò una vittoria schiacciante, ti farò indossare un abito ancor più folle di questo e ti porterò a casa!\"", GetGlobalFlag(GLinemodeSp));
+
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog008()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+
+	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei11830", 256, TRUE);
+	OutputLine(NULL, "「魅音って結構、胸があるから今にも見えちゃいそうだよなー。",
+		   NULL, "\"Mion, certo che hai un bel balcone che rischia di sfuggire da un momento all'altro.", Line_WaitForInput);
+
+	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei11840", 256, TRUE);
+	OutputLine(NULL, "お客さんみんな見てるぞきっと〜！」",
+		   NULL, "  Mi sa che tutti i clienti ti stanno guardando~!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog009()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+
+	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei12100", 256, TRUE);
+	OutputLine(NULL, "「詩音はこういう仕事、初めてなのか？",
+		   NULL, "\"Shion, è la prima volta che fai questo lavoro?", Line_WaitForInput);
+
+	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei12110", 256, TRUE);
+	OutputLine(NULL, "　慣れてなさそうだったからさ。」",
+		   NULL, " Non mi sembri a tuo agio.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}

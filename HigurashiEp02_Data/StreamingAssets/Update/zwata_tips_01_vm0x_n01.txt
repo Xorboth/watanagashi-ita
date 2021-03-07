@@ -1,0 +1,78 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500016", 256, TRUE);
+	OutputLine(NULL, "「……他にも、金融業とか、不動産業とか、アパレル産業とか、アミューズメント産業とか。",
+		   NULL, "\"... tra questi ci sono anche un'istitutofinanziario, un'agenzia immobiliare, un negozio di abbigliamento e parte del divertimento locale.", Line_Continue);
+	OutputLine(NULL, "いろいろやってると言ってますです。」",
+		   NULL, " Fanno proprio un sacco di cose.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+}
+
+void dialog002()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100056", 256, TRUE);
+	OutputLine(NULL, "「あいつに物を借りると、妙に返却期限にうるさいのは、金融業者さんの血が流れてるからかー。",
+		   NULL, "\"Nelle sue vene scorre sangue da affarista... è per questo che è molto rigida sulle date di restituzione delle cose che le vengono chieste in prestito?", Line_WaitForInput);
+	OutputLine(NULL, "納得納得！」",
+		   NULL, " Tutto quadra!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog003()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500017", 256, TRUE);
+	OutputLine(NULL, "「……魅ぃに百億兆者ゲームを借りたことをコロリと忘れてしまったら、",
+		   NULL, "\"...... una volta, mi sono completamente dimenticata di restituire a Mii il Monopoli che mi aveva prestato,", Line_Continue);
+	OutputLine(NULL, "リアルで百億兆者ゲームをプレイさせたるどーと凄まれましたのです。」",
+		   NULL, " e mi ha minacciato dicendomi che mia vrebbe costretta a giocare un Monopoli nella vita reale.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　………梨花ちゃんがリアル百億兆者ゲームをプレイ…。",
+		   NULL, "... Rika-chan che gioca a un Monopoli reale...", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……したたかにＩＴ長者にでもなっていそうな気がするけど……。",
+		   NULL, "... credo che non farebbe alcuna fatica a diventare il capo di una grande azienda informatica...", Line_Normal);
+}
+
+void dialog004()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400025", 256, TRUE);
+	OutputLine(NULL, "「リアルに百億兆者ゲームをプレイなんて、なかなかに愉快そうですわね〜！」",
+		   NULL, "\"Giocare a Monopoli nella vita reale sembra molto avvincente~!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　……もっとも。",
+		   NULL, "... Satoko, eh?", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　…こいつの場合、人から恨みつらみを重ねてとんでもねー目にあいそうだけど。",
+		   NULL, "... immagino che andrebbe incontro alla sua fine dopo aver accumulato astio e risentimento da parte di tutto il mercato immobiliare.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　まぁ、それはそれで沙都子らしくていいかもな。",
+		   NULL, "Proprio degno di lei.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}

@@ -1,0 +1,59 @@
+[HIGURASHI CAP. 2 WATANAGASHI - TRADUZIONE ITALIANA]
+[VERSIONE 1.0.0]
+
+Il team di CTH Translations è lieto di fornirvi la traduzione italiana di Higurashi Capitolo 2 - Watanagashi!
+La traduzione si basa sull'incredibile lavoro di 07th-Mod che permette di aggiungere molte feature al gioco base, tra le quali il doppiaggio e la grafica migliorata.
+
+Potete contattarci attraverso la nostra pagina Facebook:
+https://facebook.com/CTHTranslations
+
+Per avere un contatto più diretto con noi potete entrare nel nostro server Discord, dove si parla delle traduzioni in corso e si fornisce supporto tecnico:
+https://discord.gg/nNHQxZ7
+
+Per informazioni più tecniche sul progetto puoi visitare la pagina GitHub del nostro repository:
+https://github.com/Xorboth/watanagashi-ita
+
+
+[INSTALLAZIONE SEMPLIFICATA]
+
+1) Scaricare ed installare il gioco da Steam, GOG o MangaGamer:
+https://store.steampowered.com/app/410890/Higurashi_When_They_Cry_Hou__Ch2_Watanagashi
+https://www.gog.com/game/higurashi_when_they_cry_hou_ch2_watanagashi
+https://www.mangagamer.com/detail.php?goods_type=1&product_code=154
+
+2) Scaricare ed aprire il 07th-Mod Installer:
+https://github.com/07th-mod/python-patcher/releases/latest
+
+3) Fare partire il menù di configurazione per l'installazione della patch per Watanagashi, mettendo la spunta sulla voce della traduzione italiana
+
+4) Installare la patch
+
+5) Finito!
+
+
+[INSTALLAZIONE MANUALE]
+
+1) Scaricare ed installare il gioco da Steam, GOG o MangaGamer:
+https://store.steampowered.com/app/410890/Higurashi_When_They_Cry_Hou__Ch2_Watanagashi
+https://www.gog.com/game/higurashi_when_they_cry_hou_ch2_watanagashi
+https://www.mangagamer.com/detail.php?goods_type=1&product_code=154
+
+2) Installare la patch per Watanagashi di 07th-Mod attraverso il 07th-Mod Installer:
+https://github.com/07th-mod/python-patcher/releases/latest
+
+3) Aprire la cartella del gioco (su Steam ad esempio sta in "Steam\steamapps\common\Higurashi 02 - Watanagashi")
+
+4) Copiare la cartella della traduzione italiana "HigurashiEp02_Data" nella cartella del gioco, dove c'è un'altra cartella con lo stesso identico nome
+
+5) Sostituire i file quando richiesto. Se non dovesse venire richiesto significa che probabilmente si è scelta la cartella sbagliata dove incollare il contenuto della traduzione
+
+6) Aprire la cartella "Higurashi 02 - Watanagashi\HigurashiEp02_Data\StreamingAssets\CompiledUpdateScripts" ed eliminare tutti i file al suo interno
+
+7) Finito!
+
+
+[CREDITI]
+
+Ringraziamo infinitamente il team di 07th-Mod per la loro incredibile patch e grandissimo supporto che ci ha permesso di portarvi la traduzione italiana che vedete oggi.
+
+Traduzione italiana a cura di CTH Translations

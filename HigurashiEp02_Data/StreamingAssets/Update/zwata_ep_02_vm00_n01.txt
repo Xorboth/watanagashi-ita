@@ -1,0 +1,62 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700414", 256, TRUE);
+	OutputLine(NULL, "「前原さんの好みがわからなかったので、いろいろと持ってきましたよ〜。",
+		   NULL, "\"Non sapevo cosa ti piacesse, Maebara-san, così te ne ho portati di tutti i tipi~", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700415", 256, TRUE);
+	OutputLine(NULL, "ほぅら、洋物に劇画からかわいらしいのまで色々！",
+		   NULL, " Guarda qua, dalle scolarette alle modelle occidentali!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700416", 256, TRUE);
+	OutputLine(NULL, "　最近はこんな女の子向けみたいなＨマンガもあるんですねぇ〜。」",
+		   NULL, " Forza, scegli pure quello che preferisci~!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+//「エエエエ、エロ本なんか持ってこないで下さい～！！＠　持って帰って持って帰って！＠　痛ててててて...！！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101198", 256, TRUE);
+	OutputLine(NULL, "「エエエエ、エロ本なんか持ってこないで下さい〜！！！",
+		   NULL, "\"N-n-n-non puoi portare dei giornaletti porno in ospedale~!!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101199", 256, TRUE);
+	OutputLine(NULL, "　持って帰って持って帰って！！",
+		   NULL, " Riprenditeli e tornatene a casa!!", Line_WaitForInput);
+	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101200", 256, TRUE);
+	OutputLine(NULL, "　痛ててててて…！！」",
+		   NULL, " Ahi ahi ahi...!!!\"", Line_Normal);
+}
+
+void dialog002()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 11, "ps2/11/130700467", 540, TRUE);
+	OutputLine(NULL, "「園崎家は本業の方、",
+		   NULL, "\"L'impero economico dei Sonozaki...", Line_Continue);
+
+	// (backup) SetValidityOfInput( FALSE );
+	Wait( 1000 );
+	// (backup) SetValidityOfInput( TRUE );
+
+	OutputLine(NULL, "…あぁ、ヤクザ屋さんのことです。",
+		   NULL, " cioè, la yakuza.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps2/11/130700468", 540, TRUE);
+	OutputLine(NULL, "…で、覚醒剤を扱ってるとの噂がありましてね。",
+		   NULL, " ... in ogni caso, in giro si dice che si occupino di stimolanti.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 11, "ps2/11/130700469", 540, TRUE);
+	OutputLine(NULL, "…その可能性もあるかなんて思ってたのですが。」",
+		   NULL, " ... credevo che anche quella siringa ci combinasse qualcosa.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+
+//「.........梨花ちゃんが、...覚醒剤の常用者だって言うのか...？！￥
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 1, "ps2/01/130101215", 540, TRUE);
+	OutputLine(NULL, "「………梨花ちゃんが、…覚醒剤の常用者だって言うのか…？！」",
+		   NULL, "\"......... stai cercando di dirmi... che Rika-chan era una tossicodipendente...?!\"", Line_Normal);
+}
