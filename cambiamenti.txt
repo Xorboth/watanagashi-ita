@@ -1,2 +1,5 @@
-1.0.0 [07-03-2020]:
+1.0.1 [XX-XX-2021]:
+ - Rimossa la texture si_watanagashi.png in quanto si è verificato che non viene usata dal gioco
+
+1.0.0 [07-03-2021]:
  - Prima release pubblica!
