@@ -63,7 +63,7 @@ void main()
 //　綿流しの儀は、鬼隠しによって誘拐した人間を解体して食すものだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　綿流しの儀は、鬼隠しによって誘拐した人間を解体して食すものだ。",
-		   NULL, "Il rito del Watanagashi consisteva nel far 'rapire dai demoni' delle persone, farle a pezzi e poi mangiarle.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il rito del Watanagashi consisteva nel far \"rapire dai demoni\" delle persone, farle a pezzi e poi mangiarle.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

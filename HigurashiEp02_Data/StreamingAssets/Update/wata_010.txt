@@ -422,7 +422,7 @@ void main()
 //　...迷子ってのは、梨花ちゃんみたいな子がやるからかぁいいんだぞ＠...ヨレヨレのジジイが迷子になっても萌えにはならん＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…迷子ってのは、梨花ちゃんみたいな子がやるからかぁいいんだぞ。",
-		   NULL, "... perdersi è 'carino' solo quando si tratta di bambine come Rika-chan.", Line_WaitForInput);
+		   NULL, "... perdersi è \"carino\" solo quando si tratta di bambine come Rika-chan.", Line_WaitForInput);
 	OutputLine(NULL, "…ヨレヨレのジジイが迷子になっても萌えにはならん！",
 		   NULL, " ... un anziano che non si trova non è moe per niente!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -766,7 +766,7 @@ void main()
 	OutputLine(NULL, "　そんな恐ろしい目に遭うのはごめんだと、電話越しに詩音に怒鳴りつけておきながら…、",
 		   NULL, "Ho addirittura urlato a Shion al telefono che non volevo fare una fine così terribile, però...", Line_WaitForInput);
 	OutputLine(NULL, "自分以外の人間が失踪した時の感想が「失踪するなら自分が先のはず」…なのだから。",
-		   NULL, " adesso che qualcun altro oltre a me è stato 'rapito', non posso fare a meno di pensare che dovrei esserci stato io al suo posto.", Line_Normal);
+		   NULL, " adesso che qualcun altro oltre a me è stato \"rapito\", non posso fare a meno di pensare che dovrei esserci stato io al suo posto.", Line_Normal);
 	ClearMessage();
 
 //　......大昔、生贄を沈めたという底無し沼「鬼ヶ淵」＠
@@ -990,7 +990,7 @@ void main()
 //　いつもなら真っ先になくなるはずのレナの弁当が、丸々と残っていた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　いつもなら真っ先になくなるはずのレナの弁当が、丸々と残っていた。",
-		   NULL, "Di norma, il bentou di Rena finirebbe in un batter d'occhio, ma oggi c'è ancora molta roba avanzata.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Di norma, il bento di Rena finirebbe in un batter d'occhio, ma oggi c'è ancora molta roba avanzata.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　...でもそれは、レナの弁当がおいしくないからじゃない...￥
@@ -1341,7 +1341,7 @@ void main()
 //　魅音はお手洗いに行って来るといって席を外したまま帰ってこなかった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音はお手洗いに行って来るといって席を外したまま帰ってこなかった。",
-		   NULL, "Mion ha detto che andava in bagno a lavarsi le mani ma non è ancora tornata.", Line_Normal);
+		   NULL, "Mion ha detto che andava in bagno a lavarsi le mani, ma non è ancora tornata.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacterWithFiltering(3, 2, "portrait/re1a_warai_a1_", "2", "right", 1, 240, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
@@ -2509,7 +2509,7 @@ void main()
 //　...あの２人があんな死に方をさせられた以上、......俺だけ許してもらえる道理なんて、あるわけがない...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…あの２人があんな死に方をさせられた以上、……俺だけ許してもらえる道理なんて、あるわけがない…。",
-		   NULL, "... dato che già loro due hanno fatto questa fine... io non posso certo scappare dal 'suo' giudizio...", Line_Normal);
+		   NULL, "... dato che già loro due hanno fatto questa fine... io non posso certo scappare dal \"suo\" giudizio...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(2, 5, "sprite/ri1_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
@@ -2610,7 +2610,7 @@ void main()
 //　.........葛藤という破砕機が、脳みそをぐちゃぐちゃにすり潰す......＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………葛藤という破砕機が、脳みそをぐちゃぐちゃにすり潰す……。",
-		   NULL, "... una macchina assassina chiamata 'caos' sta attentando alla mia salute mentale...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... una macchina assassina chiamata \"caos\" sta attentando alla mia salute mentale...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2909,7 +2909,7 @@ void main()
 //　もう...梨花ちゃんと俺の間では、猫という隠語を通じて...完全に会話が成立していた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もう…梨花ちゃんと俺の間では、猫という隠語を通じて…完全に会話が成立していた。",
-		   NULL, "Accidenti... Rika-chan e io abbiamo imbastito un'intera conversazione... usando 'gatto' come parola in codice.", Line_Normal);
+		   NULL, "Accidenti... Rika-chan e io abbiamo imbastito un'intera conversazione... usando \"gatto\" come parola in codice.", Line_Normal);
 	ClearMessage();
 
 //　俺は口に出さないだけで...もう、!w1000...認めてしまっているのだ＠

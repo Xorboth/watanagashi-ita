@@ -1802,7 +1802,7 @@ void main()
 //　......あの魅音に限って言えば、............詩音や大石さんの言う魅音像と、ほんの少しだけ重ならなくもない...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……あの魅音に限って言えば、…………詩音や大石さんの言う魅音像と、ほんの少しだけ重ならなくもない…。",
-		   NULL, "... quando penso a 'quella' Mion... allora le descrizioni di Shion e di Ooishi-san mi sembrano molto più credibili...", Line_Normal);
+		   NULL, "... quando penso a \"quella\" Mion... allora le descrizioni di Shion e di Ooishi-san mi sembrano molto più credibili...", Line_Normal);
 	ClearMessage();
 
 //　そうなのだ＠
@@ -2346,7 +2346,7 @@ void main()
 //　...不慣れを丸出しにしながら、１段１段登り、...２階の窓が開かないかひとつひとつ試す￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…不慣れを丸出しにしながら、１段１段登り、…２階の窓が開かないかひとつひとつ試す。",
-		   NULL, "... la mia inesperienza è palese, e inizio a salire un gradino alla volta... con l'intendo di aprire la finestra al primo piano.", Line_Normal);
+		   NULL, "... la mia inesperienza è palese, e inizio a salire un gradino alla volta... con l'intento di aprire la finestra al primo piano.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2536,7 +2536,7 @@ void main()
 //　魅音が急に...、本当に呪うような低い声でそう呟いたのを、俺は聞き逃さなかった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音が急に…、本当に呪うような低い声でそう呟いたのを、俺は聞き逃さなかった。",
-		   NULL, "D'un tratto,,, Mion pronuncia a bassa voce una frase che sembra voler maledire qualcuno.", Line_Normal);
+		   NULL, "D'un tratto... Mion pronuncia a bassa voce una frase che sembra voler maledire qualcuno.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3656,7 +3656,7 @@ void main()
 //　だが俺は、......魅音のリーダーシップが、むしろ詩音や大石さんの言う、園崎家の跡継ぎとしての魅音像を肯定するようで複雑な気持ちだった...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが俺は、……魅音のリーダーシップが、むしろ詩音や大石さんの言う、園崎家の跡継ぎとしての魅音像を肯定するようで複雑な気持ちだった…。",
-		   NULL, "Da parte mia, invece... è un po' più complicato, dato che la sua leadership conferma ulteriormente l'immagine di 'erede della famiglia Sonozaki' che mi hanno dato Shion e Ooishi-san...", Line_Normal);
+		   NULL, "Da parte mia, invece... è un po' più complicato, dato che la sua leadership conferma ulteriormente l'immagine di \"erede della famiglia Sonozaki\" che mi hanno dato Shion e Ooishi-san...", Line_Normal);
 	ClearMessage();
 
 //　......おいおい、前原圭一＠

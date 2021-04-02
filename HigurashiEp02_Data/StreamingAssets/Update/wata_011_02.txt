@@ -942,7 +942,7 @@ void main()
 //　これが全ての始まり＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これが全ての始まり。",
-		   NULL, " È qui che è cominciato tuto quanto.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " È qui che è cominciato tutto quanto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　...その夜、鷹野さんたちが死んだ￥
@@ -1507,7 +1507,7 @@ void main()
 //　言ってしまってから、認めたことを後悔したが、...もう今さらだと思った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　言ってしまってから、認めたことを後悔したが、…もう今さらだと思った。",
-		   NULL, "Detto questo, rimpiango immediatamente di trovami in quest'auto... ma ormai non m'importa più nulla.", Line_Normal);
+		   NULL, "Detto questo, rimpiango immediatamente di trovarmi in quest'auto... ma ormai non m'importa più nulla.", Line_Normal);
 	ClearMessage();
 
 //「...本当に何もなかったんですか＠
@@ -1633,7 +1633,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100840", 256, TRUE);
 	OutputLine(NULL, "「……本当に、…古い、錆びて埃を被った拷問道具しかなかったです。",
-		   NULL, "\"...... è la verità è che... c'erano solo dei vecchi e arruginiti strumenti di tortura.", Line_WaitForInput);
+		   NULL, "\"...... e la verità è che... c'erano solo dei vecchi e arrugginiti strumenti di tortura.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100841", 256, TRUE);
 	OutputLine(NULL, "……他に目立つものなんて何もなかったです。」",
 		   NULL, " ... nient'altro degno di nota.\"", Line_Normal);
@@ -1652,7 +1652,7 @@ void main()
 //　......だけなんですかね、なんて言われたら返事のしようがない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……だけなんですかね、なんて言われたら返事のしようがない。",
-		   NULL, "... non so come rispondere a quel 'solo'.", Line_Normal);
+		   NULL, "... non so come rispondere a quel \"solo\".", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("background/kuruma1", 1000 );
@@ -2666,7 +2666,7 @@ void main()
 //　......その情報の中には、失踪後の「詩音」に聞かされたものも混じっていた＠頭をガリガリと掻き毟る...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……その情報の中には、失踪後の「詩音」に聞かされたものも混じっていた。",
-		   NULL, "... alcune di queste informazioni comprendono cose che 'Shion' mi ha detto dopo essere scomparsa.", Line_WaitForInput);
+		   NULL, "... alcune di queste informazioni comprendono cose che \"Shion\" mi ha detto dopo essere scomparsa.", Line_WaitForInput);
 	OutputLine(NULL, "頭をガリガリと掻き毟る…！",
 		   NULL, " Mi gratto la testa dalla confusione...!", Line_Normal);
 	ClearMessage();
@@ -2722,7 +2722,7 @@ void main()
 //　......「詩音」は言葉巧みに俺をワナにかけようとしているに違いない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……「詩音」は言葉巧みに俺をワナにかけようとしているに違いない。",
-		   NULL, "... sono sicuro che 'Shion' userà qualche parolone per cercare di incastrarmi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... sono sicuro che \"Shion\" userà qualche parolone per cercare di incastrarmi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2854,7 +2854,7 @@ void main()
 //　諦めることなく、...電話は鳴り続けている￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　諦めることなく、…電話は鳴り続けている。",
-		   NULL, "il telefono continua a squillare senza sosta.", Line_Normal);
+		   NULL, "Il telefono continua a squillare senza sosta.", Line_Normal);
 	ClearMessage();
 
 //　電話に...出なくて済むなら出たくはない＠
@@ -2887,7 +2887,7 @@ void main()
 //　それとも、騙され続けているふりをしながら、......相手の尻尾を探ってみるか...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それとも、騙され続けているふりをしながら、……相手の尻尾を探ってみるか…？",
-		   NULL, "Oppure, posso stare ancora il gioco... e cercare di prenderla alla sprovvista...?", Line_Normal);
+		   NULL, "Oppure, posso stare ancora al gioco... e cercare di prenderla alla sprovvista...?", Line_Normal);
 	ClearMessage();
 
 //「..................それが、...一番、安全かもしれないよな...。＠
@@ -3242,7 +3242,7 @@ void main()
 //　.........それがどれほど重要で、残酷な意味を持つのか...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………それがどれほど重要で、残酷な意味を持つのか…。",
-		   NULL, "...... quando sono crudeli e incisive queste sue parole...?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...... quanto sono crudeli e incisive queste sue parole...?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3262,7 +3262,7 @@ void main()
 //　...それに「詩音」は「間違いない」と答えたのだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それに「詩音」は「間違いない」と答えたのだ。",
-		   NULL, "... 'Shion' mi ha risposto che \"non ci sono dubbi.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... \"Shion\" mi ha risposto che \"non ci sono dubbi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......それが意味する......残酷さ.........￥
@@ -3521,7 +3521,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "それでも…、",
-		   NULL, " Io...", Line_ContinueAfterTyping);
+		   NULL, " io...", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 700 );
@@ -3721,7 +3721,7 @@ void main()
 //　この「詩音」が殺した...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この「詩音」が殺した…。",
-		   NULL, "Questa 'Shion' le ha uccise...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Questa \"Shion\" le ha uccise...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3846,7 +3846,7 @@ void main()
 //　...それに当の「詩音」が気付いていないのが、あまりに滑稽だった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それに当の「詩音」が気付いていないのが、あまりに滑稽だった。",
-		   NULL, "... 'Shion' non se n'è ancora accorta... che ridere.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... \"Shion\" non se n'è ancora accorta... che ridere.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　...滑稽でおかしくて、...涙が止まらなかった￥

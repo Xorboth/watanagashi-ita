@@ -1711,7 +1711,7 @@ void main()
 	OutputLine(NULL, "　その結果、他殺じゃないと結論付けた。",
 		   NULL, "Che concluse che non si trattò di omicidio.", Line_WaitForInput);
 	OutputLine(NULL, "…これも解決している。",
-		   NULL, " ... anche questo caso fu 'risolto'.", Line_Normal);
+		   NULL, " ... anche questo caso fu \"risolto\".", Line_Normal);
 	ClearMessage();
 
 //　４年目は誘致派夫婦の弟夫婦の妻の殺害＠
@@ -1737,7 +1737,7 @@ void main()
 //　犯人は獄中で事故死したが、この事件も、事実上、解決したと言っていい￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犯人は獄中で事故死したが、この事件も、事実上、解決したと言っていい。",
-		   NULL, "Il colpevole morì in prigione per un incidente, quindi anche questo caso è essenzialmente 'risolto'.", Line_Normal);
+		   NULL, "Il colpevole morì in prigione per un incidente, quindi anche questo caso è essenzialmente \"risolto\".", Line_Normal);
 	ClearMessage();
 
 //　......そう＠
@@ -1991,7 +1991,7 @@ void main()
 //　......詩音は、俺たちに降りかかろうとしている「何か」について、知り得る限りを知らせてくれただけなのに...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……詩音は、俺たちに降りかかろうとしている「何か」について、知り得る限りを知らせてくれただけなのに…。",
-		   NULL, "... Shion stava solo cercando di dirmi quello che sapeva su questa 'cosa' che sta per pioverci addosso...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... Shion stava solo cercando di dirmi quello che sapeva su questa \"cosa\" che sta per pioverci addosso...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

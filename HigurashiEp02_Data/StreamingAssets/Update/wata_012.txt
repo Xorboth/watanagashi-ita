@@ -234,7 +234,7 @@ void main()
 //　...ぐずる鷹野さんを無理やり押して＠富竹さんは苦笑い＠/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…ぐずる鷹野さんを無理やり押して。",
-		   NULL, "... Takano-san è esitante ma la spingo via lo stesso.", Line_WaitForInput);
+		   NULL, "... Takano-san è esitante, ma la spingo via lo stesso.", Line_WaitForInput);
 	OutputLine(NULL, "富竹さんは苦笑い。",
 		   NULL, " Tomitake-san fa un sorrisetto sconsolato.", Line_WaitForInput);
 
@@ -1610,7 +1610,7 @@ void main()
 		   NULL, "\"... bzz, bzz, qui Kumagai.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 19, "ps3/s02/19/133100004", 256, TRUE);
 	OutputLine(NULL, "大石さんどーぞー！」",
-		   NULL, " Ooishi-san? Over!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ooishi-san? Passo!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1809,7 +1809,7 @@ void main()
 //　大石さんは、タバコをひとふかししながら、レナを受け流すような余裕の表情で応えた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大石さんは、タバコをひとふかししながら、レナを受け流すような余裕の表情で応えた。",
-		   NULL, "Ooishi-san risponde a Rena e si accende una sigarette, con un'espressione in volto che implicitamente dichiara calma e desiderio di lasciar correre.", Line_Normal);
+		   NULL, "Ooishi-san risponde a Rena e si accende una sigaretta, con un'espressione in volto che implicitamente dichiara calma e desiderio di lasciar correre.", Line_Normal);
 	ClearMessage();
 
 //「あなたは令状が取れないけれど、魅ぃちゃんが怪しいとずっと狙いを付けていた。＠
@@ -1951,7 +1951,7 @@ void main()
 //　...改めて、...嫌な男だと思った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…改めて、…嫌な男だと思った。",
-		   NULL, "... mi ricorda... quando non lo sopporti.", Line_Normal);
+		   NULL, "... mi ricorda... quanto non lo sopporti.", Line_Normal);
 	ClearMessage();
 
 //「......さて＠その園崎魅音さんの親友であらせられるお二人は、これからどうするつもりです＠　私が証拠固めを終えて、令状が請求できるまで、のんびり待っててくれるわけですかな？＠
@@ -2140,7 +2140,7 @@ void main()
 //　...あまりに短い会話が、...俺たちの訪問がすでに組み込まれたシナリオであることをうかがわせる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…あまりに短い会話が、…俺たちの訪問がすでに組み込まれたシナリオであることをうかがわせる。",
-		   NULL, "... questo breve scambio di battute... implica che questo 'interrogatorio' era parte del loro piano.", Line_Normal);
+		   NULL, "... questo breve scambio di battute... implica che questo \"interrogatorio\" era parte del loro piano.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/kuruma1", "right", 0, 0, 300 );

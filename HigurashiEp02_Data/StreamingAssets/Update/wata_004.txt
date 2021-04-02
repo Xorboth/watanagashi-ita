@@ -2023,7 +2023,7 @@ void main()
 //　試しに言ってみてよ、怒らないから＠......そう言われたように感じた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　試しに言ってみてよ、怒らないから。",
-		   NULL, "Il suo volto mi suggerisce 'Dai, dillo tu'.", Line_WaitForInput);
+		   NULL, "Il suo volto mi suggerisce \"Dai, dillo tu\".", Line_WaitForInput);
 	OutputLine(NULL, "……そう言われたように感じた。",
 		   NULL, " ... chiaro e tondo.", Line_Normal);
 	ClearMessage();
@@ -2716,7 +2716,7 @@ void main()
 //　見るからに目つきの悪い、文字通りごろつきと形容するのが相応しかった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　見るからに目つきの悪い、文字通りごろつきと形容するのが相応しかった。",
-		   NULL, "Hanno l'aria di quelli che si definiscono 'teppisti buoni a nulla.' ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Hanno l'aria di quelli che si definiscono \"teppisti buoni a nulla\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3014,7 +3014,7 @@ void main()
 //　やや薄れかけた意識を無理やり元に戻させられる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　やや薄れかけた意識を無理やり元に戻させられる。",
-		   NULL, "Sono sul punto di svenire ma vengo riportato immediatamente alla realtà.", Line_Normal);
+		   NULL, "Sono sul punto di svenire, ma vengo riportato immediatamente alla realtà.", Line_Normal);
 	ClearMessage();
 
 //　ごろつきが余ったもう片方の手を後ろに回し、嫌な感じで体をひねった時、鼻の上あたりに突然、鉄の味を感じた＠
@@ -4701,7 +4701,7 @@ void main()
 //　......でも詩音は普通のか弱い女の子なんだろ＠　やっぱり...仕方ないよな￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……でも詩音は普通のか弱い女の子なんだろ？",
-		   NULL, "... per quanto riguarda Shion, più 'normale' e fragile?", Line_WaitForInput);
+		   NULL, "... per quanto riguarda Shion, più \"normale\" e fragile?", Line_WaitForInput);
 	OutputLine(NULL, "　やっぱり…仕方ないよな。",
 		   NULL, " Immagino... di non avere scelta.", Line_Normal);
 	ClearMessage();

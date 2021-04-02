@@ -85,7 +85,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　目覚まし代りは小鳥のさえずりだった。",
-		   NULL, "La mia sveglia è il cinguettio degli uccelli.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il cinguettio degli uccelli mi fa da sveglia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -227,7 +227,7 @@ void main()
 //　......広義の意味ではお昼と言わないこともないな￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……広義の意味ではお昼と言わないこともないな。",
-		   NULL, "... credo che si possa considerare 'metà giornata'.", Line_Normal);
+		   NULL, "... credo che si possa considerare \"metà giornata\".", Line_Normal);
 	ClearMessage();
 
 //「で、何か用か？＠
@@ -435,7 +435,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300378", 256, TRUE);
 	OutputLine(NULL, "「私、一昨日の惜敗、かなり根に持ってるからね〜！！",
-		   NULL, "\"Covo ancora un gran rancore per quella sconfittàadi un paio di giorni fa!!", Line_WaitForInput);
+		   NULL, "\"Covo ancora un gran rancore per quella sconfitta di un paio di giorni fa!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300379", 256, TRUE);
 	OutputLine(NULL, "　今日ははっきり言って、負けないよー？！」",
 		   NULL, " Ve lo dico subito, non perderò!\"", GetGlobalFlag(GLinemodeSp));
@@ -686,7 +686,7 @@ void main()
 	OutputLine(NULL, "　あ、そっか。",
 		   NULL, "Oh, capisco.", Line_WaitForInput);
 	OutputLine(NULL, "確か、沙都子と梨花ちゃんの家って学校の反対側なんだよな。",
-		   NULL, " Se ricordo bene, Satoko e di Rika-chan abitano dall'altra parte della scuola.", Line_Normal);
+		   NULL, " Se ricordo bene, Satoko e Rika-chan abitano dall'altra parte della scuola.", Line_Normal);
 	ClearMessage();
 
 //「そうそう。町で部活って、どうゆうことだよ＠まさかみんなで覆面をして、日が暮れるまでにいくつ銀行が襲えるか、ってゆうのじゃねーだろうなぁ！＠
@@ -2892,7 +2892,7 @@ void main()
 //　...何か俺のコマだけ堅実なマスにしか止まらないぞ？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…何か俺のコマだけ堅実なマスにしか止まらないぞ？！",
-		   NULL, "... sbaglio o è solo la mia pedina che si sta fermando su tutti gli spazi 'normali'?!", Line_Normal);
+		   NULL, "... sbaglio o è solo la mia pedina che si sta fermando su tutti gli spazi \"normali\"?!", Line_Normal);
 	ClearMessage();
 
 //　魅音の部活にボードゲームが登場しないのを疑問に思ったこともあるが、その答えが今こうして赤裸々に明かされた＠
@@ -3031,7 +3031,7 @@ void main()
 //『魅音と同じ卓に着いた』それ以上のどんな敗因があるってんだッ？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「魅音と同じ卓に着いた」それ以上のどんな敗因があるってんだッ？！",
-		   NULL, "Esiste forse qualche ragione per la loro sconfitta oltre a 'Essersi seduti allo stesso tavolo di Mion'?!", Line_Normal);
+		   NULL, "Esiste forse qualche ragione per la loro sconfitta oltre a \"Essersi seduti allo stesso tavolo di Mion\"?!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("black", "right", 0, 0, 1300 );

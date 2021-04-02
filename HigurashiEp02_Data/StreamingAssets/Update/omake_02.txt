@@ -61,7 +61,7 @@ void main()
 		   NULL, " È successo di nuovo!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400162", 256, TRUE);
 	OutputLine(NULL, "　大々バッドエンドですわー？！",
-		   NULL, " Anche stavolta un tristissimo bad ending!!", Line_WaitForInput);
+		   NULL, " Anche stavolta un tristissimo bad end!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400163", 256, TRUE);
 	OutputLine(NULL, "　ぷんぷんでございますのことよー？！」",
 		   NULL, " Sono furiosa, sapete? Umpf umpf!\"", GetGlobalFlag(GLinemodeSp));
@@ -605,7 +605,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200189", 256, TRUE);
 	OutputLine(NULL, "「では…こほん！",
-		   NULL, "\"Allora... ah-ehm!\"", Line_WaitForInput);
+		   NULL, "\"Allora... ah-ehm!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200190", 256, TRUE);
 	OutputLine(NULL, "　みんな、「綿流し」終了、お疲れさまでした〜！！」",
 		   NULL, " Congratulazioni a tutti per il completamento di 'Watanagashi'~!!\"", GetGlobalFlag(GLinemodeSp));
@@ -1266,7 +1266,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s20/08/440800115", 256, TRUE);
 	OutputLine(NULL, "そして、井戸の中に姿を隠していれば、変装した詩音ちゃんが神出鬼没にいくらでも殺人を犯せるって寸法さ。」",
-		   NULL, "Se poi si fosse nascosta nel pozzo, una volta travestitasi da Shion-chan, avrebbe potuto presentarsi ovunque e uccidere chiunque volesse---tutto pianificato fin dall'inizio.\"", Line_Normal);
+		   NULL, "Se poi si fosse nascosta nel pozzo, una volta travestitasi da Shion-chan, avrebbe potuto presentarsi ovunque e uccidere chiunque volesse—tutto pianificato fin dall'inizio.\"", Line_Normal);
 	ClearMessage();
 
 //＜富竹
@@ -1338,7 +1338,7 @@ void main()
 		   NULL, " Sarebbe troppo forzato!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300340", 256, TRUE);
 	OutputLine(NULL, "　こんなの完全犯罪とは言わないって！」",
-		   NULL, " Non puoi definirsi un delitto perfetto!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Non puoi definirlo un delitto perfetto!\"", GetGlobalFlag(GLinemodeSp));
 
 //＜魅音
 	DisableWindow();
@@ -1424,7 +1424,7 @@ void main()
 		   NULL, "\"..... non ho capito nulla della tua spiegazione.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400195", 256, TRUE);
 	OutputLine(NULL, "魅音さんが罪を被るってどういう意味ですの？",
-		   NULL, " Cosa significa che Mion-san che si è presa la colpa?", Line_WaitForInput);
+		   NULL, " Cosa significa che Mion-san si è presa la colpa?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400196", 256, TRUE);
 	OutputLine(NULL, "　犯人なんじゃないんですの…？？」",
 		   NULL, " Non è lei la colpevole...?\"", Line_Normal);
@@ -1561,7 +1561,7 @@ void main()
 		   NULL, "\"Cancellare il passato...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s20/08/440800117", 256, TRUE);
 	OutputLine(NULL, "暗躍の歴史に終止符を打つため、御三家の罪を最後の当主の魅音が全て被り、姉妹そろって退場したってことだね。」",
-		   NULL, " ovvero dare la colpa dei crimini delle Tre Famiglie al loro ultimo leader, Mion, per porre fine a una storia oscura---e poi farle sparire entrambe.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "ovvero dare la colpa dei crimini delle Tre Famiglie al loro ultimo leader, Mion, per porre fine a una storia oscura—e poi farle sparire entrambe.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1852,7 +1852,7 @@ void main()
 		   NULL, "\"Uhuh......", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s20/09/440900117", 256, TRUE);
 	OutputLine(NULL, "圭一くん以外の人の死には何かしら理由が見つけられるんだけど、…圭一くんだけなぜかいつも曖昧。",
-		   NULL, " possiamo trovare una ragione per la morte di tutti tranne che per quella di Keiichi-kun... chissà perché ma la morte di Keiichi-kun è sempre vaga.", Line_WaitForInput);
+		   NULL, " possiamo trovare una ragione per la morte di tutti tranne che per quella di Keiichi-kun... chissà perché, ma la morte di Keiichi-kun è sempre vaga.", Line_WaitForInput);
 		   
 	//VoiceMatching
 	if(GetGlobalFlag(GCensor) >= 3){ModCallScriptSection("zomake_02_vm0x_n01","dialog002");}
@@ -1994,7 +1994,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300353", 256, TRUE);
 	OutputLine(NULL, "「圭ちゃん、殺されるような、どんな悪いことをやったわけぇ？」",
-		   NULL, "\"Kei-chan, che razza si guai hai combinato per farti uccidere?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Kei-chan, che razza di guai hai combinato per farti uccidere?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2057,7 +2057,7 @@ void main()
 		   NULL, " Davvero un grave crimine!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700396", 256, TRUE);
 	OutputLine(NULL, "　前原さん、実にうらやましい主人公役ですよぅ？",
-		   NULL, " Maebara-san è un protagonista molto invidiabile. vero?", Line_WaitForInput);
+		   NULL, " Maebara-san è un protagonista molto invidiabile, vero?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700397", 256, TRUE);
 	OutputLine(NULL, "　たまには代わって下さい。」",
 		   NULL, " Fai a cambio con me ogni tanto, che ne dici?\"", GetGlobalFlag(GLinemodeSp));

@@ -157,7 +157,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200328", 256, TRUE);
 	OutputLine(NULL, "「魅ぃちゃん、かなり壊れてたけど、…何とか直しておいたから。」",
-		   NULL, "\"Mii-chan era a pezzi ma sembra che sia riuscita a rimetterla in sesto.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Mii-chan era a pezzi, ma sembra che sia riuscita a rimetterla in sesto.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -214,7 +214,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei21060", 256, TRUE);
 	OutputLine(NULL, "「……悪気はないんだが、なぜか罪の意識もある。",
-		   NULL, "\"... non avevo cattive intenzioni ma mi sento comunque in colpa.", Line_WaitForInput);
+		   NULL, "\"... non avevo cattive intenzioni, ma mi sento comunque in colpa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei21070", 256, TRUE);
 	OutputLine(NULL, "…何でも聞くぞ。」",
 		   NULL, " ... ti ascolto.\"", GetGlobalFlag(GLinemodeSp));

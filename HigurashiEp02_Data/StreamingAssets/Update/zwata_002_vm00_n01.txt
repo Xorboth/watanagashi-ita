@@ -141,7 +141,7 @@ void dialog008()
 	OutputLine(NULL, "「最近、見始めましたわ。",
 		   NULL, "\"Ho iniziato a guardarlo da poco.", Line_WaitForInput);
 	OutputLine(NULL, "さくらが元気一杯でカッコイイんですの！」",
-		   NULL, " Sakuka è talmente allegra e piena di energie!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sakura è talmente allegra e piena di energie!\"", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }

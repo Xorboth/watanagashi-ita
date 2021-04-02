@@ -42,7 +42,7 @@ void dialog004()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300712", 256, TRUE);
 	OutputLine(NULL, "「…………見たことないでしょ。",
-		   NULL, "\"...... immagino tu sappia cos'è.", Line_WaitForInput);
+		   NULL, "\"...... immagino tu non sappia cos'è.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300713", 256, TRUE);
 	OutputLine(NULL, "本物のスタンガンだよ。",
 		   NULL, " Una vera stun gun.", Line_WaitForInput);

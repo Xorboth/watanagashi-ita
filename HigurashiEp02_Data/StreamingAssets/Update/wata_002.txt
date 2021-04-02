@@ -350,7 +350,7 @@ void main()
 //　サッカリンのように甘～い圭一スマイルで、レナの頭をわしわしと乱暴に撫でてやる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　サッカリンのように甘〜い圭一スマイルで、レナの頭をわしわしと乱暴に撫でてやる。",
-		   NULL, "Arruffo i capelli di Rena con un gran sorriso rincuorante in pieno 'Stile Keiichi'.", Line_Normal);
+		   NULL, "Arruffo i capelli di Rena con un gran sorriso rincuorante in pieno \"Stile Keiichi\".", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	PlaySE( 3, "wa_016", 56, 64 );
@@ -882,7 +882,7 @@ void main()
 //　例えば...自分はデザートと言われて真っ先に『イチゴ汁粉！』と思いついたとしても＠...他のみんなと一致しない答えでは得点できないわけだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　例えば…自分はデザートと言われて真っ先に「イチゴ汁粉！」と思いついたとしても。",
-		   NULL, "Per esempio... se l'argomento è 'dessert' e ti viene in mente 'cheesecake'...", Line_WaitForInput);
+		   NULL, "Per esempio... se l'argomento è \"dessert\" e ti viene in mente \"cheesecake\"...", Line_WaitForInput);
 	OutputLine(NULL, "…他のみんなと一致しない答えでは得点できないわけだ。",
 		   NULL, " ... se la tua risposta non corrisponde a quella degli altri, non ottieni punti.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -2082,7 +2082,7 @@ void main()
 //　...このシンパシーというゲーム、想像以上に恐ろしいものかもしれないぞ......￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…このシンパシーというゲーム、想像以上に恐ろしいものかもしれないぞ……。",
-		   NULL, "... questo gioco chiamato 'Sympathy' sa essere più terrificante di quanto possa immaginare...", Line_Normal);
+		   NULL, "... questo gioco chiamato \"Sympathy\" sa essere più terrificante di quanto possa immaginare...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	PlayBGM( 1, "msys04", 56, 0 );
@@ -2201,7 +2201,7 @@ void main()
 //　......だが、俺の自身満々の答えとは裏腹に、みんなの表情は淡白だ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……だが、俺の自身満々の答えとは裏腹に、みんなの表情は淡白だ。",
-		   NULL, "... ma contrariamente all'intrepida determinazione della mia risposta, le ragazze fanno una faccia delusa.", Line_Normal);
+		   NULL, "... ma, contrariamente all'intrepida determinazione della mia risposta, le ragazze fanno una faccia delusa.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacterWithFiltering(3, 2, "sprite/re1b_nande_b1_", "1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -2711,14 +2711,14 @@ void main()
 //　魅音と沙都子の答えは『お花見』！!w1000　...お、お花見だとぉおぉおおッ？！？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音と沙都子の答えは「お花見」！",
-		   NULL, "Mion e Sakoto hanno risposto 'Hanami'!", Line_ContinueAfterTyping);
+		   NULL, "Mion e Sakoto hanno risposto \"Hanami\"!", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "　…お、お花見だとぉおぉおおッ？！？！",
-		   NULL, " 'Hanami', seriamente??!!", Line_Normal);
+		   NULL, " \"Hanami\", seriamente??!!", Line_Normal);
 	ClearMessage();
 
 //「お、お、お花見なんて、酒盛りして痴態をさらすオヤジイベントの定番だろうがぁあぁあぁぁッ！！＠
@@ -3859,7 +3859,7 @@ void main()
 		   NULL, " Ho mal di testa e non me la sento di preparare la cena stasera.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/992700030", 256, TRUE);
 	OutputLine(NULL, "だから申し訳ないんだけど、お父さんと一緒に表に食べに行ってくれる？」",
-		   NULL, " Mi dispiace ma potresti uscire e mangiare fuori con tuo padre?\"", Line_Normal);
+		   NULL, " Mi dispiace, ma potresti uscire e mangiare fuori con tuo padre?\"", Line_Normal);
 	ClearMessage();
 
 //　お袋は仕事なんかをバリバリこなすスーパーウーマンだが、周期的に体を崩すのだ＠
@@ -5036,7 +5036,7 @@ void main()
 //　完全にレナのかぁいいモードと化した俺は、鼻血を滝のように流しながら、たっぷり存分に悔いがないくらい＠　言葉責めプレ......じゃなくて昼間の復讐を果たすのだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　完全にレナのかぁいいモードと化した俺は、鼻血を滝のように流しながら、たっぷり存分に悔いがないくらい！",
-		   NULL, "Entro nella stessa modalità carineria di Rena: il sangue mi schizza dal naso come una cascata ma continuerò finché non sarò soddisfatto!", Line_WaitForInput);
+		   NULL, "Entro nella stessa Modalità Carineria di Rena: il sangue mi schizza dal naso come una cascata, ma continuerò finché non sarò soddisfatto!", Line_WaitForInput);
 	OutputLine(NULL, "　言葉責めプレ……じゃなくて昼間の復讐を果たすのだった。",
 		   NULL, " Sto per coronare questa umiliazione verbale... --cioè, voglio dire-- la mia vendetta per gli eventi di oggi.", Line_Normal);
 	ClearMessage();
@@ -5842,7 +5842,7 @@ void main()
 	OutputLine(NULL, "　明日、魅音には何て言おうかな。",
 		   NULL, "Devo dire qualcosa a Mion domani?", Line_WaitForInput);
 	OutputLine(NULL, "お前の妹に会ったぜ！……こんな感じかな。",
-		   NULL, " 'Ho conosciuto la tua sorellina!'... o qualcosa del genere?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " \"Ho conosciuto la tua sorellina!\"... o qualcosa del genere?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

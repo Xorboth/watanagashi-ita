@@ -361,7 +361,7 @@ void main()
 //　レナが軽く背中を叩く￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナが軽く背中を叩く。",
-		   NULL, "Rena mi dà una piccola patta sulla schiena.", Line_Normal);
+		   NULL, "Rena mi dà una piccola pacca sulla schiena.", Line_Normal);
 	ClearMessage();
 
 //「......魅音、!w1000......本当にいるよな。＠
@@ -1077,7 +1077,7 @@ void main()
 		   NULL, "... ho dedotto che abbiano concluso che possano essere scomparse mentre erano a Okinomiya.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200308", 256, TRUE);
 	OutputLine(NULL, "警察は明るくなってから捜査範囲を興宮にも広げるって言ってた。」",
-		   NULL, " La polizia ha detto che da questa mattina avrebbero ampliato il raggio di ricerca fino a Okimomiya.\"", Line_Normal);
+		   NULL, " La polizia ha detto che da questa mattina avrebbero ampliato il raggio di ricerca fino a Okinomiya.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 1000 );
@@ -1214,7 +1214,7 @@ void main()
 		   NULL, " Sono d'accordo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200311", 256, TRUE);
 	OutputLine(NULL, "梨花ちゃんも沙都子ちゃんも、雛見沢でいなくなったに違いないの。」",
-		   NULL, " Rika-chan e Satoko-chan devono essere scomparse qui a Himanizawa.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Rika-chan e Satoko-chan devono essere scomparse qui a Hinamizawa.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1924,7 +1924,7 @@ void main()
 //　だが、いつまで経っても梨花ちゃんが帰ってこない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、いつまで経っても梨花ちゃんが帰ってこない。",
-		   NULL, "Satoko l'ha aspettata a lungo ma non l'ha più vista tornare a casa.", Line_Normal);
+		   NULL, "Satoko l'ha aspettata a lungo, ma non l'ha più vista tornare a casa.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("black", "right", 0, 0, 300 );
@@ -2011,7 +2011,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200367", 256, TRUE);
 	OutputLine(NULL, "「でも、…すでにこの時点でおかしいの。",
-		   NULL, "\"Okay, però... è comunque molto strano.", Line_WaitForInput);
+		   NULL, "\"Ok, però... è comunque molto strano.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200368", 256, TRUE);
 	OutputLine(NULL, "食事ってね、突然やってきた人に振舞えるほど、多めに作るものじゃないんだよ。」",
 		   NULL, " Di solito, non si prepara da mangiare così in abbondanza da poterlo dividere con un invitato che arriva senza preavviso.\"", GetGlobalFlag(GLinemodeSp));

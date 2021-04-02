@@ -1249,7 +1249,7 @@ void main()
 	OutputLine(NULL, "　目が回る…。",
 		   NULL, "Mi gira la testa...", Line_WaitForInput);
 	OutputLine(NULL, "…吐き気が……………。",
-		   NULL, " ... ho la nauesa............", Line_Normal);
+		   NULL, " ... ho la nausea............", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 1000 );
@@ -1427,7 +1427,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700484", 256, TRUE);
 	OutputLine(NULL, "「…………日を改めた方が良さそうですねぇ。」",
-		   NULL, "\"......... forse dovremmo rivederci un alro giorno.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"......... forse dovremmo rivederci un altro giorno.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2083,7 +2083,7 @@ void main()
 		   NULL, "... i risultati dell'autopsia preliminare avevano confermato che era morta almeno ventiquattr'ore prima.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700525", 256, TRUE);
 	OutputLine(NULL, "つじつまが合わないってことで、大慌てで当日死亡って改ざんしたらしいんですが。」",
-		   NULL, " Ma dato che risultava contraddittorio, è stato poi dichiarato in fretta e furia che era morta poco prima ma lo stesso giorno.\"", Line_Normal);
+		   NULL, " Ma dato che risultava contraddittorio, è stato poi dichiarato in fretta e furia che era morta poco prima lo stesso giorno.\"", Line_Normal);
 	ClearMessage();
 
 

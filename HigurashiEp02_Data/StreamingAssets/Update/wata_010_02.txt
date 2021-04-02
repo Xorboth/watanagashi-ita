@@ -1380,13 +1380,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600381", 256, TRUE);
 	OutputLine(NULL, "「私とお姉は血のつながった姉妹ですが、…園崎家にあっては、まるで格が違うんです。",
-		   NULL, "\"Siamo sorelle di sangue... ma all'interno della famiglia Sonozaki. in pratica apparteniamo a caste diverse.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Siamo sorelle di sangue... ma all'interno della famiglia Sonozaki. In pratica apparteniamo a caste diverse.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600382", 256, TRUE);
 	OutputLine(NULL, "　……私とは、とても遠い存在だということを認識して下さい。",
-		   NULL, "... voglio che tu capisca quando la mia posizione sia lontana dalla sua.", Line_WaitForInput);
+		   NULL, "... voglio che tu capisca quanto la mia posizione sia lontana dalla sua.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600383", 256, TRUE);
 	OutputLine(NULL, "…お願いします。」",
 		   NULL, " ... ti prego.\"", GetGlobalFlag(GLinemodeSp));
@@ -1888,12 +1888,12 @@ void main()
 	SetSpeedOfMessage( TRUE, 0, );
 
 	OutputLine(NULL, "…………",
-		   NULL, "......... cosa devo fare...?\"", Line_Continue);
+		   NULL, "......... cosa devo fare...?", Line_Continue);
 //!sd
 	SetSpeedOfMessage( FALSE, 0, );
 
 	OutputLine(NULL, "公由のお爺ちゃんに",
-		   NULL, " ho detto tutto...", Line_Continue);
+		   NULL, " Ho detto tutto...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
@@ -2451,7 +2451,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600450", 256, TRUE);
 	OutputLine(NULL, "「………え？",
-		   NULL, "\"...... cosa?\"", Line_WaitForInput);
+		   NULL, "\"...... cosa?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600451", 256, TRUE);
 	OutputLine(NULL, "　……今、何て言ったんですか…？！」",
 		   NULL, " ... come hai detto...?!\"", GetGlobalFlag(GLinemodeSp));

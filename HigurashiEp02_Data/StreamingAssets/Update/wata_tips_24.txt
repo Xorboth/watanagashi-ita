@@ -304,7 +304,7 @@ void main()
 	OutputLine(NULL, "「ゲストのエスコート役は私がやります。",
 		   NULL, "\"Mi occuperò io di scortare il nostro ospite.", Line_Continue);
 	OutputLine(NULL, "きっと会場へ連れて行きますので皆さん、気長に待ってください。」",
-		   NULL, "Lo scorterò senza errori fino al punto d'incontro, quindi vi prego di avere pazienza.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Lo scorterò senza errori fino al punto d'incontro, quindi vi prego di avere pazienza.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

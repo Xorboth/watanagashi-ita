@@ -45,14 +45,14 @@ void main()
 //　魅音の鼻先に、昨日、差し入れてもらった弁当箱を突き出す￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音の鼻先に、昨日、差し入れてもらった弁当箱を突き出す。",
-		   NULL, "Le sventolo davanti al naso il bentou che mi ha dato ieri.", Line_Normal);
+		   NULL, "Le sventolo davanti al naso il bento che mi ha dato ieri.", Line_Normal);
 	ClearMessage();
 
 //「昨日、差し入れてもらった弁当箱だよ＠ごちそうさま＠うまかったぜ。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100065", 256, TRUE);
 	OutputLine(NULL, "「昨日、差し入れてもらった弁当箱だよ。",
-		   NULL, "\"È la scatola del bentou che mi hai dato ieri.", Line_Continue);
+		   NULL, "\"È la scatola del bento che mi hai dato ieri.", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
@@ -120,7 +120,7 @@ void main()
 		   NULL, " Ieri avevo molta fame.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100068", 256, TRUE);
 	OutputLine(NULL, "詩音がわざわざ家まで来て弁当を差し入れてくれたんだよ。",
-		   NULL, " A un certo punto, Shion è piombata a casa mia e mi ha dato un bentou.", Line_WaitForInput);
+		   NULL, " A un certo punto, Shion è piombata a casa mia e mi ha dato un bento.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100069", 256, TRUE);
 	OutputLine(NULL, "で、これはその弁当箱。",
 		   NULL, " Ovvero, questa scatola.", Line_WaitForInput);
@@ -222,7 +222,7 @@ void main()
 //　...どうだった？って聞いたのは、詩音の容姿じゃなくて、弁当の出来についてかな...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…どうだった？って聞いたのは、詩音の容姿じゃなくて、弁当の出来についてかな…？",
-		   NULL, "... forse quella domanda di prima non era riferita a Shion ma... al bentou...?", Line_Normal);
+		   NULL, "... forse quella domanda di prima non era riferita a Shion ma... al bento...?", Line_Normal);
 	ClearMessage();
 
 //「あぁ、もちろん＠　うまかったぜ。＠
@@ -264,7 +264,7 @@ void main()
 		   NULL, " Se dico che qualcosa è buono, allora è oggettivamente buono!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100075", 256, TRUE);
 	OutputLine(NULL, "　万人にお薦めできる評価だと思っていいぞ。",
-		   NULL, " Spargi la mia recensione in giro e vedrai che tutti verranno a chiederti un bentou.", Line_WaitForInput);
+		   NULL, " Spargi la mia recensione in giro e vedrai che tutti verranno a chiederti un bento.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s20/01/440100076", 256, TRUE);
 	OutputLine(NULL, "詩音に実に美味しかったって伝えておいてくれ。」",
 		   NULL, " Di' a Shion che era tutto squisito, d'accordo?\"", GetGlobalFlag(GLinemodeSp));
@@ -311,14 +311,14 @@ void main()
 	OutputLine(NULL, "　…こいつも、こんな見てるだけでこっちも気持ちよくなれるような笑い方ができるんだな。",
 		   NULL, "... è proprio vero che mi basta vederla ridere di gusto per far sentire meglio anche me.", Line_WaitForInput);
 	OutputLine(NULL, "そんな嫌みが口を突いたが、そのまま飲み込むことにする。",
-		   NULL, " Mi viene in mente una battuta adeguata alla situazione ma me la rimangio subito.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mi viene in mente una battuta adeguata alla situazione, ma me la rimangio subito.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　魅音が弁当箱をカバンに入れようとして、カラカラと音がするのに気付いた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音が弁当箱をカバンに入れようとして、カラカラと音がするのに気付いた。",
-		   NULL, "Mentre Mion mette il bentou nella sua borsa, sento un rumore.", Line_Normal);
+		   NULL, "Mentre Mion mette il bento nella sua borsa, sento un rumore.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(2, 3, "sprite/me1b_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
@@ -409,7 +409,7 @@ void main()
 //　ピカピカの弁当箱の中にはきれいな包み紙で包まれた飴が一握り入れられている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ピカピカの弁当箱の中にはきれいな包み紙で包まれた飴が一握り入れられている。",
-		   NULL, "Dentro al bentou tirato a lucido c'è una confezione trasparente di dolcetti.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Dentro al bento tirato a lucido c'è una confezione trasparente di dolcetti.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　...昨日、流しで弁当箱を洗っていたら、お袋に「詰問」され、誰の差し入れかを白状させられたわけだ＠
@@ -454,7 +454,7 @@ void main()
 //　...いっそ、いつもの魅音に笑い飛ばされた方がマシなのだが、...なぜか魅音は陶酔した表情で弁当箱の中の飴玉を見入っている￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…いっそ、いつもの魅音に笑い飛ばされた方がマシなのだが、…なぜか魅音は陶酔した表情で弁当箱の中の飴玉を見入っている。",
-		   NULL, "... se Mion mi avesse riso in faccia, me lo sarei aspettato... ma per qualche motivo, sta fissando stupita le caramelle nella scatola.", Line_Normal);
+		   NULL, "... se Mion mi avesse riso in faccia, me lo sarei aspettato... ma, per qualche motivo, sta fissando stupita le caramelle nella scatola.", Line_Normal);
 	ClearMessage();
 
 //「......あ、...ありがとう。＠
@@ -516,7 +516,7 @@ void main()
 //　魅音がちょっぴり残念そうな顔をしながら弁当箱のふたを閉じる＠...結果的に、少し意地悪なことを言ってしまったようだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音がちょっぴり残念そうな顔をしながら弁当箱のふたを閉じる。",
-		   NULL, "Mion richiude il coperchio del bentou con uno sgaurdo leggermente deluso.", Line_WaitForInput);
+		   NULL, "Mion richiude il coperchio del bento con uno sgaurdo leggermente deluso.", Line_WaitForInput);
 	OutputLine(NULL, "…結果的に、少し意地悪なことを言ってしまったようだった。",
 		   NULL, " ... mi sa che ho detto qualcosa di troppo.", Line_Normal);
 	ClearMessage();

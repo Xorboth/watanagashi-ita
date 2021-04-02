@@ -79,7 +79,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#68aee5>知恵</color>", NULL, "<color=#68aee5>Chie</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 22, "ps3/s19/22/501400006", 256, TRUE);
 	OutputLine(NULL, "　日本式にアレンジされたとは言え、そこには古代インドの英知と文化が込められています。",
-		   NULL, "Anche se l'abbiamo leggermente modificato per il gusto giapponese, è sempre legato ala cultura e alla conoscenza dell'India antica.", Line_WaitForInput);
+		   NULL, "Anche se l'abbiamo leggermente modificato per il gusto giapponese, è sempre legato alla cultura e alla conoscenza dell'India antica.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 22, "ps3/s19/22/501400007", 256, TRUE);
 	OutputLine(NULL, "ゆめゆめ、そのことをおろそかにしないように。",
 		   NULL, " Non bisogna sottovalutare questo fatto.", GetGlobalFlag(GLinemodeSp));
@@ -848,7 +848,7 @@ void main()
 //　......しかし...がおーー＠　ヘビの鳴き声ってがおーだったっけ...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……しかし…がおーー？",
-		   NULL, "... però... 'roaaar'?", Line_WaitForInput);
+		   NULL, "... però... \"roaaar\"?", Line_WaitForInput);
 	OutputLine(NULL, "　ヘビの鳴き声ってがおーだったっけ…。",
 		   NULL, " I serpenti fanno così?", Line_Normal);
 	ClearMessage();
@@ -2191,7 +2191,7 @@ void main()
 		   NULL, "... non sono caduta così in basso", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s19/04/500400028", 256, TRUE);
 	OutputLine(NULL, "…こう見えても私、フェアですのよ？」",
-		   NULL, "... pensa ciò che vuoi ma io gioco pulito.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... pensa ciò che vuoi, ma io gioco pulito.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2857,7 +2857,7 @@ void main()
 	OutputLine(NULL, "　そう。",
 		   NULL, "Ma certo.", Line_WaitForInput);
 	OutputLine(NULL, "…梨花ちゃんのカレーは素朴なんじゃない。",
-		   NULL, " ... il curry di Rika-chan non è affatto 'semplice'.", Line_WaitForInput);
+		   NULL, " ... il curry di Rika-chan non è affatto \"semplice\".", Line_WaitForInput);
 
 	PlaySE( 3, "wa_007", 56, 64 );
 
@@ -2939,7 +2939,7 @@ void main()
 //　審査員だけでなく、先生や後輩たち、もちろん俺も...感嘆にどよめく！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　審査員だけでなく、先生や後輩たち、もちろん俺も…感嘆にどよめく！！",
-		   NULL, "Non solo i giudici ma anche la maestra, i miei compagni più piccoli, tutta la mia classe... abbiamo il fiato mozzato dalla sorpresa!!", Line_Normal);
+		   NULL, "Non solo i giudici, ma anche la maestra, i miei compagni più piccoli, tutta la mia classe... abbiamo il fiato mozzato dalla sorpresa!!", Line_Normal);
 	ClearMessage();
 
 //　デミグラスソースのハンバーグに見目鮮やかなサラダ付き...！＠
@@ -5342,7 +5342,7 @@ void main()
 //　......あの制服（？）が何だか刺激的な...☆　はぅ～￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……あの制服（？）が何だか刺激的な…☆　はぅ〜。",
-		   NULL, "... quell'uniforme (?) era davvero 'stimolante'... ☆hau~", Line_Normal);
+		   NULL, "... quell'uniforme (?) era davvero \"stimolante\"... ☆hau~", Line_Normal);
 	ClearMessage();
 
 //「...やっぱウェイトレスさんってハードワークなんだな。＠
@@ -5915,7 +5915,7 @@ void main()
 //　詩音は残念そうに笑いながら、後ろに隠していた小さな弁当箱を差し出した￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　詩音は残念そうに笑いながら、後ろに隠していた小さな弁当箱を差し出した。",
-		   NULL, "Con un sorrisetto deluso in volto, Shion mi porge un piccolo bentou che stava tenendo nascosto dietro la schiena.", Line_Normal);
+		   NULL, "Con un sorrisetto deluso in volto, Shion mi porge un piccolo bento che stava tenendo nascosto dietro la schiena.", Line_Normal);
 	ClearMessage();
 
 //「え？＠　ほ、本当に差し入れなのかよ？＠　サ、サンキュー...！＠
@@ -6035,7 +6035,7 @@ void main()
 //　詩音は、俺が弁当を受け取らないかもしれないと思っていたのか、とても嬉しそうに俯いていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　詩音は、俺が弁当を受け取らないかもしれないと思っていたのか、とても嬉しそうに俯いていた。",
-		   NULL, "Shion, che deve aver pensato che non mi piacesse questo bentou, abbassa la testa con un sorriso imbarazzato.", Line_Normal);
+		   NULL, "Shion, che deve aver pensato che non mi piacesse questo bento, abbassa la testa con un sorriso imbarazzato.", Line_Normal);
 	ClearMessage();
 
 //「な、何にもないけどあがってくか...＠　お茶くらいなら出せるかも...、＠
@@ -6212,7 +6212,7 @@ void main()
 //　後に残された弁当箱＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　後に残された弁当箱。",
-		   NULL, "Guardo il bentou che mi ha lasciato.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Guardo il bento che mi ha lasciato.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -6301,7 +6301,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "俺が空腹で死にそうって言ってたの聞いて、大急ぎで持って来てくれたのか。」",
-		   NULL, " quanto ha sentito che non ci vedevo più dalla fame, mi ha portato subito questo bentou.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " quanto ha sentito che non ci vedevo più dalla fame, mi ha portato subito questo bento.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

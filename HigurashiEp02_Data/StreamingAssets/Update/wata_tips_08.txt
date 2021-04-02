@@ -51,7 +51,7 @@ void main()
 	OutputLine(NULL, "　犠牲者を沈めて「殺す」ことよりも、",
 		   NULL, "Non ritengo che fosse l'uccisione in sé a essere importante,", Line_WaitForInput);
 	OutputLine(NULL, "「沈める（鎮める）」行為に重きが置かれていたと考えられる。",
-		   NULL, " quanto piuttosto la simbolicità di far sprofondare le vittime fino a essere 'sommerse' dall'ira di Oyashiro-sama.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " quanto piuttosto la simbolicità di far sprofondare le vittime fino a essere \"sommerse\" dall'ira di Oyashiro-sama.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -81,7 +81,7 @@ void main()
 //　だがそうだとするのならば、その儀式に使った「祭具」は神聖なものとして崇められ、どこかに祀られていてもおかしくない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だがそうだとするのならば、その儀式に使った「祭具」は神聖なものとして崇められ、どこかに祀られていてもおかしくない。",
-		   NULL, "Però, se fosse questo il caso, non mi sorprenderei se questi 'attrezzi rituali' usati nelle cerimonie venissero venerati come sacri e custoditi da qualche parte.", Line_Normal);
+		   NULL, "Però, se fosse questo il caso, non mi sorprenderei se questi \"attrezzi rituali\" usati nelle cerimonie venissero venerati come sacri e custoditi da qualche parte.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	SetValidityOfInput( FALSE );

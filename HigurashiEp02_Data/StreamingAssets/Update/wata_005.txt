@@ -522,7 +522,7 @@ void main()
 //　どうしてだか、レナはとても上機嫌だった＠...こっちまでつられて微笑んでしまうくらいに＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どうしてだか、レナはとても上機嫌だった。",
-		   NULL, "Non so perché ma Rena è di ottimo umore", Line_WaitForInput);
+		   NULL, "Non so perché, ma Rena è di ottimo umore", Line_WaitForInput);
 	OutputLine(NULL, "…こっちまでつられて微笑んでしまうくらいに。",
 		   NULL, "... è così contagioso che inizio a sorridere anche io.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -1466,7 +1466,7 @@ void main()
 //　ガードを固めるって、どういう意味だ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ガードを固めるって、どういう意味だ？",
-		   NULL, "Cosa intende dire con 'non abbassare mai la guardia'?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Cosa intende dire con \"non abbassare mai la guardia\"?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1723,7 +1723,7 @@ void main()
 //　生クリームをぶっかけられた男は、ソファーにふんぞり返りながらクリームまみれのテント張りの股間を誇示している＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　生クリームをぶっかけられた男は、ソファーにふんぞり返りながらクリームまみれのテント張りの股間を誇示している。",
-		   NULL, "L'uomo 'incidentato' divarica le gambe, mettendo la parte ricoperta di crema sull'inguine in piena vista.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "L'uomo \"incidentato'\"divarica le gambe, mettendo la parte ricoperta di crema sull'inguine in piena vista.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -3418,7 +3418,7 @@ void main()
 //　ほんの小一時間前に起こったフキフキ騒動...＠それを今度は自分が再現しようと...穢れた男たちの欲望が襲い掛かろうとしてるッ...！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ほんの小一時間前に起こったフキフキ騒動…。",
-		   NULL, "È lo stesso 'strofina-strofina' che si è verificato poco fa.", Line_WaitForInput);
+		   NULL, "È lo stesso \"strofina-strofina\" che si è verificato poco fa.", Line_WaitForInput);
 	OutputLine(NULL, "それを今度は自分が再現しようと…穢れた男たちの欲望が襲い掛かろうとしてるッ…！！！",
 		   NULL, " Stavolta, è un altro a provarci... la depravazione di questi uomini è di per sé un attacco!!!", Line_Normal);
 	ClearMessage();
@@ -5191,7 +5191,7 @@ void main()
 //　小っちゃい２人という言い方が可笑しくて、思わず吹き出してしまう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　小っちゃい２人という言い方が可笑しくて、思わず吹き出してしまう。",
-		   NULL, "Sentir chiamare le due 'piccole' è strano, e inavvertitamente mi viene da ridere.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sentir chiamare le due \"piccole\" è strano, e inavvertitamente mi viene da ridere.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -6279,7 +6279,7 @@ void main()
 //　そんな軽やかな足取りでいくつかのお店をひやかして回った＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな軽やかな足取りでいくつかのお店をひやかして回った。",
-		   NULL, "Passiamo in rassegna molti negozi ma senza mai fare sul serio.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Passiamo in rassegna molti negozi, ma senza mai fare sul serio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -6943,7 +6943,7 @@ void main()
 //　...男の俺がもらってかわいいなんて思うわけがない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…男の俺がもらってかわいいなんて思うわけがない。",
-		   NULL, "... dal mio punto di vista, non la trovo esattamente 'carina'.", Line_Normal);
+		   NULL, "... dal mio punto di vista, non la trovo esattamente \"carina\".", Line_Normal);
 	ClearMessage();
 
 //「じゃあその人形、どうしちゃったんですか？＠
@@ -7401,7 +7401,7 @@ void main()
 //　魅音には似合わないけど詩音には、君には似合うと言われて、嬉しそうだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音には似合わないけど詩音には、君には似合うと言われて、嬉しそうだった。",
-		   NULL, "Dire che non fa per Mion, ma che va benissimo per Shion... dire che 'le' sta bene sembra averla resa felice.", Line_Normal);
+		   NULL, "Dire che non fa per Mion, ma che va benissimo per Shion... dire che \"le\" sta bene sembra averla resa felice.", Line_Normal);
 	ClearMessage();
 
 //gosub *Ch_Mi_Se
@@ -7471,7 +7471,7 @@ void main()
 //　弁当箱を開けてちょっと覗いてみると...、残り物をちょっと詰めてきたというには凝りすぎな、とても綺麗なお弁当が詰められていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　弁当箱を開けてちょっと覗いてみると…、残り物をちょっと詰めてきたというには凝りすぎな、とても綺麗なお弁当が詰められていた。",
-		   NULL, "Sbircio all'interno del bentou e vedo che non è stato fatto solamente con degli avanzi. Al suo interno ci sono dei cibi eleganti ed elaborati.", Line_Normal);
+		   NULL, "Sbircio all'interno del bento e vedo che non è stato fatto solamente con degli avanzi. Al suo interno ci sono dei cibi eleganti ed elaborati.", Line_Normal);
 	ClearMessage();
 
 //「ほ、本当にいいのか？＠　これ、タバスコとかがいっぱい入ってるとかそういう冗談じゃないのかよ？！＠
@@ -8051,7 +8051,7 @@ void main()
 		   NULL, "\"Oggi... quando Kei-chan mi ha salvata da quei clienti disgustosi... mi sono sentita davvero felice.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/500600316", 256, TRUE);
 	OutputLine(NULL, "　…先輩たちもみんな助けてくれなかったのに、…圭ちゃんだけは助けてくれました。",
-		   NULL, "... nemmeno le mie colleghe mi hanno saputo aiutare ma tu, Kei-chan, l'hai fatto.", Line_WaitForInput);
+		   NULL, "... nemmeno le mie colleghe mi hanno saputo aiutare, ma tu, Kei-chan, l'hai fatto.", Line_WaitForInput);
 
 	DisableWindow();
 	ModDrawCharacter(2, 6, "sprite/si1a_hau_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 300, TRUE );
@@ -8297,7 +8297,7 @@ void main()
 //　『詩音』はそう言って、かわいらしく頬を膨らませた...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「詩音」はそう言って、かわいらしく頬を膨らませた…。",
-		   NULL, "Aggiunge 'Shion', mettendo il broncio in modo carino...", Line_Normal);
+		   NULL, "Aggiunge \"Shion\", mettendo il broncio in modo carino...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(3, 3, "sprite/me2_ikari_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -8428,7 +8428,7 @@ void main()
 //　ボン！と音がして、魅音の頭から噴煙のような蒸気があがる...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ボン！と音がして、魅音の頭から噴煙のような蒸気があがる…。",
-		   NULL, "Sento un 'pop' provenire dalla testa di Mion e, un attimo dopo, vedo una sottile linea di fumo salire verso l'alto.", Line_Normal);
+		   NULL, "Sento un \"pop\" provenire dalla testa di Mion e, un attimo dopo, vedo una sottile linea di fumo salire verso l'alto.", Line_Normal);
 	ClearMessage();
 
 //「いやいえ.........し、...知らない知らない......！＠

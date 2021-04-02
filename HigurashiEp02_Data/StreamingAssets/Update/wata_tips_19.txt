@@ -84,7 +84,7 @@ void main()
 //　だが、園崎家の血を引き、鬼の名を許される以上＠恐らくは巧みに爪と牙を隠す、（過去の当主たちと同様）油断ならぬ人物であるに違いあるまい￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが、園崎家の血を引き、鬼の名を許される以上、",
-		   NULL, "Tuttavia, nelle sue vene scorre il sangue dei Sonozaki, e le è stato concesso l'appellativo di 'demone'.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tuttavia, nelle sue vene scorre il sangue dei Sonozaki, e le è stato concesso l'appellativo di \"demone\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "恐らくは巧みに爪と牙を隠す、（過去の当主たちと同様）油断ならぬ人物であるに違いあるまい。",
 		   NULL, "Rimane indubbio che sia necessaria molta cautela nei suoi confronti, e sono certa che stia nascondendo gli artigli come un'aquila astuta (e come hanno sempre fatto anche i vecchi leader del passato).", Line_Normal);

@@ -80,7 +80,7 @@ void main()
 //　この禁忌を犯す行為が行なわれた時、オヤシロさまは「怒った」と称され＠その怒りを鎮めるために、前述の「生贄の儀式」が行なわれたと考えられる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この禁忌を犯す行為が行なわれた時、オヤシロさまは「怒った」と称され、",
-		   NULL, "Ho ragione di credere che, quando un'azione viola uno di questi tabù, Oyashiro-sama si 'adiri',", Line_WaitForInput);
+		   NULL, "Ho ragione di credere che, quando un'azione viola uno di questi tabù, Oyashiro-sama si \"adiri\",", Line_WaitForInput);
 	OutputLine(NULL, "その怒りを鎮めるために、前述の「生贄の儀式」が行なわれたと考えられる。",
 		   NULL, " e per placare la sua rabbia, si ricorra al sovramenzionato sacrificio rituale.", Line_Normal);
 	ClearMessage();

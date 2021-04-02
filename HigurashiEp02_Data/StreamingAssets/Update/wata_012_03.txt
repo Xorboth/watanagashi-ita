@@ -262,7 +262,7 @@ void main()
 		   NULL, " questo significa che andavate d'accordo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101077", 256, TRUE);
 	OutputLine(NULL, "……俺は一人っ子だから、…祭りの前日。",
-		   NULL, " ... sappi che io, essendo ancora un ragazzino... il giorno prima del festival...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... sappi che io, essendo figlio unico... il giorno prima del festival...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101078", 256, TRUE);
 	OutputLine(NULL, "魅音と詩音が二人してじゃれ合っているのを、すごく羨ましいと思った。」",
@@ -861,7 +861,7 @@ void main()
 //　...それは祭具殿と同じように、中に踏み入る者に相当の覚悟を促しているようだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それは祭具殿と同じように、中に踏み入る者に相当の覚悟を促しているようだった。",
-		   NULL, "... come se stesse richiedendo la giusta determinazione da parte di cui vuole entrare, similmente al magazzino sacro.", Line_Normal);
+		   NULL, "... come se stesse richiedendo la giusta determinazione da parte di chi vuole entrare, similmente al magazzino sacro.", Line_Normal);
 	ClearMessage();
 
 //　扉が観音開きで開き、...もわっとした生臭い空気とたくさんの羽虫が飛び出してきた＠
@@ -1277,7 +1277,7 @@ void main()
 //　ここは剥き出しの岩肌で、防空壕という言葉が一番似合う、殺伐とした雰囲気だ...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ここは剥き出しの岩肌で、防空壕という言葉が一番似合う、殺伐とした雰囲気だ…。",
-		   NULL, "Le pareti sono di roccia nuda, talmente selvaggia che 'bunker' è la parola ideale per descriverle.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Le pareti sono di roccia nuda, talmente selvaggia che \"bunker\" è la parola ideale per descriverle.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　そして、まるで巨大な果実を食い破った虫の穴が点在するかのように、あちこちに格子の入った小部屋が設けられていた＠...それらのひとつひとつが牢屋であるとすぐにわかる￥
@@ -3301,7 +3301,7 @@ void main()
 //　.........その時、......あ、...と声を上げそうになる......￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………その時、……あ、…と声を上げそうになる……。",
-		   NULL, "...... vorrei poter dire 'Ah', come se mi fossi... ricordato qualcosa... e stessi ricordando quel giorno...", Line_Normal);
+		   NULL, "...... vorrei poter dire \"Ah\", come se mi fossi... ricordato qualcosa... e stessi ricordando quel giorno...", Line_Normal);
 	ClearMessage();
 
 //　...俺はそのことをレナに教えられて......謝ったつもりでいた＠

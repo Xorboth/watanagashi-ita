@@ -572,7 +572,7 @@ void main()
 //　......豪邸というイメージではないが、...とにかく規模が大きいのはわかる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……豪邸というイメージではないが、…とにかく規模が大きいのはわかる。",
-		   NULL, "... non è quello che si immaginerebbe pensando a una 'villa'... ma è comunque stupefacente.", Line_Normal);
+		   NULL, "... non è quello che si immaginerebbe pensando a una \"villa\"... ma è comunque stupefacente.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(1, 3, "sprite/me2_warai_a1_", "2", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 400, TRUE );
@@ -831,7 +831,7 @@ void main()
 		   NULL, "\"Questa casa è per gli esseri umani, ma le rondini entrano comunque senza permesso e fanno i loro nidi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300264", 256, TRUE);
 	OutputLine(NULL, "代々語り継いでるのか、季節になると決まってここに巣を作るんだよ。",
-		   NULL, "Pare una sorta di tradizione per loro—ogni volta che arriva la primavera, fanno un nido proprio lì.", Line_WaitForInput);
+		   NULL, " Pare una sorta di tradizione per loro—ogni volta che arriva la primavera, fanno un nido proprio lì.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300265", 256, TRUE);
 	OutputLine(NULL, "迷惑してるんだけどねぇ。」",
 		   NULL, " In mezzo al passaggio.\"", GetGlobalFlag(GLinemodeSp));
@@ -1197,7 +1197,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300286", 256, TRUE);
 	OutputLine(NULL, "「お茶請けはゴマ煎でいい？",
-		   NULL, "\"Vuoi dei semi di sesamo con il tè?", Line_WaitForInput);
+		   NULL, "\"Vuoi dei snack di sesamo con il tè?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300287", 256, TRUE);
 	OutputLine(NULL, "　ようかんとか、気の利いたものがなくて申し訳ないね。」",
 		   NULL, " Mi dispiace, ma oggi non abbiamo nient'altro che si accompagni bene al tè.\"", GetGlobalFlag(GLinemodeSp));
@@ -1933,7 +1933,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200516", 256, TRUE);
 	OutputLine(NULL, "「……冷やっこがあるのにお醤油がなかった。",
-		   NULL, "\"... c'era del tofu in fridgo, ma non la salsa di soia.", Line_WaitForInput);
+		   NULL, "\"... c'era del tofu in frigo, ma non la salsa di soia.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200517", 256, TRUE);
 	OutputLine(NULL, "そして流しの下にあるはずの醤油の大瓶も、瓶ごとなかった。」",
 		   NULL, " Inoltre, non c'era nemmeno la grossa bottiglia per la salsa di soia che sarebbe dovuta essere sotto al lavandino.\"", GetGlobalFlag(GLinemodeSp));
@@ -2035,7 +2035,7 @@ void main()
 //　...消すという言葉を嫌い、...言葉を探すのに苦労したのがよくわかった...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…消すという言葉を嫌い、…言葉を探すのに苦労したのがよくわかった…。",
-		   NULL, "... non vuole usare la parola 'sparire'... ed è per questo che ha cercato un'alternativa...", Line_Normal);
+		   NULL, "... non vuole usare la parola \"sparire\"... ed è per questo che ha cercato un'alternativa...", Line_Normal);
 	ClearMessage();
 
 //「そして、.........本当はそれで終わりのはずだったんだよね＠...魅ぃちゃんにとっては。＠
@@ -2402,7 +2402,7 @@ void main()
 //　...そうだったらどんなに楽しかったことか...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そうだったらどんなに楽しかったことか…。",
-		   NULL, "... quando vorrei che fosse così...", Line_Normal);
+		   NULL, "... quanto vorrei che fosse così...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(1, 2, "sprite/re1a_nande_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
@@ -2476,7 +2476,7 @@ void main()
 //　......ようやく魅音は、自分が警察に包囲されていることを信じたようだった...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……ようやく魅音は、自分が警察に包囲されていることを信じたようだった…。",
-		   NULL, "... finalmente, Mion pare accettare il fatto che la polizia le sta alle costole...", Line_Normal);
+		   NULL, "... finalmente, Mion pare accettare il fatto che la polizia le stia alle costole...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2873,7 +2873,7 @@ void main()
 //　...彼らは麓の村の人々に崇められ...仙人のような扱いを受けていたという￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…彼らは麓の村の人々に崇められ…仙人のような扱いを受けていたという。",
-		   NULL, "... erano venerati dai residenti nei villaggi ai piedi delle montagne... che li trattavano come esseri 'trascendenti' in grado di usare la magia.", Line_Normal);
+		   NULL, "... erano venerati dai residenti nei villaggi ai piedi delle montagne... che li trattavano come esseri \"trascendenti\" in grado di usare la magia.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("background/jt1", 1000 );
@@ -3267,7 +3267,7 @@ void main()
 		   NULL, " Tutti coloro che abitano qui sono la nostra famiglia, e questa fortuna è proprietà di tutti...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300385", 256, TRUE);
 	OutputLine(NULL, "現当主である祖母はそう宣言しました。",
-		   NULL, " Così proclamò a mia madre, l'attuale capofamiglia.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Così proclamò a mia nonna, l'attuale capofamiglia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300386", 256, TRUE);
 	OutputLine(NULL, "…この大きな富は、その後の雛見沢の復興の大きな力となったのです。」",
@@ -3425,7 +3425,7 @@ void main()
 //　......出身の卑しさを理由にした不当な扱いだった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……出身の卑しさを理由にした不当な扱いだった。",
-		   NULL, "... un trattamento iniquo, e tutto solo a causa della sua nascita nella 'casta inferiore'.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... un trattamento iniquo, e tutto solo a causa della sua nascita nella \"casta inferiore\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3548,7 +3548,7 @@ void main()
 //　...生きたまま遠心分離機にかけたり、生きたまま減圧室で潰してみたり＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…生きたまま遠心分離機にかけたり、生きたまま減圧室で潰してみたり。",
-		   NULL, "... mettevano i prigionieri dentro a centrifuche mentre erano ancora vivi, oppure li chiudevano in camere di decompressione mentre erano ancora vivi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... mettevano i prigionieri dentro a centrifughe mentre erano ancora vivi, oppure li chiudevano in camere di decompressione mentre erano ancora vivi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3651,7 +3651,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……やがて禁忌の扉を叩くに至る。",
-		   NULL, " finché non bussarono alla porta di quel che si chiama 'tabù.'", Line_Normal);
+		   NULL, " finché non bussarono alla porta di quel che si chiama \"tabù\".", Line_Normal);
 	ClearMessage();
 
 //「...戦場で一番入手しやすいタンパク源は何だと思います...？＠
@@ -4104,11 +4104,11 @@ void main()
 //　手のひらに「魅音」となぞる＠...あ、...本当だ＠鬼という文字が含まれてる...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　手のひらに「魅音」となぞる。",
-		   NULL, "Scrivo con un dito il nome 'Mion' sul mio palmo.", Line_WaitForInput);
+		   NULL, "Scrivo con un dito il nome \"Mion\" sul mio palmo.", Line_WaitForInput);
 	OutputLine(NULL, "…あ、…本当だ。",
 		   NULL, " ... ah... è vero.", Line_WaitForInput);
 	OutputLine(NULL, "鬼という文字が含まれてる…。",
-		   NULL, " C'è proprio il radicale di 'demone'...", Line_Normal);
+		   NULL, " C'è proprio il radicale di \"demone\"...", Line_Normal);
 	ClearMessage();
 
 //「......名前だけではありませんよ＠...この体にも、鬼が刻まれているのです。＠
@@ -4553,7 +4553,7 @@ void main()
 //　...それをわざわざ破って中に入ろうとする悪い人なんて、そうそういるもんか、...って￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…それをわざわざ破って中に入ろうとする悪い人なんて、そうそういるもんか、…って。",
-		   NULL, "... non verrà nessuno di talmente malvagio da romperlo per intruflarsi'... disse.", Line_Normal);
+		   NULL, "... non verrà nessuno di talmente malvagio da romperlo per intrufolarsi'... disse.", Line_Normal);
 	ClearMessage();
 
 //　......当主としての格は同じでも、...私にとっても大恩ある公由のおじいちゃんがそう言うのを、反対できるわけもない...＠
@@ -4739,7 +4739,7 @@ void main()
 //　あの時、...祭具殿に忍び込むことを踏みとどまっていれば.........梨花ちゃんたちは死なずに済んだんだ...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの時、…祭具殿に忍び込むことを踏みとどまっていれば………梨花ちゃんたちは死なずに済んだんだ…！",
-		   NULL, "Se, quella notte... avessi impedito a tutti di entrare nel magazzino rituale...... Rika-chan e gli altri non avrebbero dovuto morire...!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se, quella notte... avessi impedito a tutti di entrare nel magazzino rituale...... Rika-chan e gli altri non sarebbero dovuti morire...!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

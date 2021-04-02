@@ -184,7 +184,7 @@ void main()
 //　......表情から察するに、職員室に返したつもりでいるものは、どうやらそこに納まっているらしい￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……表情から察するに、職員室に返したつもりでいるものは、どうやらそこに納まっているらしい。",
-		   NULL, "... a giudicare dalla sua faccia, aveva intenzione di restituirla ma se l'è dimenticato.", Line_Normal);
+		   NULL, "... a giudicare dalla sua faccia, aveva intenzione di restituirla, ma se l'è dimenticato.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/gk3", "left", 0, 0, 300 );
@@ -504,7 +504,7 @@ void main()
 //　何だか妙なのも飛び出してきたが、まぁとにかく＠　手広いのはよくわかった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何だか妙なのも飛び出してきたが、まぁとにかく！",
-		   NULL, "Okay, alcune di queste sono leggermente sospette ma non importa!", Line_WaitForInput);
+		   NULL, "Okay, alcune di queste sono leggermente sospette, ma non importa!", Line_WaitForInput);
 	OutputLine(NULL, "　手広いのはよくわかった。",
 		   NULL, "L'importante è capire che sia una business molto ampio.", Line_Normal);
 	ClearMessage();

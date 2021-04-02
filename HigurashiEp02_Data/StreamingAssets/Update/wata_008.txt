@@ -1105,7 +1105,7 @@ void main()
 //　...途中までは悪くなかったが、タコが入ってないという件を聞き、列の人がさらに数人抜けた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…途中までは悪くなかったが、タコが入ってないという件を聞き、列の人がさらに数人抜けた。",
-		   NULL, "... non è una cattiva idea. Peccato che alle parole 'assenza di polpo' si sia dileguata ancora più folla.", Line_Normal);
+		   NULL, "... non è una cattiva idea. Peccato che alle parole \"assenza di polpo\" si sia dileguata ancora più folla.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	FadeBustshotWithFiltering( 1, "right", 1, FALSE, 0, 0, 300, TRUE );
@@ -4829,7 +4829,7 @@ void main()
 //　...鬼の国につながる沼の名前が鬼ヶ淵＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…鬼の国につながる沼の名前が鬼ヶ淵。",
-		   NULL, "... il nome della palude connessa all'Inferno era Onigafuchi, che significa 'Abisso dei Demoni'.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... il nome della palude connessa all'Inferno era Onigafuchi, che significa \"Abisso dei Demoni\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5011,7 +5011,7 @@ void main()
 	DrawScene("white", 500 );
 
 	OutputLine(NULL, "「オヤシロさま」が降臨した。",
-		   NULL, " 'Oyashiro-sama' discese sulla terra.", Line_Normal);
+		   NULL, " \"Oyashiro-sama\" discese sulla terra.", Line_Normal);
 	ClearMessage();
 
 //「なるほど...＠つまり、天からやって来たオヤシロさまが鬼たちをやっつけるわけですか。＠
@@ -5271,7 +5271,7 @@ void main()
 //　鬼の持つ様々な知識や秘法を持った人間たちは、もはやただの人間ではなく、仙人と呼ばれるべき存在だ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　鬼の持つ様々な知識や秘法を持った人間たちは、もはやただの人間ではなく、仙人と呼ばれるべき存在だ。",
-		   NULL, "La conoscenza che gli abitanti ricevettero dai demoni li rese qualcosa di 'inumano—quello che si definisce 'trascendente.'", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La conoscenza che gli abitanti ricevettero dai demoni li rese qualcosa di inumano—quello che si definisce \"trascendente\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -5361,7 +5361,7 @@ void main()
 	OutputLine(NULL, "　鬼って言うのはもちろん、地獄の鬼のことなんだけど。",
 		   NULL, "Quando dice \"demone\", intende quelli che vivono all'inferno, ma...", Line_WaitForInput);
 	OutputLine(NULL, "…古代日本では必ずしも地獄の鬼だけを指したわけではないんじゃないかな、と思う。",
-		   NULL, " ... in tempi antichi, la parola 'oni', 'demone', non si usava per indicare i demoni dell'inferno, giusto?", Line_Normal);
+		   NULL, " ... in tempi antichi, la parola \"oni\", \"demone\", non si usava per indicare i demoni dell'inferno, giusto?", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("black", "down", 0, 0, 300 );
@@ -5376,7 +5376,7 @@ void main()
 //　近海で難破した西洋人が流れ着き、あまりの風貌の違いに「鬼」と呼ばれたなんて話だ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　近海で難破した西洋人が流れ着き、あまりの風貌の違いに「鬼」と呼ばれたなんて話だ。",
-		   NULL, "La storia insegna che gli occidentali che naufragavano nei mari vicini avevano delle usanze così diverse dalle nostre che venivano chiamati 'demoni.'", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La storia insegna che gli occidentali che naufragavano nei mari vicini avevano delle usanze così diverse dalle nostre che venivano chiamati \"demoni\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5389,7 +5389,7 @@ void main()
 //　赤鬼、青鬼、なんて言い方なんか特に西洋人を連想させるじゃないか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　赤鬼、青鬼、なんて言い方なんか特に西洋人を連想させるじゃないか。",
-		   NULL, "In Giappone, le parole 'akaoni', 'demone rosso' e 'aooni', 'demone blu', evocano immagini proprie degli occidentali.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "In Giappone, le parole \"akaoni\", \"demone rosso\" e \"aooni\", \"demone blu\", evocano immagini proprie degli occidentali.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -7355,7 +7355,7 @@ void main()
 //　だが...明治と言う、昔話と呼ぶにはあまりに近代の事件...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが…明治と言う、昔話と呼ぶにはあまりに近代の事件…。",
-		   NULL, "... è successo in periodo Meiji, il che significa che è troppo presto per definirlo una 'leggenda'...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... è successo in periodo Meiji, il che significa che è troppo presto per definirlo una \"leggenda\"...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -7419,7 +7419,7 @@ void main()
 //　その時、ギィイィイィという怪音！！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その時、ギィイィイィという怪音！！！",
-		   NULL, "In quel momento, sento un inquietante 'Creaaaaak'!!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "In quel momento, sento un inquietante \"Creaaaaak\"!!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -8778,7 +8778,7 @@ void main()
 //　...だが俺の目にはきっと、その話は冗談だろう？という、まったく異なるものが浮かんでいるに違いない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だが俺の目にはきっと、その話は冗談だろう？という、まったく異なるものが浮かんでいるに違いない。",
-		   NULL, "... però non ho dubbi che i miei occhi suggeriscano il contrario—come se ci fosse scritto: 'Stai scherzando vero?'", Line_Normal);
+		   NULL, "... però non ho dubbi che i miei occhi suggeriscano il contrario—come se ci fosse scritto \"Stai scherzando, vero?\"", Line_Normal);
 	ClearMessage();
 
 //　......俺たちが祭具殿の中で、この世のものと思えない、残酷な祭具に囲まれながら、恐ろしい昔話に耳を傾けていた時＠
@@ -8948,7 +8948,7 @@ void main()
 //　ドタンバタンって＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ドタンバタンって。",
-		   NULL, "Quel 'bam bam'.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quel \"bam bam\".", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

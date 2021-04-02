@@ -88,7 +88,7 @@ void dialog008()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「綿流し」の名前に隠されたどす黒く陰惨な響きが、全身にまるで痺れのような圧迫となって……",
-		   NULL, "È come se la parola 'Watanagashi' avesse assunto un'aura oscura e opprimente che mi sta schiacciando, intorpidendo tutti i miei sensi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "È come se la parola \"Watanagashi\" avesse assunto un'aura oscura e opprimente che mi sta schiacciando, intorpidendo tutti i miei sensi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　目の前のもののいろが灰色に反転して、ぐるぐると渦巻きながら揺れ動いて見えた。",

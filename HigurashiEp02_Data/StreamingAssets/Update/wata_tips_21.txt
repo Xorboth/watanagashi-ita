@@ -32,7 +32,7 @@ void main()
 //　自らに鬼の血が流れると信じている雛見沢において、「鬼」という字はとても神聖に扱われている￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　自らに鬼の血が流れると信じている雛見沢において、「鬼」という字はとても神聖に扱われている。",
-		   NULL, "Gli abitanti di Hinamizawa credono che in loro scorra il sangue dei demoni. Per questo motivo, l'ideogramma di 'demone', 鬼, è venerato come sacro.", Line_Normal);
+		   NULL, "Gli abitanti di Hinamizawa credono che in loro scorra il sangue dei demoni. Per questo motivo, l'ideogramma di \"demone\", 鬼, è venerato come sacro.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -64,7 +64,7 @@ void main()
 	OutputLine(NULL, "　これは跡継ぎである園崎魅音についても同じで、",
 		   NULL, "Allo stesso modo, il nome di Mion Sonozaki, l'erede,", Line_WaitForInput);
 	OutputLine(NULL, "「魅」の字に「鬼」の混入が見て取れる。",
-		   NULL, " è scritto con l'ideogramma 'Mi', 魅, che contiene il radicale di 'demone', 鬼.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " è scritto con l'ideogramma \"Mi\", 魅, che contiene il radicale di \"demone\", 鬼.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -74,14 +74,14 @@ void main()
 		   NULL, "Questo vale anche per la figlia di Oryou e la madre di Mion, Akane, che non ha ereditato la famiglia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "勘当前は「蒐（あかね）」という名であったことが知られている。",
-		   NULL, "È risaputo che prima del disconoscimento, il nome Akane fosse scritto con 蒐 per poi essere cambiato in seguito in 茜 (che si legge comunque 'Akane').", GetGlobalFlag(GLinemodeSp));
+		   NULL, "È risaputo che prima del disconoscimento, il nome Akane fosse scritto con 蒐 per poi essere cambiato in seguito in 茜 (che si legge comunque \"Akane\").", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　ちなみに村長の名の「喜一郎」だが、この「キ」も、本来は「鬼（キ）」を意味するものであると考えられる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ちなみに村長の名の「喜一郎」だが、この「キ」も、本来は「鬼（キ）」を意味するものであると考えられる。",
-		   NULL, "A proposito, si pensa che anche il primo ideogramma che compone il nome del capovillaggio, Kiichirou, 喜, in origine significasse 'demone', che può essere letto come 'ki'.", Line_Normal);
+		   NULL, "A proposito, si pensa che anche il primo ideogramma che compone il nome del capovillaggio, Kiichirou, 喜, in origine significasse \"demone\", che può essere letto come \"ki\".", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -103,7 +103,7 @@ void main()
 //　例えば、公由家の「公由」は、「鬼」の一字を分解して作ったものだろう。由・公の順に書き出せば、見事「鬼」の字を書き出すことができる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　例えば、公由家の「公由」は、「鬼」の一字を分解して作ったものだろう。由・公の順に書き出せば、見事「鬼」の字を書き出すことができる。",
-		   NULL, "Per esempio, i caratter che compongono 'Kimiyoshi', 公由, sono probabilmente una versione separata di 鬼. Se invertiamo i due ideogrammi otteniamo infatti 由公 che ricorda chiaramente il carattere 鬼 separato.", Line_Normal);
+		   NULL, "Per esempio, i caratter che compongono \"Kimiyoshi\", 公由, sono probabilmente una versione separata di 鬼. Se invertiamo i due ideogrammi otteniamo infatti 由公 che ricorda chiaramente il carattere 鬼 separato.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -111,7 +111,7 @@ void main()
 //　続く古手家は、代々神職で、吉凶を占う「占い師（占い手）」だったことから「占手」の名に＠鬼の角を加え「占」→「古」として「古手」としたと考えられる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　続く古手家は、代々神職で、吉凶を占う「占い師（占い手）」だったことから「占手」の名に、",
-		   NULL, "Per quanto riguarda la famiglia Furude (古手) che sono sacerdoti shintoisti da generazioni—la parola 'indovino' può essere scritta, con un piccola modifica, come 占手.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Per quanto riguarda la famiglia Furude (古手) che sono sacerdoti shintoisti da generazioni—la parola \"indovino\" può essere scritta, con un piccola modifica, come 占手.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "鬼の角を加え「占」→「古」として「古手」としたと考えられる。",
 		   NULL, "Credo che l'aggiunta di un corno di demone—ovvero della piccola punta che si trova in cima all'ideogramma 鬼—l'ideogramma 占 sia diventato il 古, usato oggi nel loro cognome.", GetGlobalFlag(GLinemodeSp));
@@ -136,14 +136,14 @@ void main()
 //　「崎」は「裂き」の読み替えで、「園」は、その形状から複雑な内容（内臓）を四角で包んだもの、「人体」の暗示であろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　「崎」は「裂き」の読み替えで、「園」は、その形状から複雑な内容（内臓）を四角で包んだもの、「人体」の暗示であろう。",
-		   NULL, "La parte 'zaki' di 'Sonozaki' è una coniugazione della parola 'taglio', e 'sono', scritto come 園, può intendere 'corpo umano', poiché composto da un insieme di tratti (gli organi) confinati all'interno di quattro lati (l'addome).", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La parte \"zaki\" di \"Sonozaki\" è una coniugazione della parola \"taglio\", e \"sono\", scritto come 園, può intendere \"corpo umano\", poiché composto da un insieme di tratti (gli organi) confinati all'interno di quattro lati (l'addome).", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　つまり「腹を裂く者」」→「園崎」となったのではないかと考えられる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり「腹を裂く者」」→「園崎」となったのではないかと考えられる。",
-		   NULL, "Credo, in altre parole, che 'Sonozaki' significhi 'coloro che sviscerano l'addome'.", Line_Normal);
+		   NULL, "Credo, in altre parole, che \"Sonozaki\" significhi \"coloro che sviscerano l'addome\".", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	SetValidityOfInput( FALSE );

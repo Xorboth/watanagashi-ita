@@ -69,7 +69,7 @@ void main()
 //　数年前のダム闘争では、反対同盟の会長職に公由家が就いたが、これはあくまでも名目上で、実際には園崎家が影のリーダーとして君臨していた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　数年前のダム闘争では、反対同盟の会長職に公由家が就いたが、これはあくまでも名目上で、実際には園崎家が影のリーダーとして君臨していた。",
-		   NULL, "Durante gli scontri per la diga di qualche anno fa, i Kimiyoshi si misero a capo della fazione opposta ai lavori, ma soltanto in nome—in verità, era la familia Sonozaki a tirare le fila nell'ombra.", Line_Normal);
+		   NULL, "Durante gli scontri per la diga di qualche anno fa, i Kimiyoshi si misero a capo della fazione opposta ai lavori, ma soltanto in nome—in verità, era la famiglia Sonozaki a tirare le fila nell'ombra.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -85,7 +85,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　ダム騒動中に報じられた不穏な事件の数々（有名な建設省幹部の子息誘拐事件他）も園崎家が行なったと、雛見沢ですら囁かれているくらいだ。",
-		   NULL, "Persino a Hinamizawa si vocifera che la moltitudine di eventi tragici avvenuti durante le proteste per la diga (tra cui il rapimento del figlio del Ministro delle Infrastrutture) sono stati perpretrati dai Sonozaki.", Line_Normal);
+		   NULL, "Persino a Hinamizawa si vocifera che la moltitudine di eventi tragici avvenuti durante le proteste per la diga (tra cui il rapimento del figlio del Ministro delle Infrastrutture) siano stati perpretrati dai Sonozaki.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );
@@ -100,7 +100,7 @@ void main()
 //　連続怪死事件は、紛れもなく、古式ゆかしい「綿流し」の再来である￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　連続怪死事件は、紛れもなく、古式ゆかしい「綿流し」の再来である。",
-		   NULL, "Queste morti sono senza dubbio il ritorno di fiamma del tradizionale 'Watanagashi'.", Line_Normal);
+		   NULL, "Queste morti sono senza dubbio il ritorno di fiamma del tradizionale \"Watanagashi\".", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );

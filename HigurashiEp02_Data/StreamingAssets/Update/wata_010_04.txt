@@ -970,7 +970,7 @@ void main()
 //　魅音が味噌汁を差し出すが、食欲もなく、それを断った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音が味噌汁を差し出すが、食欲もなく、それを断った。",
-		   NULL, "Mion mi porge della zuppa di miso ma la rifiuto—non ho molta fame.", Line_Normal);
+		   NULL, "Mion mi porge della zuppa di miso, ma la rifiuto—non ho molta fame.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacterWithFiltering(3, 2, "sprite/re2a_nande_a1_", "1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
@@ -1130,7 +1130,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300230", 256, TRUE);
 	OutputLine(NULL, "村長の件も含めて、鹿骨市全体で目撃情報がないか洗うって言ってる。」",
-		   NULL, "Quacuno ha detto che dovremmo setacciare tutta la città di Shishibone per verificare la presenza di testimoni—sia per le bambine, sia per il sindaco.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quacuno ha detto che dovremmo setacciare tutta la città di Shishibone per verificare la presenza di testimoni—sia per le bambine, sia per il capovillaggio.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1611,7 +1611,7 @@ void main()
 //　スプリングがギシギシ言う、おしりの痛くなる座席だったが......今だけはそれがとても柔らかく、眠りに誘うには充分な心地よさだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　スプリングがギシギシ言う、おしりの痛くなる座席だったが……今だけはそれがとても柔らかく、眠りに誘うには充分な心地よさだった。",
-		   NULL, "Sento il rumore delle molle dure che scricchiolano sotto al mio peso... ma a questo punto, credo che mi addormenterei ovunque.", Line_Normal);
+		   NULL, "Sento il rumore delle molle dure che scricchiolano sotto al mio peso... ma, a questo punto, credo che mi addormenterei ovunque.", Line_Normal);
 	ClearMessage();
 
 //「ではレディーファーストで＠お嬢さんの家から行きましょう＠住所はどちらです？＠

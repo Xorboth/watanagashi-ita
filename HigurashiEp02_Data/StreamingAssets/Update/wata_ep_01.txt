@@ -984,7 +984,7 @@ void main()
 	SetSpeedOfMessage( FALSE, 0, );
 
 	OutputLine(NULL, "あの人形。",
-		   NULL, "che avrei dovuto dare a Mion quel giorno.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " che avrei dovuto dare a Mion quel giorno.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　イギリスだかの輸入物で、流行ってるとか何とか言ってたっけ＠
@@ -1022,7 +1022,7 @@ void main()
 //　...展示品は売らないと一度は断られたのだが、...俺が、例の事件の生存者Ａだとわかると、すぐに承諾してくれた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…展示品は売らないと一度は断られたのだが、…俺が、例の事件の生存者Ａだとわかると、すぐに承諾してくれた。",
-		   NULL, "... all'inizio mi è stato negato di comprare gli oggetti ancora in esposizione... ma una volta scoperto che ero il Sopravvissuto A di 'quell'incidente', il negoziante ha subito acconsentito.", Line_Normal);
+		   NULL, "... all'inizio mi è stato negato di comprare gli oggetti ancora in esposizione... ma una volta scoperto che ero il Sopravvissuto A di \"quell'incidente\", il negoziante ha subito acconsentito.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 400 );
@@ -1165,7 +1165,7 @@ void main()
 	OutputLine(NULL, "　窓だ。",
 		   NULL, "La finestra.", Line_WaitForInput);
 	OutputLine(NULL, "…窓に、…何か小石がぶつけられているのだ。",
-		   NULL, " ... sei sassolini... stanno colpendo la mia finestra.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... dei sassolini... stanno colpendo la mia finestra.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1400,7 +1400,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "カギを開け、",
-		   NULL, " giro la chiave nalla serratura,", Line_ContinueAfterTyping);
+		   NULL, " giro la chiave nella serratura,", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
@@ -1487,7 +1487,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……こんなところをうろついてて……大丈夫なのか…？！」",
-		   NULL, " sicura... di poter essere qui...?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " sicura... di poter starequi...?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2133,14 +2133,14 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…………会えたと、",
-		   NULL, "pensavo che.........", Line_ContinueAfterTyping);
+		   NULL, " pensavo che.........", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 900 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "………思ったのに……。",
-		   NULL, "potessimo finalmente rivederci...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " potessimo finalmente rivederci...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

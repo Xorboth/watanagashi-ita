@@ -62,7 +62,7 @@ void main()
 //　もっとも、この双子は公平には扱われず、跡継ぎの魅音は別格の扱いを受けているそうだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　もっとも、この双子は公平には扱われず、跡継ぎの魅音は別格の扱いを受けているそうだ。",
-		   NULL, "Ovviamente, le due gemelle non sono trattate allo stesso modo ed è l'erede, Mion, a ricevere la maggior parte delle cure.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ovviamente, le due gemelle non sono trattate allo stesso modo ed è l'erede, Mion, a ricevere la maggior parte delle attenzioni.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -78,7 +78,7 @@ void main()
 //　伝承では、園崎家の当主は「鬼を継ぐ」と称して、背中に立派な鬼の刺青を彫るという＠しきたりに従い、魅音にはこの刺青が入れられている可能性が極めて高い￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　伝承では、園崎家の当主は「鬼を継ぐ」と称して、背中に立派な鬼の刺青を彫るという。",
-		   NULL, "La tradizione detta che i capifamiglia Sonozaki debbano 'ereditare il demone' e che vi sia un grosso tatuaggio con questa immagine impresso sulle loro schiene.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La tradizione detta che i capifamiglia Sonozaki debbano \"ereditare il demone\" e che vi sia un grosso tatuaggio con questa immagine impresso sulle loro schiene.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "しきたりに従い、魅音にはこの刺青が入れられている可能性が極めて高い。",
 		   NULL, "Seguendo questa tradizione, c'è un'alta probabilità che Mion abbia suddetto tatuaggio sulla sua schiena.", Line_Normal);

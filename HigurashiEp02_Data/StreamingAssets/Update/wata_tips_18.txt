@@ -160,7 +160,7 @@ void main()
 	OutputLine(NULL, "「熊ちゃんは見たことありませんか？",
 		   NULL, "\"Tu l'hai mai visto, Kuma-chan?", Line_Continue);
 	OutputLine(NULL, "　私はずいぶん前に何かの用で行った時に見たことをよく覚えてますよ。」",
-		   NULL, " Io lo ricordo bene—dovetti andare laggiù per una cerca cosa qualche tempo fa.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Io lo ricordo bene—dovetti andare laggiù per una certa cosa qualche tempo fa.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

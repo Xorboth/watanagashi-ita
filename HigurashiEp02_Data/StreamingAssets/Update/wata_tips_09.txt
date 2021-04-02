@@ -32,7 +32,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　古代の宗教儀式に用いられた儀式道具は「祭具」と呼ばれ、その一部が今日も古手神社や御三家の蔵に祀られている。",
-		   NULL, "Strumenti rituali usati per antiche cerimonie religiose sono comunemente chiamati 'attrezzi' o 'attrezzi rituali', e ancora adesso se ne trovano di consacrati all'interno del Santuario Furude e delle Tre Famiglie.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Strumenti rituali usati per antiche cerimonie religiose sono comunemente chiamati \"attrezzi\" o \"attrezzi rituali\", e ancora adesso se ne trovano di consacrati all'interno del Santuario Furude e delle Tre Famiglie.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

@@ -408,7 +408,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Deputato Sonozaki</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/saburo44010", 256, TRUE);
 	OutputLine(NULL, "　そもそも信仰の自由は憲法で定められた国民の最も尊い権利であろうが！！！",
-		   NULL, "E poi, la libertà di  culto è il diritto più sacrosanto per i cittadini di questo paese, sancito dalla costituzione!!!", Line_Continue);
+		   NULL, "E poi, la libertà di culto è il diritto più sacrosanto per i cittadini di questo paese, sancito dalla costituzione!!!", Line_Continue);
 	OutputLine(NULL, "　それを自らの捜査の怠慢を口実に汚そうという魂胆ッ！！！",
 		   NULL, " E voi osate infrangere queste regole usando come pretesto la vostra negligenza lavorativa?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Deputato Sonozaki</color>", NULL, Line_ContinueAfterTyping); }
