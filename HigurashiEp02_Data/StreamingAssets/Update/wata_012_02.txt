@@ -1197,7 +1197,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300286", 256, TRUE);
 	OutputLine(NULL, "「お茶請けはゴマ煎でいい？",
-		   NULL, "\"Vuoi dei snack di sesamo con il tè?", Line_WaitForInput);
+		   NULL, "\"Vuoi degli snack al sesamo con il tè?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300287", 256, TRUE);
 	OutputLine(NULL, "　ようかんとか、気の利いたものがなくて申し訳ないね。」",
 		   NULL, " Mi dispiace, ma oggi non abbiamo nient'altro che si accompagni bene al tè.\"", GetGlobalFlag(GLinemodeSp));
