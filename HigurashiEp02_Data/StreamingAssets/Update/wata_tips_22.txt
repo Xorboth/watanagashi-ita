@@ -396,7 +396,7 @@ void main()
 	OutputLine(NULL, "　八百万の神々とオヤシロさまと先祖の霊を祀り、日が昇りてから沈むまで。",
 		   NULL, "Lì sono custoditi gli spiriti dei nostri antenati, gli ottocentomila dei e Oyashiro-sama.", Line_Continue);
 	OutputLine(NULL, "月が昇りてから沈むまで雛見沢を見守る尊い神社なのじゃ。",
-		   NULL, " Il sacro santuario protegge Hinamizawa da quando il sole sorge, quando spunta della luna e fino al ritorno dell'alba.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Il sacro santuario protegge Hinamizawa da quando il sole sorge, a quando spunta la luna e fino al ritorno dell'alba.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Deputato Sonozaki</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/saburo44009", 256, TRUE);
 	OutputLine(NULL, "それを土足で踏みにじろうという馬鹿がいるッッ！！！",

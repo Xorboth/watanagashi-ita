@@ -534,7 +534,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600316", 256, TRUE);
 	OutputLine(NULL, "…私は興宮ですから、１人きりになることはそうそうありませんが、圭ちゃんは雛見沢です。",
-		   NULL, "... io sono a Okinomiya, quindi difficilmente mi ritroverò da sola, ma tu stai a Hinamizawa.", Line_WaitForInput);
+		   NULL, "... io sono a Okinomiya, quindi difficilmente mi ritroverò da sola, ma tu sei a Hinamizawa.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600317", 256, TRUE);
 	OutputLine(NULL, "…１人ぼっちになることも多いはずです。",
 		   NULL, " ... capiterà spesso di ritrovarti senza nessuno intorno.", Line_WaitForInput);
@@ -1025,7 +1025,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100564", 256, TRUE);
 	OutputLine(NULL, "「……それは…確かに……ちょっとヤバイな……。」",
-		   NULL, "\"... questa è... wow, come dire... una brutta storia da raccontare...\"", Line_Normal);
+		   NULL, "\"... questa è... wow, come dire... una brutta storia...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 1000 );

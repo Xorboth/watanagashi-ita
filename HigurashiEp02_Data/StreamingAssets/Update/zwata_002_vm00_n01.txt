@@ -116,7 +116,7 @@ void dialog006()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "知ってる知ってる。」",
-		   NULL, " Lo conosco, lo conosco.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Lo conosco, lo conosco.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 

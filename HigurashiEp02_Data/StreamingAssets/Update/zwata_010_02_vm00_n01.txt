@@ -30,7 +30,7 @@ void dialog002()
 		   NULL, "\"... adesso è sempre spensierata ed è difficile da immaginare.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps2/06/130600371", 540, TRUE);
 	OutputLine(NULL, "器物破損から脅迫、暴行まで一通りこなして、何度も補導されたんですよ。",
-		   NULL, " Ma le fu accusato di tutto, dalla distruzione di proprietà, alle minacce, alle violenze, e spesso finì in commissariato.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ma le venne imputato di tutto, dalla distruzione di proprietà, alle minacce, alle violenze, e spesso finì in commissariato.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600372", 256, TRUE);
 	OutputLine(NULL, "…子供ですから、すぐに釈放してもらえたみたいですけどね。",

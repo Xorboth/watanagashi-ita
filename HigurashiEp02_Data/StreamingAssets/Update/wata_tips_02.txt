@@ -275,7 +275,7 @@ void main()
 	OutputLine(NULL, "　それは何だか変わってるな。",
 		   NULL, " Che strano.", Line_WaitForInput);
 	OutputLine(NULL, "事情でもあるのかな？",
-		   NULL, "È successo qualcosa tra loro?", Line_Normal);
+		   NULL, " È successo qualcosa tra loro?", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(1, 5, "sprite/ri1_komaru_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
@@ -415,7 +415,7 @@ void main()
 		   NULL, " È piena di sé!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300059", 256, TRUE);
 	OutputLine(NULL, "　たまに電話で話すくらいで…私もしばらく会ってないし…！」",
-		   NULL, "  E poi, a parte sentirla al telefono di tanto in tanto... nemmeno io la vedo molto spesso...!\"", Line_Normal);
+		   NULL, " E poi, a parte sentirla al telefono di tanto in tanto... nemmeno io la vedo molto spesso...!\"", Line_Normal);
 	ClearMessage();
 
 //　......どうしてこんなに狼狽しながら話すんだか...＠
@@ -436,7 +436,7 @@ void main()
 //　とりあえず面白いのでしばらく放って置くことにする￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　とりあえず面白いのでしばらく放って置くことにする。",
-		   NULL, "Comunque sia. mi sto divertendo parecchio, quindi vedrò come va per un altro po'.", Line_Normal);
+		   NULL, "Comunque sia, mi sto divertendo parecchio, quindi vedrò come va per un altro po'.", Line_Normal);
 	ClearMessage();
 
 //　...詩音という名のもうひとりの魅音＠

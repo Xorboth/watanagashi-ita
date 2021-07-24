@@ -42,7 +42,7 @@ void main()
 	OutputLine(NULL, "「ぅおっす！",
 		   NULL, "\"Ricevuto!", Line_Continue);
 	OutputLine(NULL, "　気合い入れてきまっす！」",
-		   NULL, " Darà tutto me stesso!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Darò tutto me stesso!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

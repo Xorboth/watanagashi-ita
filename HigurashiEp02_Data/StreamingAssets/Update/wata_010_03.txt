@@ -411,7 +411,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>レナの父</color>", NULL, "<color=#f5e6d3>Papà di Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/renf03003", 256, TRUE);
 	OutputLine(NULL, "「礼奈は風呂に入っていますが、",
-		   NULL, "\"Rena è dentro la vasca...", Line_Continue);
+		   NULL, "\"Reina è dentro la vasca...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
@@ -783,7 +783,7 @@ void main()
 //　...俺たちが祭具殿に忍び込んだことを梨花ちゃんに打ち明けた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…俺たちが祭具殿に忍び込んだことを梨花ちゃんに打ち明けた。",
-		   NULL, "... ho detto a Rika-chan che ci siano intrufolati nel magazzino degli arnesi rituali.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... ho detto a Rika-chan che ci siamo intrufolati nel magazzino degli arnesi rituali.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3264,7 +3264,7 @@ void main()
 //　大人がカギ束をいくつか試しながら、１階の大きなシャッターを開けようとしていた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　大人がカギ束をいくつか試しながら、１階の大きなシャッターを開けようとしていた。",
-		   NULL, "Gli adulti provano le varie chiavi mentre cercano di aprire la saracinesca a pianterreno.", Line_Normal);
+		   NULL, "Gli adulti provano le varie chiavi mentre cercano di aprire la saracinesca al pianterreno.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacterWithFiltering(3, 2, "sprite/re2a_def_a1_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );

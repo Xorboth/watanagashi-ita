@@ -733,7 +733,7 @@ void main()
 //　詩音はベランダから落ちて死んだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　詩音はベランダから落ちて死んだ。",
-		   NULL, "Shion è caduta sal balcone di casa ed è morta.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Shion è caduta dal balcone di casa ed è morta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　...警察は事故、自殺、他殺の全ての可能性で調べる、なんて言っていたが、...魅音の仕業以外にはありえないのだ...＠
@@ -2233,7 +2233,7 @@ void main()
 //　...何度も後悔することになった、...祭具殿への侵入＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…何度も後悔することになった、…祭具殿への侵入。",
-		   NULL, "... la nostra intrusione non autorizzata nel magazzino... che ho già rimpianto in numerose occcasioni.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... la nostra intrusione non autorizzata nel magazzino... che ho già rimpianto in numerose occasioni.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

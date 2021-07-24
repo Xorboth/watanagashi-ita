@@ -573,7 +573,7 @@ void main()
 //　俺とレナは目にチカチカの星を浮かべながら、よだれと鼻血を垂らし放題だ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺とレナは目にチカチカの星を浮かべながら、よだれと鼻血を垂らし放題だ。",
-		   NULL, "Gli occhi miei e di Rena brillano mentre sbaviamo, con anche un rigolo di sangue al naso.", Line_Normal);
+		   NULL, "Gli occhi miei e di Rena brillano mentre sbaviamo, con anche un rivolo di sangue al naso.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("black", "left", 0, 0, 300 );
@@ -4101,7 +4101,7 @@ void main()
 //　富竹さんは逆に極めて常識人だ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　富竹さんは逆に極めて常識人だ。",
-		   NULL, "D'altro canto, Tomitake-san è l'incarnazione di come si dovrebbe essere persona normale.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "D'altro canto, Tomitake-san è l'incarnazione di come dovrebbe essere una persona normale.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5186,7 +5186,7 @@ void main()
 		   NULL, "\"Oyashiro-sama fu molto soddisfatto di questo scambio.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s02/09/130900083", 256, TRUE);
 	OutputLine(NULL, "鬼たちが村人と分け隔てなく暮らせるよう、人間の姿を与えたんですって。",
-		   NULL, " Donò ai demoni corpi umani, così da essere uguali altri abitanti.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Donò ai demoni corpi umani, così da essere uguali agli altri abitanti.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -6538,7 +6538,7 @@ void main()
 //　人を殺すための道具は、当り前のことだが、人を殺すように作られている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人を殺すための道具は、当り前のことだが、人を殺すように作られている。",
-		   NULL, "Gli strumenti realizzati per uccidere sono, inutile dirsi, fatti in modo tale da uccidere le persone.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Gli strumenti realizzati per uccidere sono, inutile a dirsi, fatti in modo tale da uccidere le persone.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -7162,7 +7162,7 @@ void main()
 		   NULL, "\"Molti dei rapporti di polizia di quei tempi non esistono più, quindi è tutto basato su racconti e ricordi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s02/09/130900193", 256, TRUE);
 	OutputLine(NULL, "……ほら、これ不鮮明だけど、明治の頃の新聞の切り抜きみたい。」",
-		   NULL, " ...... vedete? Non è molto chiaro, ma sembra un ritaglio di giornale di periodo Meiji.\"", Line_Normal);
+		   NULL, " ...... vedete? Non è molto chiaro, ma sembra un ritaglio di giornale del periodo Meiji.\"", Line_Normal);
 	ClearMessage();
 
 //『...カクモ無惨且ツ残虐非道ヲ尽クサレタ遺体ハ嘗テ無ク／鬼ノ仕業カ...＠
@@ -7175,7 +7175,7 @@ void main()
 //　コピーにコピーを重ねたとても不鮮明なものだったが、異常な緊迫感だけは読み取ることができた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　コピーにコピーを重ねたとても不鮮明なものだったが、異常な緊迫感だけは読み取ることができた。",
-		   NULL, "Non è molto affidabile, trattandosi della copia di una copia, ma è abbastanza da farmi sentire a disagio.", Line_Normal);
+		   NULL, "Non è molto affidabile, trattandosi della copia di una copia, ma è abbastanza per farmi sentire a disagio.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 1000 );
@@ -7279,7 +7279,7 @@ void main()
 //　その、明治の終わりに発見された惨殺死体は......ここにある道具を使えば、見事に再現できるのだろうか...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　その、明治の終わりに発見された惨殺死体は……ここにある道具を使えば、見事に再現できるのだろうか…。",
-		   NULL, "Chissà che non si possa riprodurre alla perfezione quel corpo mutilato scoperto in periodo Meiji... con gli arnesi che ci sono qui... ", Line_Normal);
+		   NULL, "Chissà che non si possa riprodurre alla perfezione quel corpo mutilato scoperto nel periodo Meiji... con gli arnesi che ci sono qui... ", Line_Normal);
 	ClearMessage();
 
 //　否定したい＠
@@ -8578,7 +8578,7 @@ void main()
 //　質問に質問で返し合い、話が一向に見えてこない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　質問に質問で返し合い、話が一向に見えてこない。",
-		   NULL, "Rispondiamo a domande con altre domanda, senza raggiungere una vera e propria discussione.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Rispondiamo a domande con altre domande, senza raggiungere una vera e propria discussione.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -8717,7 +8717,7 @@ void main()
 //　...聞いてないどころか、シンシンとした静寂に、自分の血流の音すら賑やかにきこえるくらいだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…聞いてないどころか、シンシンとした静寂に、自分の血流の音すら賑やかにきこえるくらいだった。",
-		   NULL, "... infatti, faceva così silenzio là dentro che a momenti riuscivo a sentire il battito del mio cuore.", Line_Normal);
+		   NULL, "... infatti, era così silenzioso là dentro che a momenti riuscivo a sentire il battito del mio cuore.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(3, 6, "sprite/si1a_yowaki_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );

@@ -649,7 +649,7 @@ void main()
 	OutputLine(NULL, "…園崎魅音じゃない、",
 		   NULL, " ... così da poter vivere non come Mion Sonozaki,", Line_WaitForInput);
 	OutputLine(NULL, "ただの魅音として楽しく過ごせる場所に違いない…。",
-		   NULL, " ma come soltanto Mion, e godersi la vita...", Line_Normal);
+		   NULL, " ma soltanto come Mion, e godersi la vita...", Line_Normal);
 	ClearMessage();
 
 //　...もう沙都子や梨花ちゃんも合流してるかもしれない＠
@@ -861,7 +861,7 @@ void main()
 //　全てが終わった今、電話が掛かってくるはずなど、!w1500ない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　全てが終わった今、電話が掛かってくるはずなど、",
-		   NULL, "Ma ormai che è tutto finito, è inutile...", Line_ContinueAfterTyping);
+		   NULL, "Ma ormai è tutto finito, è inutile...", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1500 );
@@ -1092,7 +1092,7 @@ void main()
 //　何かの聞き間違えかと思い、布団をかぶり直す......￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　何かの聞き間違えかと思い、布団をかぶり直す……。",
-		   NULL, "Sarà la mia immaginazione, motivo per cui torno sdraiato dentro al futon...", Line_Normal);
+		   NULL, "Sarà la mia immaginazione, motivo per cui torno a sdraiarmi dentro al futon...", Line_Normal);
 	ClearMessage();
 
 
@@ -1487,7 +1487,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……こんなところをうろついてて……大丈夫なのか…？！」",
-		   NULL, " sicura... di poter starequi...?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " sicura... di poter stare qui...?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1776,7 +1776,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……済ませるつもりだった。",
-		   NULL, " perché sapevo il poco tempo che avevi a disposizione.", Line_Normal);
+		   NULL, " perché sapevo del poco tempo che avevi a disposizione.", Line_Normal);
 	ClearMessage();
 
 

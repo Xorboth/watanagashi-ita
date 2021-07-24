@@ -23,7 +23,7 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800037", 256, TRUE);
 	OutputLine(NULL, "「やあ、圭一くん。",
-		   NULL, "\"Ehià, Keiichi-kun.", Line_WaitForInput);
+		   NULL, "\"Ehilà, Keiichi-kun.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800038", 256, TRUE);
 	OutputLine(NULL, "　今日は張り切って仕事してたね！　感心したよ。」",
 		   NULL, " Sei stato fantastico oggi! Sono impressionato.\"", GetGlobalFlag(GLinemodeSp));

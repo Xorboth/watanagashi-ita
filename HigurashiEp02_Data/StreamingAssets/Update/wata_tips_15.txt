@@ -172,7 +172,7 @@ void main()
 //　御三家で合議することが名残となっているだけで、村内の取り決めは事実上、現当主の園崎お魎がひとりで決めていると言っていい￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　御三家で合議することが名残となっているだけで、村内の取り決めは事実上、現当主の園崎お魎がひとりで決めていると言っていい。",
-		   NULL, "Le Tre Famiglie si consultano l'una con l'altra nello stesso modo che si usava in passato—l'attuale capofamiglia Sonozaki, Oryou, in pratica decide da sola tutto ciò che avviene o non avviene nel villaggio.", Line_Normal);
+		   NULL, "Le Tre Famiglie si consultano l'una con l'altra nello stesso modo che si usava in passato—l'attuale capofamiglia Sonozaki Oryou, in pratica decide da sola tutto ciò che avviene o non avviene nel villaggio.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	SetValidityOfInput( FALSE );

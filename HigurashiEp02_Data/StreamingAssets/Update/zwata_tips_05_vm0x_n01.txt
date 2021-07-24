@@ -31,6 +31,6 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700103", 256, TRUE);
 	OutputLine(NULL, "　兄さんたちのバイク。」",
-		   NULL, " Le vostre moto.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Le vostre moto.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }

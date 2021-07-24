@@ -37,7 +37,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300060", 256, TRUE);
 	OutputLine(NULL, "「わ、な、何よ圭ちゃん…！」",
-		   NULL, "Cos— cosa c'è, Kei-chan...?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Cos— cosa c'è, Kei-chan...?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -424,7 +424,7 @@ void main()
 	OutputLine(NULL, "　そしたらお袋が、こういうのはお礼を入れて返すもんなんだって言い出して。",
 		   NULL, "Poi, mi ha detto che questo genere di cose serve a mostrare la propria gratitudine.", Line_WaitForInput);
 	OutputLine(NULL, "…俺は恥ずかしいのは嫌だし、こんなのはセンスじゃないしって抵抗したんだけど…。",
-		   NULL, "... io non volevo farlo perché mi vergognavo, quindi mi sono opposto...", Line_Normal);
+		   NULL, " ... io non volevo farlo perché mi vergognavo, quindi mi sono opposto...", Line_Normal);
 	ClearMessage();
 
 //「......と、...いうわけなんだ＠...まぁその、...ぅぅ......。＠
@@ -492,7 +492,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300074", 256, TRUE);
 	OutputLine(NULL, "「…………あ、…ぅん。",
-		   NULL, "\"... ah,,, giusto.", Line_Continue);
+		   NULL, "\"... ah... giusto.", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
@@ -516,7 +516,7 @@ void main()
 //　魅音がちょっぴり残念そうな顔をしながら弁当箱のふたを閉じる＠...結果的に、少し意地悪なことを言ってしまったようだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音がちょっぴり残念そうな顔をしながら弁当箱のふたを閉じる。",
-		   NULL, "Mion richiude il coperchio del bento con uno sgaurdo leggermente deluso.", Line_WaitForInput);
+		   NULL, "Mion richiude il coperchio del bento con uno sguardo leggermente deluso.", Line_WaitForInput);
 	OutputLine(NULL, "…結果的に、少し意地悪なことを言ってしまったようだった。",
 		   NULL, " ... mi sa che ho detto qualcosa di troppo.", Line_Normal);
 	ClearMessage();

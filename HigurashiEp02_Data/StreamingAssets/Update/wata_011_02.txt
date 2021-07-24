@@ -2196,7 +2196,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700328", 256, TRUE);
 	OutputLine(NULL, "あなただけが、祭具殿に忍び込んだ４人の生き残りなんです。」",
-		   NULL, "L'unico sopravvisuto delle quattro che si sono intrufolati nel magazzino sacro.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "L'unico sopravvisuto dei quattro che si sono intrufolati nel magazzino sacro.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　.........そんな馬鹿な...＠............そんな馬鹿な......￥
@@ -2668,7 +2668,7 @@ void main()
 	OutputLine(NULL, "　……その情報の中には、失踪後の「詩音」に聞かされたものも混じっていた。",
 		   NULL, "... alcune di queste informazioni comprendono cose che \"Shion\" mi ha detto dopo essere scomparsa.", Line_WaitForInput);
 	OutputLine(NULL, "頭をガリガリと掻き毟る…！",
-		   NULL, " Mi gratto la testa dalla confusione...!", Line_Normal);
+		   NULL, " Mi gratto la testa in preda alla confusione...!", Line_Normal);
 	ClearMessage();
 
 //　勇気を...どうか勇気を...＠
@@ -4226,7 +4226,7 @@ void main()
 //　......ま、また俺は......自分の感情に流されるままに...好き放題なことを言ってしまったのだろうか...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……ま、また俺は……自分の感情に流されるままに…好き放題なことを言ってしまったのだろうか…。",
-		   NULL, "... m-mi sto di nuovo... facendo prendere dalle emozioni... e giocare al suo gioco...?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... m-mi sto di nuovo... facendo prendere dalle emozioni... e facendo il suo gioco...?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4324,7 +4324,7 @@ void main()
 		   NULL, "\"............ quando...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100900", 256, TRUE);
 	OutputLine(NULL, "……村長に打ち明けたんだよ…。」",
-		   NULL, " l'hai saputo dal capovillaggio...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " l'hai detto al capovillaggio...?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4670,7 +4670,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100921", 256, TRUE);
 	OutputLine(NULL, "…だから帰ってくるまで、村長と接触することはできないはずだ。",
-		   NULL, "... quindi non avresti potuto incontrarlo se non dopo essere tornato.", Line_WaitForInput);
+		   NULL, "... quindi non avresti potuto incontrarlo fino al suo ritorno.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100922", 256, TRUE);
 	OutputLine(NULL, "……そうだろ…。」",
 		   NULL, " ... ho ragione...?\"", GetGlobalFlag(GLinemodeSp));
@@ -4688,7 +4688,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100923", 256, TRUE);
 	OutputLine(NULL, "「帰りの電車が事故で遅れたので、自宅に帰ってきたのは会合の始まる直前だった。",
-		   NULL, "\"Il suo treno del ritorno ha fatto tardi a causa di un incidente, e non è potuto tornare a casa se non appena prima l'inizio dell'incontro serale.", Line_WaitForInput);
+		   NULL, "\"Il suo treno del ritorno ha fatto tardi a causa di un incidente, e non è potuto tornare a casa se non appena prima dell'inizio dell'incontro serale.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100924", 256, TRUE);
 	OutputLine(NULL, "…つまり、会合が始まるまでの時間にも打ち明ける時間的余裕はないんだ。」",
 		   NULL, " ... quindi non avresti potuto dirgli niente nemmeno prima che cominciasse la riunione.\"", GetGlobalFlag(GLinemodeSp));
@@ -4786,7 +4786,7 @@ void main()
 		   NULL, " ... ma sarò più esplicito.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100931", 256, TRUE);
 	OutputLine(NULL, "……君は、…俺と一緒に行った図書館以降、誰にも目撃されていない。」",
-		   NULL, " ... non ci sei andata... sin da quando ci siamo visti in biblioteca.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... non sei stata vista... sin da quando siamo andati in biblioteca.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

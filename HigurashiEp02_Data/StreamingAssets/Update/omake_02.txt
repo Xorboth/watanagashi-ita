@@ -236,7 +236,7 @@ void main()
 		   NULL, "\"...... Mii è spiaccicata a terra.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500107", 256, TRUE);
 	OutputLine(NULL, "…なでなでしたくても頭がわからないのです。」",
-		   NULL, " ... vorrei accarezzarle la testa, ma tanto non capirà mai di non provocare Rena.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... vorrei accarezzarle la testa, ma tanto non capirà mai di non dover provocare Rena.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1266,7 +1266,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s20/08/440800115", 256, TRUE);
 	OutputLine(NULL, "そして、井戸の中に姿を隠していれば、変装した詩音ちゃんが神出鬼没にいくらでも殺人を犯せるって寸法さ。」",
-		   NULL, "Se poi si fosse nascosta nel pozzo, una volta travestitasi da Shion-chan, avrebbe potuto presentarsi ovunque e uccidere chiunque volesse—tutto pianificato fin dall'inizio.\"", Line_Normal);
+		   NULL, "Se poi si fosse nascosta nel pozzo, una volta travestitasi, Shion-chan avrebbe potuto presentarsi ovunque e uccidere chiunque volesse—tutto pianificato fin dall'inizio.\"", Line_Normal);
 	ClearMessage();
 
 //＜富竹

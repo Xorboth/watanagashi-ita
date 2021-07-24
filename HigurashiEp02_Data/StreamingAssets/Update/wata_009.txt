@@ -1476,7 +1476,7 @@ void main()
 	OutputLine(NULL, "　…祟りよりもむしろ、村人の仕業だって…。",
 		   NULL, "... più che una maledizione, è opera di qualche abitante del villaggio...", Line_WaitForInput);
 	OutputLine(NULL, "…………………………血が凍る。",
-		   NULL, " .................................. nelle vene mi gela il sangue.", Line_Normal);
+		   NULL, " .................................. nelle vene mi si gela il sangue.", Line_Normal);
 	ClearMessage();
 
 //　...魅音は、!w800...ほぼ間違いなく、!w800...祭具殿に忍び込んだことを知っている...￥
@@ -3216,7 +3216,7 @@ void main()
 //　ぽかんとしてる内に、氷がたっぷり入ったアイスティーのカップを渡される￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ぽかんとしてる内に、氷がたっぷり入ったアイスティーのカップを渡される。",
-		   NULL, "Ooishi-san mi porge una tazza di tè piena fino all'orlo con del ghiaccio, mentre fisso distrattamente questa scena.", Line_Normal);
+		   NULL, "Ooishi-san mi porge una tazza di tè piena fino all'orlo con del ghiaccio, mentre fisso distrattamente la scena.", Line_Normal);
 	ClearMessage();
 
 //　...こんなおっさんに、飲み物をおごってもらう義理なんかないはずなのだが...＠でも...一応、おごられたのでお礼を言っておく￥

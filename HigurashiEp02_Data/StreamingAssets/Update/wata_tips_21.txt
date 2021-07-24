@@ -103,7 +103,7 @@ void main()
 //　例えば、公由家の「公由」は、「鬼」の一字を分解して作ったものだろう。由・公の順に書き出せば、見事「鬼」の字を書き出すことができる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　例えば、公由家の「公由」は、「鬼」の一字を分解して作ったものだろう。由・公の順に書き出せば、見事「鬼」の字を書き出すことができる。",
-		   NULL, "Per esempio, i caratter che compongono \"Kimiyoshi\", 公由, sono probabilmente una versione separata di 鬼. Se invertiamo i due ideogrammi otteniamo infatti 由公 che ricorda chiaramente il carattere 鬼 separato.", Line_Normal);
+		   NULL, "Per esempio, i caratteri che compongono \"Kimiyoshi\", 公由, sono probabilmente una versione separata di 鬼. Se invertiamo i due ideogrammi otteniamo infatti 由公 che ricorda chiaramente il carattere 鬼 separato.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );

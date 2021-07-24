@@ -223,7 +223,7 @@ void main()
 		   NULL, " Da dove venite?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700076", 256, TRUE);
 	OutputLine(NULL, "大阪ですかな？」",
-		   NULL, "Da Osaka?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Da Osaka?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -287,7 +287,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700078", 256, TRUE);
 	OutputLine(NULL, "「ここいらの人間なら、どんな間違いがあっても雛見沢の人間には手出ししないですよ。",
-		   NULL, "\"Se foste stati di queste parti, la gente di Hinamizawa non vi avrebbe neanche degnato di uno sguardo, qualsiasi cosa aveste faatto.", Line_Continue);
+		   NULL, "\"Se foste stati di queste parti, la gente di Hinamizawa non vi avrebbe neanche degnato di uno sguardo, qualsiasi cosa aveste fatto.", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
@@ -324,7 +324,7 @@ void main()
 //　...実際に目にし、囲まれたのだから疑いようはない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…実際に目にし、囲まれたのだから疑いようはない。",
-		   NULL, "... sono stati circndati loro stessi... l'hanno visto coi loro occhi. Non c'è alcun dubbio.", Line_Normal);
+		   NULL, "... sono stati circondati loro stessi... l'hanno visto coi loro occhi. Non c'è alcun dubbio.", Line_Normal);
 	ClearMessage();
 
 //「ここいらじゃあね＠雛見沢の人間に睨まれたら、あっさり「鬼隠し」にあって消えちまうんです＠もう跡形もなく忽然と＠...兄さん方、行方不明になったら誰か捜索願いを出してくれるご家族はいます＠　いないならまずいな＠蒸発扱いですよ＠んっふっふっふ！￥
@@ -567,7 +567,7 @@ void main()
 		   NULL, " Voi tre...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700095", 256, TRUE);
 	OutputLine(NULL, "あんたら、今、泡の出る麦茶飲んだろ。",
-		   NULL, " avete bevuto il tè d'orzio con la schiuma, giusto?", Line_WaitForInput);
+		   NULL, " avete bevuto il tè d'orzo con la schiuma, giusto?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700096", 256, TRUE);
 	OutputLine(NULL, "…エンジン掛けてみろ。",
 		   NULL, " ... provate ad accendere i motori.", Line_WaitForInput);

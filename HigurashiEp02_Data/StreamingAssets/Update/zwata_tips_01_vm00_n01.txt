@@ -33,10 +33,10 @@ void dialog003()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500017", 256, TRUE);
 	OutputLine(NULL, "「……魅ぃにお買い物代を借りたことをコロリと忘れてしまったら、",
-		   NULL, "\"...... una volta, mi sono completamente dimenticata di restituire a Mii dei soldi che mi aveva dato per fare la spesa,", Line_Continue);
+		   NULL, "\"... una volta, mi sono dimenticata di restituire a Mii dei soldi che mi aveva dato.", Line_Continue);
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "耳を揃えて返さんと身売りして風呂に沈めたるどーと凄まれましたのです。」",
-		   NULL, " e mi ha minacciato dicendomi che, se non glieli avessi restituiti, mi avrebbe sbattuto nel quartiere a luci rosse e che avrei passato lì il resto dei miei giorni.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mi ha minacciata dicendomi che se non glieli avessi restituiti, mi avrebbe sbattuto nel quartiere a luci rosse e che avrei passato lì la mia vita.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　.........梨花ちゃんが借金のかたに特殊な風俗業界に身売り...＠

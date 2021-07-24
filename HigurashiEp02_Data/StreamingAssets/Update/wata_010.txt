@@ -927,7 +927,7 @@ void main()
 //　...どれも忽然と、理由なく姿が掻き消えたわけじゃない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…どれも忽然と、理由なく姿が掻き消えたわけじゃない。",
-		   NULL, "... nessuno sparisce nel niente senza ragione.", Line_Normal);
+		   NULL, "... nessuno sparisce nel nulla senza ragione.", Line_Normal);
 	ClearMessage();
 
 //　でも、!w1000...消える＠
@@ -1704,7 +1704,7 @@ void main()
 //　ぐるーっとある＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ぐるーっとある。",
-		   NULL, "È a perdita d'occhio.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Si estende a perdita d'occhio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

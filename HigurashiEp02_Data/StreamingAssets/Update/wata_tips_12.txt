@@ -107,7 +107,7 @@ void main()
 //　娯楽に使用する道具は時間と共に進化し、多様化する＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　娯楽に使用する道具は時間と共に進化し、多様化する。",
-		   NULL, "Attrezzi usati per intrattenere si evolvono nel tempo e si ramificano.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Gli attrezzi usati per intrattenere si evolvono nel tempo e si ramificano.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

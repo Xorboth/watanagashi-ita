@@ -51,7 +51,7 @@ void dialog002()
 		   NULL, " ... in ogni caso, in giro si dice che si occupino di stimolanti.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps2/11/130700469", 540, TRUE);
 	OutputLine(NULL, "…その可能性もあるかなんて思ってたのですが。」",
-		   NULL, " ... credevo che anche quella siringa ci combinasse qualcosa.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... credevo che anche quella siringa potesse averci a che fare.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //「.........梨花ちゃんが、...覚醒剤の常用者だって言うのか...？！￥

@@ -119,7 +119,7 @@ void main()
 	OutputLine(NULL, "「失礼しました。",
 		   NULL, "\"Le mie scuse.", Line_Continue);
 	OutputLine(NULL, "……昔から変わられないなぁと思っただけですよ。」",
-		   NULL, " ... stavo solo pensando a quanto sei cambiata.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... stavo solo pensando a quanto non sei cambiata.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -308,7 +308,7 @@ void main()
 	OutputLine(NULL, "　短くクラクションが１回。",
 		   NULL, "Rumore di clacson.", Line_WaitForInput);
 	OutputLine(NULL, "おっさんが運転席から小さく手を振る。",
-		   NULL, " L'uomo mi saluta con la mano dal sedire dle guidatore.", Line_Normal);
+		   NULL, " L'uomo mi saluta con la mano dal sedile del guidatore.", Line_Normal);
 	ClearMessage();
 
 //　車は砂塵を残しながら、暗い夜道を引き返していった...＠

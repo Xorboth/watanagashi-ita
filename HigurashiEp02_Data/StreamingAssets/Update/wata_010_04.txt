@@ -479,7 +479,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200250", 256, TRUE);
 	OutputLine(NULL, "「……圭一くんが、何を自分に責めているかわからないけれど…、もうやめよ？」",
-		   NULL, "\"... non so di cosa ti stia tormentando, Keiichi-kun... ma dovresti smetterla.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... non so per cosa ti stia tormentando, Keiichi-kun... ma dovresti smetterla.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1001,7 +1001,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300218", 256, TRUE);
 	OutputLine(NULL, "「………全然ない。",
-		   NULL, "\"... nessuna.", Line_WaitForInput);
+		   NULL, "\"... Niente di niente.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300219", 256, TRUE);
 	OutputLine(NULL, "学校が終わってから家に帰って。",
 		   NULL, " Finite le lezioni, sono tornate a casa.", Line_WaitForInput);
@@ -1590,7 +1590,7 @@ void main()
 //　...だが、その不安は...徐々に押し寄せる眠気の波に押し流されていった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だが、その不安は…徐々に押し寄せる眠気の波に押し流されていった。",
-		   NULL, "... il mio disagio, però... sta poco a poco prendendo il posto del sonno.", Line_Normal);
+		   NULL, "... il mio disagio, però... sta poco a poco venendo allontanato dal sonno.", Line_Normal);
 	ClearMessage();
 
 //　レナが俺たちの自転車を示すと、大石さんが警察のワゴン車にひょいひょいと積んでくれた＠
@@ -2261,7 +2261,7 @@ void main()
 		   NULL, "\"In altre parole.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700154", 256, TRUE);
 	OutputLine(NULL, "…前の厳重な錠前なら賊には忍び込まれなかった、…村長さんと梨花さんが、勝手に安っぽいカギに替えたから賊に破られたんだ、",
-		   NULL, " ... dei ladri non sarebbero potuti entrare con un vecchio lucchetto pesante... ma il capovillaggio e Rika-chan l'hanno sostituito con uno più economico e con chiave, quindi i ladri si sono intrufolati dentro...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... dei ladri non sarebbero potuti entrare con un vecchio lucchetto pesante... ma il capovillaggio e Rika-san l'hanno sostituito con uno più economico e con chiave, quindi i ladri si sono intrufolati dentro...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700155", 256, TRUE);
 	OutputLine(NULL, "と……こういう話らしいんですよ。」",
@@ -2281,7 +2281,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700156", 256, TRUE);
 	OutputLine(NULL, "「…そういう話がまかり通ってて、一部の村人たちが祭具殿に忍び込んだ賊と、賊に破られるようなカギに替えた村長と梨花さんを罰したんだ…。",
-		   NULL, "\"... tornando a noi, alcuni membri di questa comunità hanno punito aspramente i ladri che sono entrati nel magazzino, nonché il capivillaggio e Rika-chan, che hanno cambiato il lucchetto...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... tornando a noi, alcuni membri di questa comunità hanno punito aspramente i ladri che sono entrati nel magazzino, nonché il capivillaggio e Rika-san, che hanno cambiato il lucchetto...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700157", 256, TRUE);
 	OutputLine(NULL, "…なーんて話があったりなかったりしてるんですよ。",

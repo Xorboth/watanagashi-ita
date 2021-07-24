@@ -306,7 +306,7 @@ void main()
 //　...何だかんだ言っても、魅音の部活は学校に来る一番の楽しみなんだよな＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…何だかんだ言っても、魅音の部活は学校に来る一番の楽しみなんだよな。",
-		   NULL, "... checchè se ne dica, il club di Mion è la prima cosa a cui penso ogni volta che vado a scuola.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... checché se ne dica, il club di Mion è la prima cosa a cui penso ogni volta che vado a scuola.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -506,7 +506,7 @@ void main()
 	OutputLine(NULL, "　何だか妙なのも飛び出してきたが、まぁとにかく！",
 		   NULL, "Okay, alcune di queste sono leggermente sospette, ma non importa!", Line_WaitForInput);
 	OutputLine(NULL, "　手広いのはよくわかった。",
-		   NULL, "L'importante è capire che sia una business molto ampio.", Line_Normal);
+		   NULL, " L'importante è capire che sia una business molto ampio.", Line_Normal);
 	ClearMessage();
 
 //「あいつに小銭を借りると、妙に返却期限にうるさいのは、サラ金屋の血が流れてるからかー＠納得納得！＠

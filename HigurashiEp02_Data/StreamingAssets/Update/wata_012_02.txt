@@ -71,7 +71,7 @@ void main()
 //　...俺とレナの目に...決意が宿る＠......親友の罪をわずかでも軽くする唯一の方法なのだ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…俺とレナの目に…決意が宿る。",
-		   NULL, "... nei nostri occhi... riflette la nostra decisione.", Line_WaitForInput);
+		   NULL, "... nei nostri occhi... si riflette la nostra decisione.", Line_WaitForInput);
 	OutputLine(NULL, "……親友の罪をわずかでも軽くする唯一の方法なのだ。",
 		   NULL, " ... è l'unico modo possibile per far luce sui peccati commessi dalla nostra cara amica.", Line_Normal);
 	ClearMessage();
@@ -108,7 +108,7 @@ void main()
 //　むわっとした熱気とセミの声が迎える＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　むわっとした熱気とセミの声が迎える。",
-		   NULL, "L'umidità estiva e il frinire delle cicale di accolgono.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "L'umidità estiva e il frinire delle cicale ci accolgono.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1725,7 +1725,7 @@ void main()
 //　...もっと早い内にこうしておけば...恐ろしいことは何も起こらなかったかもしれないのに......￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…もっと早い内にこうしておけば…恐ろしいことは何も起こらなかったかもしれないのに……。",
-		   NULL, "... se l'avessi fatto prima... forse non sarebbe successo niente di questi terribili eventi......", Line_Normal);
+		   NULL, "... se l'avessi fatto prima... forse non sarebbe successo nessuno di questi terribili eventi......", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(3, 3, "sprite/me2_def_a1_", "0", -160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -3152,7 +3152,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300361_7", 256, TRUE);
 	OutputLine(NULL, "……夫や息子を戦場に送り出し、…銃後の女たちも心が荒んでいたのでしょうね…。",
-		   NULL, "... mandavano figli e mariti alla guerra... mentre le donne rimaste in balìa del fronte interno soffrivano immensamente...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... mandavano figli e mariti in guerra... mentre le donne rimaste in balìa del fronte interno soffrivano immensamente...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3334,7 +3334,7 @@ void main()
 //　魅音は素直に、褒められてうれしいような表情を浮かべた...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音は素直に、褒められてうれしいような表情を浮かべた…。",
-		   NULL, "Mion sembra davvero felice di esser stata complimentata da Rena...", Line_Normal);
+		   NULL, "Mion sembra davvero felice di esser stata elogiata da Rena...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("black", "down", 0, 0, 300 );
@@ -3618,7 +3618,7 @@ void main()
 //　食糧不足は栄養失調を誘発し、抵抗力を失った体は次々と様々な病気に蝕まれていった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　食糧不足は栄養失調を誘発し、抵抗力を失った体は次々と様々な病気に蝕まれていった。",
-		   NULL, "La denutrizione portava all'indebolimento, e di conseguenza a esso, i soldati morivano di malattie uno dopo l'altro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La denutrizione portava all'indebolimento, e di conseguenza, i soldati morivano di malattie uno dopo l'altro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　士気もモラルも低下し、このままでは軍隊を維持できない＠そこで始められた研究だったと言う￥
@@ -3714,7 +3714,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps2/03/130300404", 540, TRUE);
 	OutputLine(NULL, "「……お腹を空かせた前線の兵隊さんにはどの試作品もとても好評だったそうです。",
-		   NULL, "\"... i soldati affamati sul fronte della guerra adoravano i protitipi che venivano loro inviati.", Line_WaitForInput);
+		   NULL, "\"... i soldati affamati sul fronte di guerra adoravano i protitipi che venivano loro inviati.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps2/03/130300405", 540, TRUE);
 	OutputLine(NULL, "中でも醤油で煮たすき焼き風のものが一番好評だったそうで…。」",
 		   NULL, " Tra loro, c'era chi li cucinava in salsa di soia, similmente al sukiyaki, e l'adorava...\"", GetGlobalFlag(GLinemodeSp));
@@ -3787,7 +3787,7 @@ void main()
 //　......差別したりされたり、したりされたり＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……差別したりされたり、したりされたり。",
-		   NULL, "...... prima discriminavano, poi vennero discriminati, dopo discriminarono ancora e infine di nuovo discriminati.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...... prima discriminavano, poi vennero discriminati, dopo discriminarono ancora e infine vennero di nuovo discriminati.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3827,7 +3827,7 @@ void main()
 //　一人に石を投げられたら、二人で石を投げ返しなさいと＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一人に石を投げられたら、二人で石を投げ返しなさいと。",
-		   NULL, "Se una pietra colpisce uno di voi... allora dovrete lanciarne indietro a due persone.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Se una pietra colpisce uno di voi... allora dovrete lanciarne indietro due.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　...子供が聞き返す＠
@@ -3849,7 +3849,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300411", 256, TRUE);
 	OutputLine(NULL, "「…二人に石を投げられたら、四人で石を。",
-		   NULL, "\"... se lanciano pietre a due di voi, allora dovrete lanciarne a quattro persone.", Line_WaitForInput);
+		   NULL, "\"... se lanciano pietre a due di voi, allora dovrete lanciarne quattro.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300412", 256, TRUE);
 	OutputLine(NULL, "八人に棒で追われたら、十六人で追い返し。",
 		   NULL, " Se otto di voi vengono inseguiti coi bastoni, allora dovrete inseguirne sedici.", Line_WaitForInput);
@@ -4255,7 +4255,7 @@ void main()
 //　セミの声だけが沈黙を埋めてくれていた............￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　セミの声だけが沈黙を埋めてくれていた…………。",
-		   NULL, "Soltanto il frinire delle cicale avvolge il silenzio.........", Line_Normal);
+		   NULL, "Soltanto il frinire delle cicale ci avvolge nel silenzio.........", Line_Normal);
 	ClearMessage();
 
 
@@ -4801,7 +4801,7 @@ void main()
 //　魅音が、まるで諭すように...やさしく語りかけてくれた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音が、まるで諭すように…やさしく語りかけてくれた。",
-		   NULL, "Mi dice Mion con tono gentile... come se volesse farmi lucido.", Line_Normal);
+		   NULL, "Mi dice Mion con tono gentile... come se volesse farmi rimanere lucido.", Line_Normal);
 	ClearMessage();
 
 //＜魅音、神妙＞
@@ -4874,7 +4874,7 @@ void main()
 //　...部活で、どんな苦境も跳ね返すと豪語した魅音だからこそ＠......痛々しい￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…部活で、どんな苦境も跳ね返すと豪語した魅音だからこそ。",
-		   NULL, "Soprattutto perché Mion si è sempre vantata di quanto riuscisse a ribaltare le carte in tavola in qualsisi problema le si presentasse davanti.", Line_WaitForInput);
+		   NULL, "Soprattutto perché Mion si è sempre vantata di quanto riuscisse a ribaltare le carte in tavola per qualsisi problema le si presentasse davanti.", Line_WaitForInput);
 	OutputLine(NULL, "……痛々しい。",
 		   NULL, "...... che dolore.", Line_Normal);
 	ClearMessage();
@@ -5637,7 +5637,7 @@ void main()
 	OutputLine(NULL, "　頬を熱いものがぼろりと流れ落ちる。",
 		   NULL, "Qualcosa scorre lungo le mie guance.", Line_WaitForInput);
 	OutputLine(NULL, "………俺の涙だった。",
-		   NULL, " ...... solo lacrime.", Line_Normal);
+		   NULL, " ...... sono lacrime.", Line_Normal);
 	ClearMessage();
 
 //　俺はそれを乱暴に拭う＠

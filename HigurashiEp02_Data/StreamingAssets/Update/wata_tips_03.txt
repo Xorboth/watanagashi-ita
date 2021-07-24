@@ -215,7 +215,7 @@ void main()
 	OutputLine(NULL, "　…ボックスシートでバッグ床置きはやはり警戒されたかなー…。",
 		   NULL, "... forse si sono insospettiti dato che mi ero seduto a un tavolo ma avevo appoggiato lo zaino per terra...", Line_WaitForInput);
 	OutputLine(NULL, "もうボストンバッグに隠しカメラは化石技かも…。",
-		   NULL, " Forse la fotocamera nascosta nello zaino è un trucco troppo vecchio...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " forse la fotocamera nascosta nello zaino è un trucco troppo vecchio...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

@@ -396,13 +396,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600205", 256, TRUE);
 	OutputLine(NULL, "「そんなこと言わないで下さい。",
-		   NULL, "\"Non dire nulla.", Line_WaitForInput);
+		   NULL, "\"Non dire così.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600206", 256, TRUE);
 	OutputLine(NULL, "私、圭ちゃんに一緒に逃げようってサインを送ったじゃないですか！",
 		   NULL, " Ti ho fatto cenno di venire via con me, ricordi?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600207", 256, TRUE);
 	OutputLine(NULL, "　なのに圭ちゃん、ボサーっと残っちゃって。」",
-		   NULL, " Ma sei rimasto lì con lo sguardo a pesce lesso, Kei-chan.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ma sei rimasto lì con lo sguardo da pesce lesso, Kei-chan.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -410,7 +410,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100349", 256, TRUE);
 	OutputLine(NULL, "「ボ、ボサーってことはないだろ！",
-		   NULL, "\"Non avevo lo sguardo a pesce lesso!", Line_WaitForInput);
+		   NULL, "\"Non avevo lo sguardo da pesce lesso!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100350", 256, TRUE);
 	OutputLine(NULL, "　…詩音があっという間に置いてきぼりにしたんで、あの後、俺は大石のおっさんにたっぷり付き合わされたんだぜ？！」",
 		   NULL, " ... mi hai mollato lì di punto in bianco e ho dovuto sopportare quell'Ooishi per ore!\"", Line_Normal);
@@ -859,7 +859,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600233", 256, TRUE);
 	OutputLine(NULL, "「昨夜、鷹野さんと富竹さんが死んだんだそうです。",
-		   NULL, "\"Che Takano-san e Tomitake-san sono morti ieri notte.\"", Line_Continue);
+		   NULL, "\"Che Takano-san e Tomitake-san sono morti ieri notte.", Line_Continue);
 
 	PlaySE( 3, "wa_027", 56, 64 );
 	OutputLineAll(NULL, "", Line_WaitForInput);
@@ -1492,13 +1492,13 @@ void main()
 //　連続怪死が３年も続いた頃になると、一部の三流雑誌が嗅ぎ付け、雛見沢をゴシップ満載で報道した＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　連続怪死が３年も続いた頃になると、一部の三流雑誌が嗅ぎ付け、雛見沢をゴシップ満載で報道した。",
-		   NULL, "Quando la maledizione colpì il terzo anno, alcune riviste di terza categoria fiutarono lo scoop e pubblicarono articoli relativi a Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... è stato così anche in passato.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　雛見沢のマイナスイメージを恐れ、地域と警察で協議＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢のマイナスイメージを恐れ、地域と警察で協議。",
-		   NULL, "Per timore che ne potesse venire un'immagine negativa della regione, il villaggio negoziò con la prefettura e con la polizia.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Per timore che ne potesse venire fuori un'immagine negativa della regione, il villaggio negoziò con la prefettura e con la polizia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1884,14 +1884,14 @@ void main()
 	OutputLine(NULL, "　心の奥底の冷めた自分が、無駄な遠吠えだと呆れているのがわかった。",
 		   NULL, "Sento un altro me stesso più composto, nel profondo del cuore, che è disgustato dal mio comportamento.", Line_WaitForInput);
 	OutputLine(NULL, "……でも、…堰を切った感情は、もう止められなかった。",
-		   NULL, " ... ma ormai... le mie emozione hanno rotto la diga e non posso più fermarle.", Line_Normal);
+		   NULL, " ... ma ormai... le mie emozioni hanno rotto la diga e non posso più fermarle.", Line_Normal);
 	ClearMessage();
 
 //「俺は元々、興味なんか全然なかったんだッ！！＠　梨花ちゃんの演舞を見ていたかっただけなんだ！＠　それを詩音が勝手に連れ出したんじゃないか？！？＠　あの２人が泥棒しようが逢引きしようが知ったことじゃないッ！！＠　そうだよ、そもそも詩音が中に入ろうって言い出したんだ！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100411", 256, TRUE);
 	OutputLine(NULL, "「俺は元々、興味なんか全然なかったんだッ！！！",
-		   NULL, "\"Non avevo nessun'interesse fin dal principio, maledizione!!!", Line_WaitForInput);
+		   NULL, "\"Non avevo nessun interesse fin dal principio, maledizione!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100412", 256, TRUE);
 	OutputLine(NULL, "　梨花ちゃんの演舞を見ていたかっただけなんだ！！",
 		   NULL, " Tutto quello che volevo fare era vedere la danza di Rika-chan!!", Line_WaitForInput);

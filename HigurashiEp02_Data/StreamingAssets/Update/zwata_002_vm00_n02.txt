@@ -128,7 +128,7 @@ void dialog008()
 
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei11840", 256, TRUE);
 	OutputLine(NULL, "お客さんみんな見てるぞきっと〜！」",
-		   NULL, "Mi sa che tutti i clienti ti stanno guardando~!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mi sa che tutti i clienti ti stanno guardando~!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 

@@ -54,7 +54,7 @@ void dialog002()
 		   NULL, "\"Taci, ciccione bisunto!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei18080", 256, TRUE);
 	OutputLine(NULL, "　俺の目が黒い内に出て失せろ。」",
-		   NULL, "Vattene prima che mi arrabbi.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Vattene prima che mi arrabbi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
@@ -132,7 +132,7 @@ void dialog008()
 		   NULL, " Forza, forza!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/otad50014", 256, TRUE);
 	OutputLine(NULL, "　このままじゃ集団浣腸プレイ状態にゃりん〜！！」",
-		   NULL, "Così potremo finalmente sperimentare la clismafilia di gruppo!!!\"", Line_Normal);
+		   NULL, " Così potremo finalmente sperimentare la clismafilia di gruppo!!!\"", Line_Normal);
 }
 
 void dialog009()
@@ -143,7 +143,7 @@ void dialog009()
 		   NULL, "\"Ascoltate, palle di lardo!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei18720", 256, TRUE);
 	OutputLine(NULL, "　この扉から一歩外へ出ることがどういうことになるか、わかってるんだろうな？！」",
-		   NULL, "Sapete cosa succede se varcate la soglia di questa porta, vero?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sapete cosa succede se varcate la soglia di questa porta, vero?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 

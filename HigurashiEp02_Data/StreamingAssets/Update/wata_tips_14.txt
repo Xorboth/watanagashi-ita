@@ -46,7 +46,7 @@ void main()
 //（異常な行為に娯楽性を感じるという「無理」によって、自分たちが人間を超越した存在だと信じこもうとしたのかもしれない。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "（異常な行為に娯楽性を感じるという「無理」によって、自分たちが人間を超越した存在だと信じこもうとしたのかもしれない。）",
-		   NULL, "(Forse è a causa della disparità tra l'essere un atto divino e una forma di intrattenimento che i carnefici iniziarono a considerare loro stessi come a metà tra uomini e dei.)", Line_Normal);
+		   NULL, "(Forse è a causa della disparità tra l'essere un atto divino e una forma di intrattenimento per cui i carnefici iniziarono a considerare loro stessi come a metà tra uomini e dei.)", Line_Normal);
 	ClearMessage();
 
 
@@ -115,7 +115,7 @@ void main()
 //　つまり、有力者たちが自分たちの都合のいいように組み上げた戒律を厳守させるために催した、見せしめ処刑だった可能性が出てくる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、有力者たちが自分たちの都合のいいように組み上げた戒律を厳守させるために催した、見せしめ処刑だった可能性が出てくる。",
-		   NULL, "È plausibile che le esecuzioni avessero uno scopo di monito, incoraggiando così la popolazione a sguire i rigidi precetti religiosi creati dai potenti a loro totale discrezione.", Line_Normal);
+		   NULL, "È plausibile che le esecuzioni avessero uno scopo di monito, incoraggiando così la popolazione a seguire i rigidi precetti religiosi creati dai potenti a loro totale discrezione.", Line_Normal);
 	ClearMessage();
 	PlaySE( 3, "wa_021", 56, 64 );
 

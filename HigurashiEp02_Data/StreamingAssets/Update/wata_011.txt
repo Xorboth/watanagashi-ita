@@ -1093,7 +1093,7 @@ void main()
 //　......それなら、雛見沢中を探しても見つからないのには納得がいく＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……それなら、雛見沢中を探しても見つからないのには納得がいく。",
-		   NULL, "...... sarebbe finalmente la spiegazione per cui non siamo riusciti a trovarle per tutta Hinamizawa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...... sarebbe finalmente la spiegazione per cui non siamo riusciti a trovarle pur cercando per tutta Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　...でも...違和感がある＠
@@ -1301,7 +1301,7 @@ void main()
 //　そして、他の生徒の気配がないことを確認してから、ようやく口を開いた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そして、他の生徒の気配がないことを確認してから、ようやく口を開いた。",
-		   NULL, "A un certo punto, dopo aver controllato che non ci sia nessuno dei dintorni, apre finalmente bocca.", Line_Normal);
+		   NULL, "A un certo punto, dopo aver controllato che non ci sia nessuno nei dintorni, apre finalmente bocca.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(2, 2, "sprite/re1b_nande_b1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 400, TRUE );
@@ -1365,7 +1365,7 @@ void main()
 //　風呂桶みたいな水槽の中に踊る、でっかい豆腐の塊がいつも涼しそうだった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　風呂桶みたいな水槽の中に踊る、でっかい豆腐の塊がいつも涼しそうだった。",
-		   NULL, "Quei pezzi di tofu che danzano nelle piccole cisterne d'acqua mi sono sempre sembrati rinfrescanti e appetitosi.", Line_Normal);
+		   NULL, "Quei pezzi di tofu che danzano come in piccole cisterne d'acqua mi sono sempre sembrati rinfrescanti e appetitosi.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(2, 2, "sprite/re1a_def_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
@@ -1580,7 +1580,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200334", 256, TRUE);
 	OutputLine(NULL, "「それで次に冷蔵庫の中も見てみたの。",
-		   NULL, "\"Sono passata in rassegna anche al frigo.", Line_WaitForInput);
+		   NULL, "\"Ho passato in rassegna anche il frigo.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200335", 256, TRUE);
 	OutputLine(NULL, "そうしたら、残り半分のお豆腐で作った冷やっこがあったの。",
 		   NULL, " Dentro c'era del tofu freddo, metà di quello che avevano comprato.", Line_WaitForInput);
@@ -2147,7 +2147,7 @@ void main()
 		   NULL, "\"Che cosa c'è da nascondere...?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100803", 256, TRUE);
 	OutputLine(NULL, "　仮に半分しか合ってないとしても、きっとヒントにはなると思うぞ…。」",
-		   NULL, " Se anche la metà di quello che hai detto fosse giusta, ci servirebbero comunque delle prove fondate...\"", Line_Normal);
+		   NULL, " Se anche la metà di quello che hai detto fosse giusto, ci servirebbero comunque delle prove fondate...\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(2, 2, "sprite/re1a_nande_a1_", "1", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );

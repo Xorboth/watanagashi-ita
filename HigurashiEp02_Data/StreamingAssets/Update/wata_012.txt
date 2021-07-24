@@ -974,7 +974,7 @@ void main()
 //　...留め金から外れた紙面が散乱していた。それを１枚１枚集める＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…留め金から外れた紙面が散乱していた。それを１枚１枚集める。",
-		   NULL, "... le pagine sono sfilate fuori dal plico e sono sparpagliate sul pavimento. Le raccolgo una per una.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... le pagine si sono sfilate fuori dal plico e sono sparpagliate sul pavimento. Le raccolgo una per una.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......平和な文章が踊る、のんびりとした１枚で手が止まった￥
@@ -2032,7 +2032,7 @@ void main()
 //　......大石さんはいやらしく、だけれども満足そうにニヤリと笑った＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……大石さんはいやらしく、だけれども満足そうにニヤリと笑った。",
-		   NULL, "... Ooishi-san mi guarda in modo scostante, ma al tempo stesso soddisfatto.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... Ooishi-san ci guarda in modo scostante, ma al tempo stesso soddisfatto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......今こそ、この男は俺たちを都合よく利用しようとしていることに気付く￥
