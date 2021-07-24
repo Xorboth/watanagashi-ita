@@ -1,3 +1,6 @@
+1.0.2 [XX-XX-2021]:
+ - Aggiornata la traduzione, correggendo vari errori segnalati
+
 1.0.1 [26-04-2021]:
  - Aggiornata la traduzione, correggendo vari errori segnalati
  - Rimossa la texture si_watanagashi.png in quanto si è verificato che non viene usata dal gioco

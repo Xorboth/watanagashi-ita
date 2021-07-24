@@ -1,5 +1,5 @@
 [HIGURASHI CAP. 2 WATANAGASHI - TRADUZIONE ITALIANA]
-[VERSIONE 1.0.1]
+[VERSIONE 1.0.2]
 
 Il team di CTH Translations è lieto di fornirvi la traduzione italiana di Higurashi Capitolo 2 - Watanagashi!
 La traduzione si basa sull'incredibile lavoro di 07th-Mod che permette di aggiungere molte feature al gioco base, tra le quali il doppiaggio e la grafica migliorata.
@@ -12,6 +12,11 @@ https://discord.gg/nNHQxZ7
 
 Per informazioni più tecniche sul progetto puoi visitare la pagina GitHub del nostro repository:
 https://github.com/Xorboth/watanagashi-ita
+
+
+[PROBLEMI NOTI]
+
+- I menù di configurazione aggiunti da 07th-Mod (come la scelta dell'OST tra originale e aggiornata) non sono attualmente traducibili in quanto il testo è hardcoded all'interno della DLL usata dalla mod
 
 
 [CREDITI]
