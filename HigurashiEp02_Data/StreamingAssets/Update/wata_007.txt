@@ -3326,7 +3326,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "これらの事件はどういうことになるのかしらね。」",
-		   NULL, "come dovremmo interpretare questi incidenti?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " come dovremmo interpretare questi incidenti?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3461,7 +3461,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei35520", 256, TRUE);
 	OutputLine(NULL, "「……お、おいおい…、",
-		   NULL, "\"......e-ehi, aspetta...", Line_WaitForInput);
+		   NULL, "\"...... e-ehi, aspetta...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei35530", 256, TRUE);
 	OutputLine(NULL, "そんなわけ、あるのかよ…。」",
 		   NULL, " non può... essere...\"", Line_Normal);
@@ -3681,7 +3681,7 @@ void main()
 	OutputLine(NULL, "　１人が怪死し、１人が失踪する。",
 		   NULL, "Uno muore in modo misterioso, un altro sparisce per sempre.", Line_WaitForInput);
 	OutputLine(NULL, "……その奇妙な手品。",
-		   NULL, "...... che strano gioco di prestigio.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...... che strano gioco di prestigio.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -3761,7 +3761,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…くすくすくす。」",
-		   NULL, "  ... eheheh.\"", Line_Normal);
+		   NULL, " ... eheheh.\"", Line_Normal);
 	ClearMessage();
 
 	StopSE( 3 );
@@ -3842,7 +3842,7 @@ void main()
 		   NULL, "\"A-aspetta un momento.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei35620", 256, TRUE);
 	OutputLine(NULL, "…ってことは何ですか、事件の度に消えるという１人は…生贄に捧げられているって言うんですか？！」",
-		   NULL, " ... cosa significa? L' altra persona che sparisce durante gli incidenti... state dicendo che viene offerta come sacrificio?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... cosa significa? L'altra persona che sparisce durante gli incidenti... state dicendo che viene offerta come sacrificio?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3875,7 +3875,7 @@ void main()
 		   NULL, "\"... uhm...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800097", 256, TRUE);
 	OutputLine(NULL, "本当に生贄にされてるかどうかは別にして。",
-		   NULL, " Beh, che vengano sacrificati o meno è un altro paio di maniche.", Line_WaitForInput);
+		   NULL, " beh, che vengano sacrificati o meno è un altro paio di maniche.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800098", 256, TRUE);
 	OutputLine(NULL, "過去の事件では必ず、１人が死ぬ他に１人が消えてるんだよ。",
 		   NULL, " Ma, ogni notte dei recenti Watanagashi, una persona muore e un'altra sparisce.", GetGlobalFlag(GLinemodeSp));
@@ -3962,7 +3962,7 @@ void main()
 //　...これは気の毒な事故による行方不明なのであって、やはり生贄とは違うのでは......＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…これは気の毒な事故による行方不明なのであって、やはり生贄とは違うのでは……。",
-		   NULL, "...  si tratta solo di incidenti sfortunati, per cui non vedo ancora la connessione con i sacrifici...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... si tratta solo di incidenti sfortunati, per cui non vedo ancora la connessione con i sacrifici...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -3986,7 +3986,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/500600514", 256, TRUE);
 	OutputLine(NULL, "「死んでオヤシロさまのお怒りを鎮めに参ります」ってなカンジのが、神主さんが亡くなった晩に自宅に残されてたそうですから。」",
-		   NULL, "La trovarono nella loro casa la notte in cui morì il prete. C'era scritto qualcosa riguardo il voler placare l'ira di Oyashiro-sama con la morte\".", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La trovarono nella loro casa la notte in cui morì il prete. C'era scritto qualcosa riguardo il voler placare l'ira di Oyashiro-sama con la morte.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -4113,7 +4113,7 @@ void main()
 		   NULL, "\"Vediamo... questo significa che...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei35670", 256, TRUE);
 	OutputLine(NULL, "１人目が死ぬのはオヤシロさまの祟りで、２人目が失踪するのは、村人が生贄に捧げてるからだ、って言うんですか…？！」",
-		   NULL, " La prima persona muore per la maledizione di Oyashiro-sama, mentre la scomparsa dell'altra è opera di un abitante del villaggio? Giusto...?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " la prima persona muore per la maledizione di Oyashiro-sama, mentre la scomparsa dell'altra è opera di un abitante del villaggio? Giusto...?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4503,7 +4503,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800111", 256, TRUE);
 	OutputLine(NULL, "「鷹野さんはね、純粋そうな子を見るとからかいたくなる悪ーいクセがあるんだよ。",
-		   NULL, "\"Quando Takano-san vede un ragazzo innocente come te, non riesce a fare a meno di prenderlo in giro. È una pessima abitudine.", Line_WaitForInput);
+		   NULL, "\"Quando Takano-san vede un ragazzo innocente come te, non riesce a fare a meno di prenderlo in giro. È una sua pessima abitudine.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800112", 256, TRUE);
 	OutputLine(NULL, "圭一くんが真剣に聞いてくれるもんだから、ついつい調子に乗っちゃったみたいなんだ。」",
 		   NULL, " Keiichi-kun, hai ascoltato tutto così seriamente che ti sei lasciato trasportare.\"", Line_Normal);
@@ -4562,7 +4562,7 @@ void main()
 	OutputLine(NULL, "　そう言いあいながらじゃれ合う、鷹野さんと富竹さん…。",
 		   NULL, "Takano-san e Tomitake-san hanno ripreso a scherzare tra loro...", Line_WaitForInput);
 	OutputLine(NULL, "すでにさっきまでの緊迫した雰囲気は霧散していた。",
-		   NULL, " L'aria tesa che c'era intorno a noi si sta mano a mano dissipando.", Line_Normal);
+		   NULL, " l'aria tesa che c'era intorno a noi si sta mano a mano dissipando.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 1000 );
@@ -4712,7 +4712,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps3/s19/09/500900078", 256, TRUE);
 	OutputLine(NULL, "「なら、また今度も聞いてくれる？",
-		   NULL, "\"Allora ti dirò qualcosa di più, prima o poi, d'accordo? ", Line_WaitForInput);
+		   NULL, "\"Allora ti dirò qualcosa di più, prima o poi, d'accordo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps3/s19/09/500900079", 256, TRUE);
 	OutputLine(NULL, "　雛見沢の昔話とかおとぎ話にも興味深いものがたくさんあるの。",
 		   NULL, " Ci sono tante favole e leggende affascinanti che riguardano Hinamizawa.", Line_WaitForInput);
@@ -4731,7 +4731,7 @@ void main()
 	OutputLine(NULL, "　嬉しいような困るような…。",
 		   NULL, "Sono a metà tra l'onorato e il preoccupato...", Line_WaitForInput);
 	OutputLine(NULL, "思わず苦笑いして頭を掻いてしまう。",
-		   NULL, " Le sorrido e mi gratto la testa.", Line_Normal);
+		   NULL, " le sorrido e mi gratto la testa.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacterWithFiltering(3, 8, "sprite/tomi1_komaru_", "1", "left", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );

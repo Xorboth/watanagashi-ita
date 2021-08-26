@@ -216,7 +216,7 @@ void main()
 	OutputLine(NULL, "　下ネタの好きな下品オヤジというイメージのある人だが、",
 		   NULL, "Dà solo l'impressione di un vecchiardo con un debole per le battute sconce.", Line_WaitForInput);
 	OutputLine(NULL, "先輩たちが言うには、若い頃は相当の武闘派で、かなりの武勇伝を持つとか持たないとか…。",
-		   NULL, " I miei senpai, tuttavia, dicono sempre che è stato un grande agente ai suoi tempi, e che esiste una sorta di leggenda eroica montata intorno a lui..", GetGlobalFlag(GLinemodeSp));
+		   NULL, " I miei senpai, tuttavia, dicono sempre che è stato un grande agente ai suoi tempi, e che esiste una sorta di leggenda eroica montata intorno a lui.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　...とにかく＠一緒に入ってきた課長よりも貫禄も存在感も遥かに上だということは確かだ￥

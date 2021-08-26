@@ -307,7 +307,7 @@ void dialog017()
 		   NULL, "\"... ma c'è dell'altro...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 9, "ps2/09/130900153", 540, TRUE);
 	OutputLine(NULL, "どういうわけか、なかなか死なないらしいのよ。",
-		   NULL, " Pare che i condannati non morissero facilmente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " pare che i condannati non morissero facilmente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -416,7 +416,7 @@ void dialog017()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "そんな恐ろしい刑もあったんじゃないかって充分に考えられない？",
-		   NULL, " Non è difficile immaginare che qui facessero lo stesso, vero?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " non è difficile immaginare che qui facessero lo stesso, vero?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f6d9a8>鷹野</color>", NULL, "<color=#f6d9a8>Takano</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 9, "ps2/09/130900163", 540, TRUE);
 	OutputLine(NULL, "　でも処刑者には意識があるの。",

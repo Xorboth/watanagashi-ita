@@ -573,7 +573,7 @@ void main()
 //　俺とレナは目にチカチカの星を浮かべながら、よだれと鼻血を垂らし放題だ￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺とレナは目にチカチカの星を浮かべながら、よだれと鼻血を垂らし放題だ。",
-		   NULL, "Gli occhi miei e di Rena brillano mentre sbaviamo, con anche un rivolo di sangue al naso.", Line_Normal);
+		   NULL, "I miei occhi e quelli di Rena brillano mentre sbaviamo, con anche un rivolo di sangue al naso.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("black", "left", 0, 0, 300 );
@@ -909,7 +909,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s02/04/130400011", 256, TRUE);
 	OutputLine(NULL, "「……えーっと……。",
-		   NULL, "\"......uhm......", Line_WaitForInput);
+		   NULL, "\"...... uhm......", Line_WaitForInput);
 
 	DisableWindow();
 	ModDrawCharacter(1, 4, "sprite/sa2a_akireru_a1_", "0", -240, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 0, 200, TRUE );
@@ -917,7 +917,7 @@ void main()
 //............む～......。＠
 	ModPlayVoiceLS(4, 4, "ps3/s02/04/130400012", 256, TRUE);
 	OutputLine(NULL, "…………む〜……。」",
-		   NULL, " .........uhm......\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ......... uhm......\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -981,7 +981,7 @@ void main()
 //　まさか夏祭り限定出没の「タコの入ってない」たこ焼き屋では？！？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まさか夏祭り限定出没の「タコの入ってない」たこ焼き屋では？！？！",
-		   NULL, "Che sia uno di quelli fraudolenti che si trovano spesso nei festival estivi??!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Che sia uno di quelli fraudolenti che si trovano spesso nei festival estivi?!?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1251,7 +1251,7 @@ void main()
 		   NULL, " Quell'uomo ci sta guardando.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200039", 256, TRUE);
 	OutputLine(NULL, "…何でだろ？　何でだろ？　はぅ〜〜！！！」",
-		   NULL, "... perché? perchè? Hau~~!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... perché? perchè? Hau~~!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1392,7 +1392,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s02/04/130400016_1", 256, TRUE);
 	OutputLine(NULL, "「でも圭一さん、そんなにたこ焼きが大好きなら、どうしてタコなしたこ焼きなんか作りますの？！",
-		   NULL, "\"Keiichi-san, se davvero ama i takoyaki così tanto, perché li ha fatti senza polpo?!", Line_WaitForInput);
+		   NULL, "\"Keiichi-san, se ama davvero i takoyaki così tanto, perché li ha fatti senza polpo?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s02/04/130400017", 256, TRUE);
 	OutputLine(NULL, "　たこ焼きに対する裏切りではございませんのー？！」",
 		   NULL, " Non credi che stia tradendo i veri takoyaki?!\"", Line_Normal);
@@ -1446,14 +1446,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100043", 256, TRUE);
 	OutputLine(NULL, "……それ以外のたこ焼きは…",
-		   NULL, " ... per quanto riguarda gli altri, invece...", Line_Continue);
+		   NULL, "... per quanto riguarda gli altri, invece...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "「８個入ってなきゃたこ焼きじゃない」という一般人の先入観への、最大限の妥協なんだ。」",
-		   NULL, " È stato il compromesso migliore che potesse fare per andare contro al pregiudizio più comune: 'Se una porzione non è composta da otto palline, non è vero takoyaki'.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " è stato il compromesso migliore che potesse fare per andare contro al pregiudizio più comune: 'Se una porzione non è composta da otto palline, non è un vero takoyaki'.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1465,7 +1465,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200041", 256, TRUE);
 	OutputLine(NULL, "「？？？　圭一くんの言う意味がわからないよ？",
-		   NULL, "\"??? Keiichi-kun, non capisco cosa vuoi dire.", Line_WaitForInput);
+		   NULL, "\"Uh? Keiichi-kun, non capisco cosa vuoi dire.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200042", 256, TRUE);
 	OutputLine(NULL, "　どうして本物は１つで、他は偽物なのかな？　かな？」",
 		   NULL, " Perché uno solo è vero e gli altri sono finti? Perché?\"", Line_Normal);
@@ -1558,7 +1558,7 @@ void main()
 		   NULL, " È un uomo che ama i takoyaki!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100055", 256, TRUE);
 	OutputLine(NULL, "　だからウソをつけなかった！！",
-		   NULL, " Ed è per questo che non mentirà mai!!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ed è per questo che non mentirebbe mai!!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100056", 256, TRUE);
 	OutputLine(NULL, "　でも…どうしても一点だけ強いられる妥協点があったんだ。」",
@@ -1750,7 +1750,7 @@ void main()
 		   NULL, "\"Perfetto! Avete visto come funziona, giusto?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100071", 256, TRUE);
 	OutputLine(NULL, "　今度はレナが行け！」",
-		   NULL, " Tocca a te, Rena!\".", Line_Normal);
+		   NULL, " Tocca a te, Rena!.\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModSetLayerFilter(1, 256, "none");
@@ -1835,7 +1835,7 @@ void main()
 //焼きそばに揚げ玉入りでかりかりなのがとっても美味しいでございますわねぇ！＠　大きなベーコンがまるごと敷いてあって、かじるとほら、びろ～んって出てきて...はふはふはふ！！￥
 	ModPlayVoiceLS(4, 4, "ps3/s02/04/130400021", 256, TRUE);
 	OutputLine(NULL, "焼きそばに揚げ玉入りでかりかりなのがとっても美味しいでございますわねぇ！！",
-		   NULL, " La consistenza della pastella di tempura, che scricchiola tra i noodle della yakisoba, è assolutamente divina!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " la consistenza della pastella di tempura, che scricchiola tra i noodle della yakisoba, è assolutamente divina!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s02/04/130400022", 256, TRUE);
 	OutputLine(NULL, "　大きなベーコンがまるごと敷いてあって、かじるとほら、びろ〜んって出てきて…はふはふはふ！！」",
@@ -2026,7 +2026,7 @@ void main()
 //　この小さいのなんか、そのままボリボリと生で行けちゃうよね～！！！￥
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600003", 256, TRUE);
 	OutputLine(NULL, "　この小さいのなんか、そのままボリボリと生で行けちゃうよね〜！！！」",
-		   NULL, " I piccoli come questi—sono da sgranocchiare tutti interi~!!!\"", Line_Normal);
+		   NULL, " Quelli piccoli come questi—sono da sgranocchiare tutti interi~!!!\"", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2164,7 +2164,7 @@ void main()
 		   NULL, "\"Ah... aaahhhhaaaaaaaahhh!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300047", 256, TRUE);
 	OutputLine(NULL, "　アンタどこから湧いてきたの詩音んんーー！！！！」",
-		   NULL, " Da quant'è che stai guardando, Shioonnnn?!?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Da quanto tempo ci stai guardando, Shioonnnn?!?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2297,7 +2297,7 @@ void main()
 
 //ぶーーーーーーーーー￥
 	OutputLine(NULL, "ぶーーーーーーーーー。",
-		   NULL, " Spluuuuush.", Line_Normal);
+		   NULL, " spluuuuush.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	FadeBustshot( 3, FALSE, 0, 0, 0, 0, 200, TRUE );
@@ -2365,7 +2365,7 @@ void main()
 	OutputLine(NULL, "　豊満な感覚がいっぱいに伝わる左肩と、未成熟な青い果実のすっぱさを感じさせられる右肩と……。",
 		   NULL, "Una sensazione abbondante e morbida sulla spalla sinistra, e una sensazione giovane e acerba sulla destra......", Line_WaitForInput);
 	OutputLine(NULL, "は、…はぅ〜〜〜〜！！！！！",
-		   NULL, " Ha... hau~~~~!!!!!", Line_Normal);
+		   NULL, " ha... hau~~~~!!!!!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 ////setwindow 31,16,22,16,26,26,0,2,20,1,1,#ffffff,0,0,639,479
@@ -2625,7 +2625,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200058", 256, TRUE);
 	OutputLine(NULL, "「あ、…いよいよなんだね。」",
-		   NULL, "\"Ah.. sì, ci siamo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Ah... sì, ci siamo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3528,7 +3528,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "確かにそう見えた。",
-		   NULL, " E capisco subito.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " e capisco subito.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -3783,7 +3783,7 @@ void main()
 		   NULL, "\"Santo cielo...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s02/08/130800011", 256, TRUE);
 	OutputLine(NULL, "でも鷹野さん、こういうのはこれっきりにしてくれよ？",
-		   NULL, " Prima e ultima volta, chiaro, Takano-san?", Line_WaitForInput);
+		   NULL, " prima e ultima volta, chiaro, Takano-san?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s02/08/130800012", 256, TRUE);
 	OutputLine(NULL, "　こういうところに黙って入り込むのはやっぱり気が引けるよ。」",
 		   NULL, " Non mi va di intrufolarmi in posti del genere.\"", GetGlobalFlag(GLinemodeSp));
@@ -4574,7 +4574,7 @@ void main()
 	OutputLine(NULL, "　…あまり祭事的な、芸術的な形のものはなく、どちらかと言えば…鍛冶屋や大工さんなんかの作業場のような、",
 		   NULL, "... non sono strumenti tradizionali o da festival, anzi... sembrano essere arnesi da fabbro o da falegname...", Line_WaitForInput);
 	OutputLine(NULL, "そんな感じの木製や金属性の大道具がごろごろと並べられていた。",
-		   NULL, "Ce ne sono molti di grandi dimensioni, sia in legno che in metallo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ce ne sono molti di grandi dimensioni, sia in legno che in metallo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -5664,7 +5664,7 @@ void main()
 
 //　鷹野さんの説明はあまりに簡素だったが...それは想像すると...とてつもなく恐ろしいものだった＠
 	OutputLine(NULL, "　鷹野さんの説明はあまりに簡素だったが…それは想像すると…とてつもなく恐ろしいものだった。",
-		   NULL, " La spiegazione di Takano è chiara e semplice... ma basta immaginare quella scena... per capire quanto sia terrificante.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "La spiegazione di Takano è chiara e semplice... ma basta immaginare quella scena... per capire quanto sia terrificante.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -7476,7 +7476,7 @@ void main()
 		   NULL, "\"Non fa per me.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s02/08/130800027", 256, TRUE);
 	OutputLine(NULL, "…あははは…、",
-		   NULL, " ...　ahahahah...", Line_Continue);
+		   NULL, " ... ahahahah...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
@@ -8609,7 +8609,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100186", 256, TRUE);
 	OutputLine(NULL, "「…じゃあ聞くぞ。",
-		   NULL, "\"...  allora.", Line_WaitForInput);
+		   NULL, "\"... allora.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100187", 256, TRUE);
 	OutputLine(NULL, "…音がしたって、何のことだ？」",
 		   NULL, " ... hai detto che si sentiva un rumore. Di che rumore stai parlando?\"", Line_Normal);
@@ -9198,7 +9198,7 @@ void main()
 		   NULL, "\"S-scusate...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100200", 256, TRUE);
 	OutputLine(NULL, "初めてのお祭りだからさ…。",
-		   NULL, " È il mio primo Watanagashi, e...", Line_WaitForInput);
+		   NULL, " è il mio primo Watanagashi, e...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100201", 256, TRUE);
 	OutputLine(NULL, "よくルールがわからなくて…。」",
 		   NULL, " non ho ben capito le regole e tutto il resto...\"", GetGlobalFlag(GLinemodeSp));

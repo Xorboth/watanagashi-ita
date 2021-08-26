@@ -2893,8 +2893,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "鼻がぶつかるくらいの…目の前に…。",
-	//	   NULL, " poi fa oscillare qualcosa... davanti al mio naso...", Line_Normal);
-		   NULL, " and got right up... just behind me...", Line_Normal);
+		   NULL, " poi mi si avvicina... fino a sfiorarmi il naso...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	PlayBGM( 1, "msys11", 56, 0 );
