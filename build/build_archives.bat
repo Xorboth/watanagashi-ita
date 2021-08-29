@@ -21,7 +21,7 @@ set assetsLinuxMacOs=LinuxMac-Steam-MG-GOG-5.2.2f1.languagespecificassets
 
 set output07th=watanagashi_ita_07th_mod_installer.7z
 set outputWindows=watanagashi_ita_windows_%version%.7z
-set assetsLinuxMacOs=watanagashi_ita_macos_linux_%version%.7z
+set outputLinuxMacOs=watanagashi_ita_macos_linux_%version%.7z
 
 
 ::
@@ -40,7 +40,7 @@ md .\%outputFolder%
 
 del .\%outputFolder%\%output07th%
 del .\%outputFolder%\%outputWindows%
-del .\%outputFolder%\%assetsLinuxMacOs%
+del .\%outputFolder%\%outputLinuxMacOs%
 
 
 ::
@@ -86,7 +86,7 @@ del .\%tempFolder%\%higurashiData%\%assetsLinuxMacOs%
 
 copy ..\%higurashiData%\%assetsLinuxMacOs% .\%tempFolder%\%higurashiData%\%assets%
 
-7za a .\%outputFolder%\%assetsLinuxMacOs% .\%tempFolder%\* -mx9
+7za a .\%outputFolder%\%outputLinuxMacOs% .\%tempFolder%\* -mx9
 
 
 ::
