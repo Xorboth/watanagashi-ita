@@ -17,11 +17,11 @@ set readmeManual=leggimi_manuale.txt
 
 set assets=sharedassets0.assets
 set assetsWindows=sharedassets0.assets
-set assetsLinuxMacOs=LinuxMac-Steam-MG-GOG-5.2.2f1.languagespecificassets
+set assetsLinuxMacOs=LinuxMac-Steam-GOG-MG-5.2.2f1.languagespecificassets
 
 set output07th=watanagashi_ita_07th_mod_installer.7z
 set outputWindows=watanagashi_ita_windows_%version%.7z
-set outputLinuxMacOs=watanagashi_ita_macos_linux_%version%.7z
+set outputLinuxMacOs=watanagashi_ita_linux_macos_%version%.7z
 
 
 ::
