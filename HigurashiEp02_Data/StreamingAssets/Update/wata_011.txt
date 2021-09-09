@@ -446,7 +446,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //保護者「おはようございます。」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>保護者</color>", NULL, "<color=#f5e6d3>Tutore</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>保護者</color>", NULL, "<color=#f5e6d3>Genitore</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/spar0300001", 256, TRUE);
 	OutputLine(NULL, "「おはようございます。」",
 		   NULL, "\"Buongiorno.\"", GetGlobalFlag(GLinemodeSp));
@@ -2361,7 +2361,7 @@ void main()
 	OutputLine(NULL, "　…そう言えば、",
 		   NULL, "... ora che ci penso...", Line_WaitForInput);
 	OutputLine(NULL, "…昨日、詩音が、誰かに監視されている気がする、なんて物騒なことを言っていた気がする。",
-		   NULL, "... ieri, Shion ha detto una cosa—qualcuno la sta sorvegliando.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... ieri, Shion ha detto una cosa—qualcuno la sta sorvegliando.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　.........じゃあ、...俺も誰かに監視されている...＠
@@ -2408,7 +2408,7 @@ void main()
 //　......ここにカギがあるような気がする＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……ここにカギがあるような気がする。",
-		   NULL, "...... ci dev'essere una soluzione a questa domanda.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...... ci dev'essere una risposta a questa domanda.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　...ひょっとして......、!w1000何か大前提が間違っているのだろうか...￥
@@ -2435,7 +2435,7 @@ void main()
 	SetSpeedOfMessage( FALSE, 0, );
 
 	OutputLine(NULL, "いくら考えても答えは出ない。",
-		   NULL, " Penso e ripenso, ma non riesco a trovare risposta.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " penso e ripenso, ma non riesco a trovare risposta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　ただひとつ、わかることは＠...俺はこの事件の当事者で＠...全てが解決するまで見守る義務があるということだけだ￥

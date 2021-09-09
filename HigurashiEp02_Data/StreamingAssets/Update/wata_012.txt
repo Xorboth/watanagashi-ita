@@ -801,7 +801,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…死なずに消えずに済んだんだ……。",
-		   NULL, " ... non avrebbero dovuto morire o sparire...", Line_Normal);
+		   NULL, " ... non sarebbero dovute morire o sparire...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("white", 10 );
@@ -1184,7 +1184,7 @@ void main()
 	OutputLine(NULL, "　思い出せば、…あのエンジェルモートという店は、園崎一族の経営する店だったじゃないか。",
 		   NULL, "Ora che ci penso... sbaglio o l'Angel Mort è gestito dalla famiglia Sonozaki?", Line_WaitForInput);
 	OutputLine(NULL, "……そこを待ち伏せするなんて…きっと造作もないこと……。",
-		   NULL, "... tenderle un'imboscata lì... sarebbe stato un gioco da ragazzi...", Line_Normal);
+		   NULL, " ... tenderle un'imboscata lì... sarebbe stato un gioco da ragazzi...", Line_Normal);
 	ClearMessage();
 
 //「俺、.........魅音のところへ行く＠......謝ってくるよ。＠
@@ -1671,7 +1671,7 @@ void main()
 		   NULL, "\"Nahahahah...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700351", 256, TRUE);
 	OutputLine(NULL, "答えに窮したら、実は居眠りしてて起こさないように言われてるとか誤魔化しといて下さい。」",
-		   NULL, " Se devi rispondere per forza, digli che ti è stato ordinato di non risvegliarmi dal mio pisolino mattutino.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " se devi rispondere per forza, digli che ti è stato ordinato di non risvegliarmi dal mio pisolino mattutino.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1774,7 +1774,7 @@ void main()
 		   NULL, "\"La polizia non può mettere piede in casa Sonozaki.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200442", 256, TRUE);
 	OutputLine(NULL, "……圭一くんに踏み込ませようとしてたんじゃないですか？」",
-		   NULL, ".. e quindi, pensavate di mandare Keiichi-kun al posto vostro?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... e quindi, pensavate di mandare Keiichi-kun al posto vostro?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

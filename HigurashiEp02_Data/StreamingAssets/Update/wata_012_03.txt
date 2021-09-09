@@ -1038,7 +1038,7 @@ void main()
 //　..................祭具殿にあったものは、どれも錆びて埃を被っていたので、どこか現実的でなかったが＠......ここにあるものは違う￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　………………祭具殿にあったものは、どれも錆びて埃を被っていたので、どこか現実的でなかったが、",
-		   NULL, "............ tutti questi arnesi erano arrugginiti e coperti dalla polvere, rendendo il tutto surreale...", Line_WaitForInput);
+		   NULL, "............ tutti quegli arnesi erano arrugginiti e coperti dalla polvere, rendendo il tutto surreale...", Line_WaitForInput);
 	OutputLine(NULL, "……ここにあるものは違う。",
 		   NULL, " ma qui c'è qualcosa di diverso.", Line_Normal);
 	ClearMessage();
@@ -2299,7 +2299,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300603", 256, TRUE);
 	OutputLine(NULL, "「ほらほらその調子。",
-		   NULL, "Sì, sì, molto bene.", Line_WaitForInput);
+		   NULL, "\"Sì, sì, molto bene.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300604", 256, TRUE);
 	OutputLine(NULL, "…少しは許してあげようかなって気になってきたよ〜？」",
 		   NULL, " ... mi sta un po' venendo voglia di perdonarti, sai~?\"", Line_Normal);
@@ -2912,14 +2912,14 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "戦え、",
-		   NULL, " Combatti...", Line_Continue);
+		   NULL, " combatti...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…戦えぇえぇえ！！！」",
-		   NULL, " Combatti!!!\"", Line_Normal);
+		   NULL, " combatti!!!\"", Line_Normal);
 	ClearMessage();
 
 //　魅音は笑いをぐっとこらえながら、五寸釘を、俺の左手の小指の先端に当てた＠
@@ -3248,7 +3248,7 @@ void main()
 //...........................これで充分＠　冥土の土産は...。＠
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300668", 256, TRUE);
 	OutputLine(NULL, "………………………これで充分？",
-		   NULL, "............ è sufficiente?", Line_WaitForInput);
+		   NULL, " ............ è sufficiente?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300669", 256, TRUE);
 	OutputLine(NULL, "　冥土の土産は…。」",
 		   NULL, " Per farti morire in pace...?\"", GetGlobalFlag(GLinemodeSp));
@@ -3813,7 +3813,7 @@ void main()
 //　......ドォォ...ン...＠..................ドォォン...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……ドォォ…ン…。",
-		   NULL, "... Sbaa... am...", Line_WaitForInput);
+		   NULL, "... sbaa... am...", Line_WaitForInput);
 	OutputLine(NULL, "………………ドォォン…。",
 		   NULL, " ............ sbaaam...", Line_Normal);
 	ClearMessage();

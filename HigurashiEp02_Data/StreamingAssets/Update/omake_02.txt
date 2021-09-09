@@ -309,7 +309,7 @@ void main()
 		   NULL, " Uhm?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200184", 256, TRUE);
 	OutputLine(NULL, "　鷹野さんと詩音ちゃんはまだですか？」",
-		   NULL, " Dove sono Takano-san e Shion-chan?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Dove sono Takano-san e Shii-chan?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -576,7 +576,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s20/06/440600074", 256, TRUE);
 	OutputLine(NULL, "「お姉、音頭は誰が取るの？」",
-		   NULL, "\"Mion, dai tu il via?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Sorella, dai tu il via?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -800,7 +800,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300315", 256, TRUE);
 	OutputLine(NULL, "「あ、鷹野さんと意見が合いましたね。",
-		   NULL, "\"Oh, quindi la penso come te, Miyo-san.", Line_WaitForInput);
+		   NULL, "\"Oh, quindi la penso come te, Takano-san.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s20/03/440300316", 256, TRUE);
 	OutputLine(NULL, "私も同じ意見。",
 		   NULL, " Sono d'accordo.", Line_WaitForInput);
@@ -1048,7 +1048,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400189", 256, TRUE);
 	OutputLine(NULL, "　ほらほら！！",
-		   NULL, " Lo sapevo!!", Line_WaitForInput);
+		   NULL, "Lo sapevo!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400190", 256, TRUE);
 	OutputLine(NULL, "　やっぱり前回の私の予想通り、魅音さんは悪い人じゃなかったのですわ〜！！」",
 		   NULL, " Proprio come dicevo l'altra volta, Mion-san non è una cattiva persona~!\"", Line_Normal);
@@ -1547,7 +1547,7 @@ void main()
 		   NULL, " Un incidente causato dalle sorelle per recidere le loro catene dalle Tre Famiglie—per cancellare il passato...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s20/06/440600097", 256, TRUE);
 	OutputLine(NULL, "それが私の推理です。」",
-		   NULL, " Questa è la mia teoria.\"", Line_Normal);
+		   NULL, " questa è la mia teoria.\"", Line_Normal);
 	ClearMessage();
 
 //＜詩音
@@ -1561,7 +1561,7 @@ void main()
 		   NULL, "\"Cancellare il passato...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s20/08/440800117", 256, TRUE);
 	OutputLine(NULL, "暗躍の歴史に終止符を打つため、御三家の罪を最後の当主の魅音が全て被り、姉妹そろって退場したってことだね。」",
-		   NULL, "ovvero dare la colpa dei crimini delle Tre Famiglie al loro ultimo leader, Mion, per porre fine a una storia oscura—e poi farle sparire entrambe.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ovvero dare la colpa dei crimini delle Tre Famiglie al loro ultimo leader, Mion, per porre fine a una storia oscura—e poi farle sparire entrambe.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1760,7 +1760,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "ほら！",
-		   NULL, " si!", Line_WaitForInput);
+		   NULL, " sì!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps3/s20/08/440800119", 256, TRUE);
 	OutputLine(NULL, "　雛見沢はよそ者を嫌うんだろ？",
 		   NULL, " Hinamizawa odia gli stranieri, giusto?", Line_WaitForInput);

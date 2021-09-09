@@ -71,7 +71,7 @@ void main()
 //　後を継げなかったお魎の実の娘で、魅音の実母である園崎茜（あかね）も＠勘当前は「蒐（あかね）」という名であったことが知られている＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　後を継げなかったお魎の実の娘で、魅音の実母である園崎茜（あかね）も、",
-		   NULL, "Questo vale anche per la figlia di Oryou e la madre di Mion, Akane, che non ha ereditato la famiglia.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Questo vale anche per la figlia di Oryou, madre di Mion, Akane, che non ha ereditato la famiglia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "勘当前は「蒐（あかね）」という名であったことが知られている。",
 		   NULL, "È risaputo che prima del disconoscimento, il nome Akane fosse scritto con 蒐 per poi essere cambiato in seguito in 茜 (che si legge comunque \"Akane\").", GetGlobalFlag(GLinemodeSp));

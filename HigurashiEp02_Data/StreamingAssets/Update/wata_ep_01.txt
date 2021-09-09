@@ -111,7 +111,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　失踪者たちを殺害したと思われる園崎邸内の離れ地下奥、拷問室からは、失踪者４人（園崎お魎・公由喜一郎・古手梨花・北条沙都子）の毛髪、皮膚片、血液などを発見。",
-		   NULL, "Nelle profondità del sotterraneo distaccato del perimetro Sonozaki, che si crede sia stato usato per uccidere coloro che erano scomparsi, sono stati rinvenuti capelli, porzioni di pelle e sangue appartenenti agli altri quattro dispersi (Oryou Sonozaki, Kiichirou Kimiyoshi, Rika Furude e Satoko Houjou).", Line_ContinueAfterTyping);
+		   NULL, "Nelle profondità del sotterraneo distaccato del perimetro Sonozaki, che si crede sia stato usato per uccidere le persone scomparse, sono stati rinvenuti capelli, porzioni di pelle e sangue appartenenti ai dispersi (Oryou Sonozaki, Kiichirou Kimiyoshi, Rika Furude e Satoko Houjou).", Line_ContinueAfterTyping);
 
 
 	FadeOutBGM( 2, 10, TRUE );
@@ -145,7 +145,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
 	OutputLine(NULL, "　監禁されていたクラスメートの証言から、監禁現場となった、園崎邸内の離れ地下にあるものと見て捜索を続けているが、容疑者の逃亡ルート共々、発見には未だ至っていない。",
-		   NULL, "Su sollecito di uno dei compagni rimasti in vita, abbiamo continuato le ricerche nel sotterraneo della famiglia Sonozaki, ovvero dov'erano state imprigionate le vittime, credendo di riuscire a ritrovare i corpi. Purtroppo, ancora non abbiamo identificato la via di fuga della sospettata.", Line_ContinueAfterTyping);
+		   NULL, "Su sollecito di uno dei sopravvissuti, abbiamo continuato le ricerche nel sotterraneo della famiglia Sonozaki, ovvero dov'erano state imprigionate le vittime, credendo di riuscire a ritrovare i corpi. Purtroppo, ancora non è stata identificata la via di fuga della sospettata.", Line_ContinueAfterTyping);
 
 	FadeOutBGM( 2, 10, TRUE );
 	OutputLineAll(NULL, "", Line_Normal);
@@ -734,7 +734,7 @@ void main()
 //　...この雛見沢で過ごしたわずか数週間は、!w800...どれだけの印象を残すのだろう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…この雛見沢で過ごしたわずか数週間は、",
-		   NULL, " hanno lasciato nella mia vita...", Line_ContinueAfterTyping);
+		   NULL, "hanno lasciato nella mia vita...", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 800 );
@@ -979,7 +979,7 @@ void main()
 	SetSpeedOfMessage( TRUE, 0, );
 
 	OutputLine(NULL, "………",
-		   NULL, " ......", Line_ContinueAfterTyping);
+		   NULL, "......", Line_ContinueAfterTyping);
 // !sd
 	SetSpeedOfMessage( FALSE, 0, );
 
@@ -1280,7 +1280,7 @@ void main()
 //　...魅音だ＠　......魅音だ！＠　生きて...いたんだ！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…魅音だ！",
-		   NULL, "--- è Mion!", Line_WaitForInput);
+		   NULL, "... è Mion!", Line_WaitForInput);
 	OutputLine(NULL, "　……魅音だ！！",
 		   NULL, " ... è Mion!!", Line_WaitForInput);
 	OutputLine(NULL, "　生きて…いたんだ！！",
@@ -1819,14 +1819,14 @@ void main()
 //　.................................ぐ、!w1000......ぅ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……………………………ぐ、",
-		   NULL, "............ ugh..", Line_ContinueAfterTyping);
+		   NULL, "............ ugh...", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……ぅ、",
-		   NULL, " guh", GetGlobalFlag(GLinemodeSp));
+		   NULL, " guh...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1963,7 +1963,7 @@ void main()
 	SetSpeedOfMessage( FALSE, 0, );
 
 	OutputLine(NULL, "…！",
-		   NULL, " ...!", Line_WaitForInput);
+		   NULL, "...!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300738", 256, TRUE);
 	OutputLine(NULL, "　間に合った…。",
 		   NULL, " Ce l'ho fatta...", Line_WaitForInput);
@@ -1979,7 +1979,7 @@ void main()
 	OutputLine(NULL, "くけけけけけけけけけけけけけけけけけけ",
 		   NULL, " AHAHAHAHAHAHAHAHAHAHAHAHAHAHA", Line_Continue);
 	OutputLine(NULL, "！！！」",
-		   NULL, " !!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "!!!\"", GetGlobalFlag(GLinemodeSp));
 //!sd
 	SetSpeedOfMessage( FALSE, 0, );
 
@@ -2178,7 +2178,7 @@ void main()
 //　......自らの作る血溜まりに......、!w1000魅音のために買っておいた人形が......!w800赤く、!w000...赤く、!w600......染められて...............＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……自らの作る血溜まりに……、",
-		   NULL, "...in una pozza di sangue sgorgata dal mio corpo...", Line_ContinueAfterTyping);
+		   NULL, "... in una pozza di sangue sgorgata dal mio corpo...", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
@@ -2267,7 +2267,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……",
-		   NULL, " ...", Line_ContinueAfterTyping);
+		   NULL, "...", Line_ContinueAfterTyping);
 //!s300
 	SetSpeedOfMessage( TRUE, 100, );
 
@@ -2282,7 +2282,7 @@ void main()
 	SetSpeedOfMessage( TRUE, 100, );
 
 	OutputLine(NULL, "……",
-		   NULL, " ...", Line_ContinueAfterTyping);
+		   NULL, "...", Line_ContinueAfterTyping);
 //!s200
 	SetSpeedOfMessage( TRUE, 80, );
 
@@ -2375,7 +2375,7 @@ void main()
 	if(GetGlobalFlag(GLanguage) == 0)
 	{
 	OutputLine(NULL, "う",
-		   NULL, " ", Line_ContinueAfterTyping);
+		   NULL, " .", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 300 );

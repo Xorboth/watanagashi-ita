@@ -1302,7 +1302,7 @@ void main()
 //　レナは自分が俺を怖がらせていることに気付いたらしく、１～２度大きく深呼吸をしてから、...諭すように言った＠...だが決して表情を和やかにすることはなかった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナは自分が俺を怖がらせていることに気付いたらしく、１〜２度大きく深呼吸をしてから、…諭すように言った。",
-		   NULL, "Rena pare accorgersi che mi sta spavendando e fa un paio di respiri profondi... poi prosegue con tono di rimprovero, ma...", Line_WaitForInput);
+		   NULL, "Rena pare accorgersi che mi sta spaventando e fa un paio di respiri profondi... poi prosegue con tono di rimprovero, ma...", Line_WaitForInput);
 	OutputLine(NULL, "…だが決して表情を和やかにすることはなかった。",
 		   NULL, " la sua espressione non si ammorbidisce per niente.", Line_Normal);
 	ClearMessage();
@@ -1441,7 +1441,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…それを恥じなければならない、今夜を恐れた。",
-		   NULL, " e l'imbarazzo mi rende ancor più terrorizzato dalla notte.", Line_Normal);
+		   NULL, " il quale mi rende ancor più terrorizzato dalla notte.", Line_Normal);
 	ClearMessage();
 
 //「......ごめん＠......まだ言ってなかった。＠
@@ -1796,7 +1796,7 @@ void main()
 //　......あの魅音は...、確かに俺が普段知っている魅音とは異なって見えた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……あの魅音は…、確かに俺が普段知っている魅音とは異なって見えた。",
-		   NULL, "... quella volta, Mion pareva... una persona diversa.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... quella volta, Mion sembrava... una persona diversa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......あの魅音に限って言えば、............詩音や大石さんの言う魅音像と、ほんの少しだけ重ならなくもない...￥
@@ -1991,7 +1991,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100677", 256, TRUE);
 	OutputLine(NULL, "「……例えば、担いで石段を上がったとか。」",
-		   NULL, " ...... forse in cima alle scale?\"", Line_Normal);
+		   NULL, "...... forse in cima alle scale?\"", Line_Normal);
 	ClearMessage();
 //	DisableWindow();
 //	DrawBustshotWithFiltering( 3, "re_si_na_a1", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
@@ -2098,7 +2098,7 @@ void main()
 	DrawSceneWithMask("background/jys1", "right", 0, 0, 300 );
 
 	OutputLine(NULL, "…境内脇の集会所の方へ行き、その裏手へ回る。",
-		   NULL, "... superiamo la sala riunioni dietro al santuario, e ci giriamo intorno.", Line_Normal);
+		   NULL, " ... superiamo la sala riunioni dietro al santuario, e ci giriamo intorno.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("black", "right", 0, 0, 300 );
@@ -2759,7 +2759,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300183", 256, TRUE);
 	OutputLine(NULL, "あの子に近付けば、それが誰でも末路は同じ。",
-		   NULL, " Chiunque le si avvicini subirà lo stesso destino.", Line_WaitForInput);
+		   NULL, "Chiunque le si avvicini subirà lo stesso destino.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300184", 256, TRUE);
 	OutputLine(NULL, "祟りで死ぬか、",
 		   NULL, " La maledizione lo ucciderà,", Line_Continue);
@@ -2987,56 +2987,56 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "違",
-		   NULL, " nessun", Line_Continue);
+		   NULL, " non", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 5 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "い",
-		   NULL, " dubbio", Line_Continue);
+		   NULL, " ci", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 5 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "な",
-		   NULL, " nessun", Line_Continue);
+		   NULL, " sono", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 5 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "違",
-		   NULL, " dubbio", Line_Continue);
+		   NULL, " dubbi", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 5 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "違",
-		   NULL, " nessun", Line_Continue);
+		   NULL, " non", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 5 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "違",
-		   NULL, " dubbio", Line_Continue);
+		   NULL, " ci", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 5 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "違",
-		   NULL, " nessun", Line_Continue);
+		   NULL, " sono", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 5 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "違",
-		   NULL, " dubbio", Line_Continue);
+		   NULL, " dubbi", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 5 );

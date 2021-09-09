@@ -301,7 +301,7 @@ void main()
 //　...だが、事実だったことを恐れる必要はないんだ＠...それは昔のことなんだから＠そう、昔の￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…だが、事実だったことを恐れる必要はないんだ。",
-		   NULL, "... ma, anche se sono vere, non bisogna avere paura", Line_WaitForInput);
+		   NULL, "... ma, anche se sono vere, non bisogna avere paura.", Line_WaitForInput);
 	OutputLine(NULL, "…それは昔のことなんだから。",
 		   NULL, " ... perché sono successe tanto tempo fa.", Line_WaitForInput);
 	OutputLine(NULL, "そう、昔の。",
@@ -769,7 +769,7 @@ void main()
 //　こういうデンジャラスな状態の時にはシャーペンを逆さにして持つのがコツだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　こういうデンジャラスな状態の時にはシャーペンを逆さにして持つのがコツだ。",
-		   NULL, "Il trucco per superare questa situazione pericolosa è di tenere la matita capovolta.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Il trucco per superare questa situazione pericolosa è quello di tenere la matita capovolta.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　...なぜかって＠
@@ -966,7 +966,7 @@ void main()
 		   NULL, "\"Uhm... Mion?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100229", 256, TRUE);
 	OutputLine(NULL, "…ふぁ〜ぁ。",
-		   NULL, "... yaaawn.", Line_WaitForInput);
+		   NULL, " ... yaaawn.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100230", 256, TRUE);
 	OutputLine(NULL, "授業、さぼるなよな〜。」",
 		   NULL, " Non si saltano le lezioni~\"", Line_Normal);
@@ -1382,7 +1382,7 @@ void main()
 		   NULL, "\"... questo... non me lo hai già chiesto ieri?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100251", 256, TRUE);
 	OutputLine(NULL, "　…俺、会ったかどうかわからない、って答えたと思ったぜ…。」",
-		   NULL, " ...  mi sembrava di averti risposto che non ne ero sicuro...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... mi sembrava di averti risposto che non ne ero sicuro...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2087,7 +2087,7 @@ void main()
 	SetSpeedOfMessage( FALSE, 0, );
 
 	OutputLine(NULL, "はい？",
-		   NULL, " Come?", Line_WaitForInput);
+		   NULL, " come?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700012", 256, TRUE);
 	OutputLine(NULL, "　はい。おりますけど。」",
 		   NULL, " Sì. È qui con me.\"", GetGlobalFlag(GLinemodeSp));
@@ -2697,7 +2697,7 @@ void main()
 	OutputLine(NULL, "　そう言えば、そんなことを言ってたっけ…。",
 		   NULL, "Ah, giusto, prima ha detto qualcosa del genere...", Line_WaitForInput);
 	OutputLine(NULL, "でもどうして？",
-		   NULL, " Ma perché?", Line_WaitForInput);
+		   NULL, " ma perché?", Line_WaitForInput);
 	OutputLine(NULL, "　姉妹で別居なんて珍しい。",
 		   NULL, " È strano vedere due sorelle così giovani che vivono in posti diversi.", Line_Normal);
 	ClearMessage();
@@ -2819,7 +2819,7 @@ void main()
 	OutputLine(NULL, "　ひとりの親族の事業を助けるため、親族全体が様々なバックアップをする…。",
 		   NULL, "L'intera famiglia fornisce supporto a qualsiasi parente voglia avviare un'impresa commerciale...", Line_WaitForInput);
 	OutputLine(NULL, "それは園崎家という大きな会社・生き物のようだった。",
-		   NULL, " Sono come un'enorme azienda vivente.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " sono come un'enorme azienda vivente.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　税法上のトラブルを潜り抜け、豊富な資金力で次々と親類は事業に成功￥
@@ -2860,7 +2860,7 @@ void main()
 	OutputLine(NULL, "　…俺の知ってるほんのわずかの店ですら、園崎の一族が関わっているとは…。",
 		   NULL, "... persino quei pochi negozi che conosco sono legati alla famiglia Sonozaki...", Line_WaitForInput);
 	OutputLine(NULL, "さすがに驚く。",
-		   NULL, " È sorprendente.", Line_Normal);
+		   NULL, " è sorprendente.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(3, 6, "sprite/si1a_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -3224,7 +3224,7 @@ void main()
 	OutputLine(NULL, "　…こんなおっさんに、飲み物をおごってもらう義理なんかないはずなのだが…。",
 		   NULL, "... non credo che debba sentirmi obbligato ad accettare da bere da quest'uomo...", Line_WaitForInput);
 	OutputLine(NULL, "でも…一応、おごられたのでお礼を言っておく。",
-		   NULL, " Ma ormai l'ha fatto, quindi tanto vale ringraziarlo.", Line_Normal);
+		   NULL, " ma ormai l'ha fatto, quindi tanto vale ringraziarlo.", Line_Normal);
 	ClearMessage();
 
 //　大石さんは退屈しのぎなのか、大して縁があるわけでもない俺に、何だかいろいろと下らない話をしてきた＠
@@ -3469,7 +3469,7 @@ void main()
 		   NULL, "\"Maebara-san, abbassa la voce...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700038", 256, TRUE);
 	OutputLine(NULL, "ここ、図書館ですから。」",
-		   NULL, " Siamo in biblioteca.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " siamo in biblioteca.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3488,7 +3488,7 @@ void main()
 		   NULL, "\"... per favore, calmati.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700040", 256, TRUE);
 	OutputLine(NULL, "さっきも申し上げました通り、園崎家は良い意味でも悪い意味でも、この辺り一帯で強い力を持っているんです。",
-		   NULL, " Come ho detto prima, i Sonozaki detengono molto potere nella regione, sia esso per buone o cattive intenzioni.", Line_WaitForInput);
+		   NULL, " Come ho detto prima, i Sonozaki detengono molto potere nella regione, sia per buone o cattive intenzioni.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700041", 256, TRUE);
 	OutputLine(NULL, "ですから、ちょっと何かあるとすぐに疑いがかかってしまう。",
 		   NULL, " Quindi, se succedesse qualcosa, sarebbero i primi indiziati.", GetGlobalFlag(GLinemodeSp));
@@ -3839,7 +3839,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "今さらだが…反省しているつもり……。",
-		   NULL, " Anche se ormai è tardi... sento il dovere di scusarmi...", Line_Normal);
+		   NULL, " anche se ormai è tardi... sento il dovere di scusarmi...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(2, 11, "sprite/oisi1_3_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
@@ -4019,7 +4019,7 @@ void main()
 		   NULL, "\"... s... scusa...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100340", 256, TRUE);
 	OutputLine(NULL, "会ったかもしれないですけど……ほら…、魅音にもそっくりですから…。",
-		   NULL, " Potrei averla vista... ma... beh, insomma, è praticamente uguale a Mion...", Line_WaitForInput);
+		   NULL, " potrei averla vista... ma... beh, insomma, è praticamente uguale a Mion...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100341", 256, TRUE);
 	OutputLine(NULL, "……魅音と見間違えてるかも……。」",
 		   NULL, " ... forse l'ho confusa con lei...\"", GetGlobalFlag(GLinemodeSp));

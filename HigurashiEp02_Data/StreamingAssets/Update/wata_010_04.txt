@@ -384,7 +384,7 @@ void main()
 //　......昨日の村長を探すのと同じ時間が割かれないことに、少しの怒りを感じたが...、元凶たる俺にそれを非難する資格はまったくない...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……昨日の村長を探すのと同じ時間が割かれないことに、少しの怒りを感じたが…、元凶たる俺にそれを非難する資格はまったくない…。",
-		   NULL, "...  mi infastidisce che non vogliano dedicare alle bambine lo stesso tempo che hanno dedicato al capovillaggio... ma non è certo una cosa che io, la causa di tutto, posso criticare...", Line_Normal);
+		   NULL, "... mi infastidisce che non vogliano dedicare alle bambine lo stesso tempo che hanno dedicato al capovillaggio... ma non è certo una cosa che io, la causa di tutto, posso criticare...", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(2, 2, "portrait/re2a_warai_a1_", "2", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 200, TRUE );
@@ -437,7 +437,7 @@ void main()
 	OutputLine(NULL, "　梨花ちゃんや沙都子もまた…過去の連続事件と同じように、",
 		   NULL, "Rika-chan e Satoko... la loro scomparsa terminerà esattamente come la serie di morti e sparizioni avvenute negli anni passati—", Line_WaitForInput);
 	OutputLine(NULL, "……密やかに、",
-		   NULL, " in modo furtivo,", Line_WaitForInput);
+		   NULL, "in modo furtivo,", Line_WaitForInput);
 	OutputLine(NULL, "未解決に、",
 		   NULL, " senza un colpevole,", Line_WaitForInput);
 	OutputLine(NULL, "…そして謎に包まれたまま……終わって、",
@@ -469,7 +469,7 @@ void main()
 	OutputLine(NULL, "　……それらが、思い出そうとすれば思い出そうとするほど、よくわからなくなり……、",
 		   NULL, "... più cerco di ricordarle, e meno mi sembra di riuscirci...", Line_WaitForInput);
 	OutputLine(NULL, "馬鹿を七つ重ねても言い足りぬ、自分の脳みその愚かさに、涙せずにはいられなかった………。",
-		   NULL, " Mi meriterei di farmi dare dello stupido decine e decine di volte—e non riesco a trattenere le lacrime davanti alla mia stupidità.", Line_Normal);
+		   NULL, " mi meriterei di farmi dare dello stupido decine e ecine di volte—e non riesco a trattenere le lacrime davanti alla mia stupidità.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(2, 2, "portrait/re2a_komaru_a1_", "0", 0, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 10, 0, FALSE );
@@ -1001,7 +1001,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300218", 256, TRUE);
 	OutputLine(NULL, "「………全然ない。",
-		   NULL, "\"... Niente di niente.", Line_WaitForInput);
+		   NULL, "\"... niente di niente.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300219", 256, TRUE);
 	OutputLine(NULL, "学校が終わってから家に帰って。",
 		   NULL, " Finite le lezioni, sono tornate a casa.", Line_WaitForInput);
@@ -1130,7 +1130,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300230", 256, TRUE);
 	OutputLine(NULL, "村長の件も含めて、鹿骨市全体で目撃情報がないか洗うって言ってる。」",
-		   NULL, "Quacuno ha detto che dovremmo setacciare tutta la città di Shishibone per verificare la presenza di testimoni—sia per le bambine, sia per il capovillaggio.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Qualcuno ha detto che dovremmo setacciare tutta la città di Shishibone per verificare la presenza di testimoni—sia per le bambine, sia per il capovillaggio.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1687,7 +1687,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……。",
-		   NULL, " ...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2281,7 +2281,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700156", 256, TRUE);
 	OutputLine(NULL, "「…そういう話がまかり通ってて、一部の村人たちが祭具殿に忍び込んだ賊と、賊に破られるようなカギに替えた村長と梨花さんを罰したんだ…。",
-		   NULL, "\"... tornando a noi, alcuni membri di questa comunità hanno punito aspramente i ladri che sono entrati nel magazzino, nonché il capivillaggio e Rika-san, che hanno cambiato il lucchetto...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... tornando a noi, alcuni membri di questa comunità hanno punito aspramente i ladri che sono entrati nel magazzino, nonché il capovillaggio e Rika-san, che hanno cambiato il lucchetto...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700157", 256, TRUE);
 	OutputLine(NULL, "…なーんて話があったりなかったりしてるんですよ。",
@@ -2704,7 +2704,7 @@ void main()
 		   NULL, " Sì.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700194", 256, TRUE);
 	OutputLine(NULL, "ハイハイ。」",
-		   NULL, "  Va bene, va bene.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Va bene, va bene.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

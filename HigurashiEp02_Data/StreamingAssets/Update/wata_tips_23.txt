@@ -54,7 +54,7 @@ void main()
 //　それを思うと、園崎家の当主跡継ぎである園崎魅音と詩音の双子がこの世に生を受けていること自体、興味深いと言わざるを得ない。（現当主お魎の情けだろうか？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それを思うと、園崎家の当主跡継ぎである園崎魅音と詩音の双子がこの世に生を受けていること自体、興味深いと言わざるを得ない。（現当主お魎の情けだろうか？）",
-		   NULL, "Detto questo, il fatto che sia l'erede alla famiglia Sonozaki, Mion Sonozaki, che sua sorella gemella, Shion, siano entrambe vive è di per sé profondamente interessante. (Forse si tratta di pietà da parte dell'attuale leader, Oryou Sonozaki?)", Line_Normal);
+		   NULL, "Detto questo, il fatto che sia l'erede alla famiglia Sonozaki, Mion Sonozaki, che la gemella, Shion, siano entrambe vive è di per sé profondamente interessante. (Forse si tratta di pietà da parte dell'attuale leader, Oryou Sonozaki?)", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );

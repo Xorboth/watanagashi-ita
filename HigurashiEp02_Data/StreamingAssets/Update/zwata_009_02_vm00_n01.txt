@@ -29,7 +29,7 @@ void dialog001()
 	OutputLine(NULL, "　中年の男性の声。",
 		   NULL, " La voce è di un uomo di mezz'età.", Line_WaitForInput);
 	OutputLine(NULL, "……一気に失望する。",
-		   NULL, "... tutte le mie speranze vengono meno.", Line_Normal);
+		   NULL, " ... tutte le mie speranze vengono meno.", Line_Normal);
 }
 
 void dialog002()

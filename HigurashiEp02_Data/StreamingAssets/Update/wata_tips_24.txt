@@ -158,7 +158,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700187", 256, TRUE);
 	OutputLine(NULL, "…いやぁ、そういうのも悪くないですねぇ〜。」",
-		   NULL, " ... beh, non posso certo lamentarmi~\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... beh, non posso certo lamentarmi~\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -277,7 +277,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700201", 256, TRUE);
 	OutputLine(NULL, "盆地くんはタイムテーブルを厳守。",
-		   NULL, " Bonchi-kun, tu occupati delle turnazioni.", Line_WaitForInput);
+		   NULL, "Bonchi-kun, tu occupati delle turnazioni.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700202", 256, TRUE);
 	OutputLine(NULL, "署に怪しまれないようローテを管理して下さい。",
 		   NULL, " Controlla le rotazioni e i turni in modo che il quartier generale non noti nulla.", Line_WaitForInput);

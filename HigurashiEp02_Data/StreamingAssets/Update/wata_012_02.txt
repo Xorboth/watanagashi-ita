@@ -51,13 +51,13 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700387", 256, TRUE);
 	OutputLine(NULL, "　でもご安心を。",
-		   NULL, " Tuttavia, non preoccupatevi.", Line_WaitForInput);
+		   NULL, "Tuttavia, non preoccupatevi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700388", 256, TRUE);
 	OutputLine(NULL, "何とか死角を突いて、突入できる位置に若いのが何人か待機してます。",
-		   NULL, " Ho molti giovinastri pronti, in attesa di poter sgattaiolare oltre la sorveglianza.", Line_WaitForInput);
+		   NULL, " Ho dei giovinastri pronti, in attesa di poter sgattaiolare oltre la sorveglianza.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700389", 256, TRUE);
 	OutputLine(NULL, "指向性マイクで中をうかがってますから、お二人が大きな悲鳴をあげてくだされば、すぐにわかりますよ。」",
-		   NULL, " Monitoreremo l'interno mettendovi un microfono con solo ingresso audio, così ci accorgeremo subito se doveste gridare.\"", Line_Normal);
+		   NULL, " Monitoreremo l'interno mettendovi un microfono con solo ingresso audio, così vi sentiremo subito se doveste gridare.\"", Line_Normal);
 	ClearMessage();
 
 //「......絶対に説得しますから、自首を認めてくださいね。＠
@@ -1498,7 +1498,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300303", 256, TRUE);
 	OutputLine(NULL, "　味噌汁で顔を洗って出直しておいで〜！！」",
-		   NULL, " Va' a sciacquarti la faccia con della zuppa di miso e riprova più tardi~!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Va' a sciacquarti la faccia con della zuppa di miso e riprova più tardi~!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　......その憎まれ口は、ひょっとすると魅音なりの心遣いなのではないかと後に思った￥
@@ -1602,7 +1602,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101032", 256, TRUE);
 	OutputLine(NULL, "………謝る。",
-		   NULL, " ...... mi dispiace.", Line_WaitForInput);
+		   NULL, "...... mi dispiace.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101033", 256, TRUE);
 	OutputLine(NULL, "……この通り……。」",
 		   NULL, " ... ecco...\"", GetGlobalFlag(GLinemodeSp));
@@ -2000,7 +2000,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200518", 256, TRUE);
 	OutputLine(NULL, "「……そして魅ぃちゃんは、",
-		   NULL, "\"... Poi, Mii-chan...", Line_Continue);
+		   NULL, "\"... poi, Mii-chan...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
@@ -2654,7 +2654,7 @@ void main()
 		   NULL, "... sembra che abbiate molte domande che cercano risposta...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300348", 256, TRUE);
 	OutputLine(NULL, "私にお話できることでしたら、包み隠さずお話したいと存じます…。」",
-		   NULL, " Se posso esservi di aiuto, allora gradirei rispondere, senza lasciare niente nascosto...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " se posso esservi di aiuto, allora gradirei rispondere, senza lasciare niente nascosto...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3267,7 +3267,7 @@ void main()
 		   NULL, " Tutti coloro che abitano qui sono la nostra famiglia, e questa fortuna è proprietà di tutti...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300385", 256, TRUE);
 	OutputLine(NULL, "現当主である祖母はそう宣言しました。",
-		   NULL, " Così proclamò a mia nonna, l'attuale capofamiglia.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " così proclamò a mia nonna, l'attuale capofamiglia.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300386", 256, TRUE);
 	OutputLine(NULL, "…この大きな富は、その後の雛見沢の復興の大きな力となったのです。」",
@@ -4726,7 +4726,7 @@ void main()
 		   NULL, "Potevo... fermare lo sviluppo di questa tragedia, eppure...", Line_Normal);
 //　なのに...止めなかった＠
 	OutputLine(NULL, "　なのに…止めなかった。",
-		   NULL, " non l'ho fatto.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "non l'ho fatto.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4829,7 +4829,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300463", 256, TRUE);
 	OutputLine(NULL, "…私には踏みとどまる百億の瞬間があった。",
-		   NULL, " ... ho avuto centinaia di occasioni per evitarlo, ma...", Line_WaitForInput);
+		   NULL, "... ho avuto centinaia di occasioni per evitarlo, ma...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300464", 256, TRUE);
 	OutputLine(NULL, "……でも踏みとどまらなかった。",
 		   NULL, " ... non l'ho fatto.", Line_WaitForInput);
@@ -4876,7 +4876,7 @@ void main()
 	OutputLine(NULL, "　…部活で、どんな苦境も跳ね返すと豪語した魅音だからこそ。",
 		   NULL, "Soprattutto perché Mion si è sempre vantata di quanto riuscisse a ribaltare le carte in tavola per qualsisi problema le si presentasse davanti.", Line_WaitForInput);
 	OutputLine(NULL, "……痛々しい。",
-		   NULL, "...... che dolore.", Line_Normal);
+		   NULL, " ...... che dolore.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacter(3, 2, "sprite/re1a_def_a1_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -5282,7 +5282,7 @@ void main()
 	OutputLine(NULL, "　魅音が、…重い、抗うことのできない因習に飲まれ、",
 		   NULL, "Mion è stata risucchiata... dal vortice di una tradizione opprimente e inevitabile...", Line_WaitForInput);
 	OutputLine(NULL, "…仲間をその手にかけなければならなくしてしまったのは………他でもない、俺自身なのだ。",
-		   NULL, "... la persona che l'ha portata a uccidere le sue amiche con le sue stesse mani... sono io, e nessun altro.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... la persona che l'ha portata a uccidere le sue amiche con le sue stesse mani... sono io, e nessun altro.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　むしろ魅音は、......追い込んだ俺を責めてもいいくらいなのだ￥

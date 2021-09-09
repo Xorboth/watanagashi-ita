@@ -41,7 +41,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f3cfb5>公由</color>", NULL, "<color=#f3cfb5>Kimiyoshi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/kimim44006", 256, TRUE);
 	OutputLine(NULL, "…ウチのお爺ちゃんがお邪魔してないかと思いまして。",
-		   NULL, " ma mi chiedevo se il nonno fosse venuto a farle una visita.", Line_WaitForInput);
+		   NULL, "ma mi chiedevo se il nonno fosse venuto a farle una visita.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/kimim44007", 256, TRUE);
 	OutputLine(NULL, "………ですよねぇ！",
 		   NULL, " ...... lo immaginavo!", Line_Continue);
@@ -146,7 +146,7 @@ void main()
 		   NULL, " Non riusciamo a trovarlo...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/kimim44015", 256, TRUE);
 	OutputLine(NULL, "参ったなぁ…！",
-		   NULL, " Cosa facciamo...?!", Line_WaitForInput);
+		   NULL, " cosa facciamo...?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/kimim44016", 256, TRUE);
 	OutputLine(NULL, "　どこで油を売ってるのかなぁ…！」",
 		   NULL, " Dove potrebbe essere andato...?\"", Line_Normal);

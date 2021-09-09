@@ -313,7 +313,7 @@ void main()
 		   NULL, "\"Keiichi~", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700018", 256, TRUE);
 	OutputLine(NULL, "電話よー。",
-		   NULL, " C'è una chiamata per te!", Line_WaitForInput);
+		   NULL, " c'è una chiamata per te!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s02/00/132700019", 256, TRUE);
 	OutputLine(NULL, "園崎さんからー。」",
 		   NULL, " È Sonozaki-san!\"", GetGlobalFlag(GLinemodeSp));
@@ -1492,7 +1492,7 @@ void main()
 //　連続怪死が３年も続いた頃になると、一部の三流雑誌が嗅ぎ付け、雛見沢をゴシップ満載で報道した＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　連続怪死が３年も続いた頃になると、一部の三流雑誌が嗅ぎ付け、雛見沢をゴシップ満載で報道した。",
-		   NULL, " ... è stato così anche in passato.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Nel momento in cui gli incidenti si susseguirono per tre anni di fila, alcuni magazine di terz'ordine fiutarono lo scoop e iniziarono a pubblicare numeri pieni di rubriche di gossip su Hinamizawa.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　雛見沢のマイナスイメージを恐れ、地域と警察で協議＠

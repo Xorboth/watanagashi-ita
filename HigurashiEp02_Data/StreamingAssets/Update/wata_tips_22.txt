@@ -176,7 +176,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700171", 256, TRUE);
 	OutputLine(NULL, "　ここまでは信頼できる情報なんです。」",
-		   NULL, " È una fonte affidabile.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "È una fonte affidabile.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -200,7 +200,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700173", 256, TRUE);
 	OutputLine(NULL, "とにかく、４人は祭具殿の中で何かを見たんです！",
-		   NULL, " Ma l'importante è che hanno visto cosa c'era dentro!", Line_Continue);
+		   NULL, "Ma l'importante è che hanno visto cosa c'era dentro!", Line_Continue);
 	OutputLine(NULL, "　消されるくらいの何かを！」",
 		   NULL, " Qualcosa che li ha portati a dover essere eliminati!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
@@ -233,7 +233,7 @@ void main()
 	OutputLine(NULL, "「…大石さん、気持ちはわかるけど！",
 		   NULL, "\"... ascolta, Ooishi-san, capisco quello che provi!", Line_Continue);
 	OutputLine(NULL, "　あの祭具殿ってのは古手神社にある神聖な建物で、地元の人間への相当の配慮が必要な建物なんだよ。」",
-		   NULL, " Tuttavia,  quel magazzino è un edificio sacro che appartiene al santuario Furude, quindi dobbiamo trattarlo con il giusto tatto nel rispetto degli abitanti.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Tuttavia, quel magazzino è un edificio sacro che appartiene al santuario Furude, quindi dobbiamo trattarlo con il giusto tatto nel rispetto degli abitanti.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -379,7 +379,7 @@ void main()
 	OutputLine(NULL, "　…ここはひとつ、厚意をありがたく頂戴しますかね…。",
 		   NULL, "... credo che accetterò di buon grado il suo consiglio...", Line_WaitForInput);
 	OutputLine(NULL, "仮眠室でちょっと横になるかなぁ。",
-		   NULL, " Meglio andare a sdraiarsi nella sala riposo.", Line_Normal);
+		   NULL, " meglio andare a sdraiarsi nella sala riposo.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

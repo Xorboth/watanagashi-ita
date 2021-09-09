@@ -1865,7 +1865,7 @@ void main()
 	OutputLine(NULL, "　……例え、その余波で俺の机がひっくり返ろうとも…。",
 		   NULL, "... anche se mi hanno ribaltato il banco...", Line_WaitForInput);
 	OutputLine(NULL, "あー、俺の筆箱がーー！！",
-		   NULL, " Ehi! Il mio astuccio!!", Line_WaitForInput);
+		   NULL, " ehi! Il mio astuccio!!", Line_WaitForInput);
 	OutputLine(NULL, "　…ぐ……今日は許す。",
 		   NULL, "... geh... per oggi lascerò correre.", Line_Normal);
 	ClearMessage();
@@ -1876,7 +1876,7 @@ void main()
 //　早く終わらせたい一心で、手際よくパリパリと仕事をこなした＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　早く終わらせたい一心で、手際よくパリパリと仕事をこなした。",
-		   NULL, "Voglio finire il prima possibile e così inizio ad annaffiare velocemente le piante.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Voglio finire il prima possibile, così inizio ad annaffiare velocemente le piante.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1920,7 +1920,7 @@ void main()
 //　そんな場所で、ばったりと出会ったのでかなりびっくりした￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　そんな場所で、ばったりと出会ったのでかなりびっくりした。",
-		   NULL, "Motivo per cui vengo colto alla sprovvista a trovare qualcuno qui.", Line_Normal);
+		   NULL, "Motivo per cui vengo colto alla sprovvista nel trovare qualcuno qui.", Line_Normal);
 	ClearMessage();
 
 //「ぉわッ！＠　り、...梨花ちゃんか＠...驚かせるなよ...。＠
@@ -2238,14 +2238,14 @@ void main()
 //　あの晩の出来事は...誰にも知られていないどころか......、!w1000誰もが知っている...？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あの晩の出来事は…誰にも知られていないどころか……、",
-		   NULL, "Pensavamo che nessuno sapesse... di quel che è successo quella notte. ma...", Line_ContinueAfterTyping);
+		   NULL, "Pensavamo che nessuno sapesse... di quel che è successo quella notte, ma...", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "誰もが知っている…？！",
-		   NULL, " in verità, lo sapevano tutti...?!", Line_Normal);
+		   NULL, " in realtà, lo sapevano tutti...?!", Line_Normal);
 	ClearMessage();
 
 //　知ってて...みんなが俺に聞いてくる＠
@@ -3524,7 +3524,7 @@ void main()
 	OutputLine(NULL, "　……魅音のことに違いない…。",
 		   NULL, "... ovvero, Mion...", Line_WaitForInput);
 	OutputLine(NULL, "…昨日、魅音に詰問されたことを思い出す。",
-		   NULL, "... ricordo che ieri mi ha fatto diverse domande.", Line_Normal);
+		   NULL, " ... ricordo che ieri mi ha fatto diverse domande.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();

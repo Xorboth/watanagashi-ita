@@ -16,6 +16,6 @@ void dialog001()
 		   NULL, " Come armi o beni di contrabbando.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s20/11/440700175", 256, TRUE);
 	OutputLine(NULL, "園崎家の隠し資産ってのも捨てがたい辺りです。」",
-		   NULL, " Persino l'eredità segreta della famiglia Sonozaki è un'ipotesi da considerare.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Persino l'eredità segreta della famiglia Sonozaki è un'ipotesi da considerare.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }

@@ -1859,7 +1859,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700511", 256, TRUE);
 	OutputLine(NULL, "詩音さんと同じにね。",
-		   NULL, " La stessa di Shion-san.", Line_WaitForInput);
+		   NULL, "La stessa di Shion-san.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700512", 256, TRUE);
 	OutputLine(NULL, "首の骨を折って。」",
 		   NULL, " Aveva l'osso del collo rotto.\"", GetGlobalFlag(GLinemodeSp));
@@ -2743,14 +2743,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101265", 256, TRUE);
 	OutputLine(NULL, "　ははははははははははははは……！」",
-		   NULL, " Ahahahahahahahahahahahahahahah...!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ahahahahahahahahahahahahahahah...!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　............圭チャン...............￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300749", 256, TRUE);
 	OutputLine(NULL, "　…………圭チャン……………。",
-		   NULL, "<i>............Kei-chan...............</i>", Line_Normal);
+		   NULL, "<i>............ Kei-chan...............</i>", Line_Normal);
 	ClearMessage();
 
 
@@ -2955,7 +2955,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "……この事件を終わらせてください。",
-		   NULL, " Ti prego, falla finire.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ti prego, falla finire.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //「それだけが......!w800俺の望みです...。￥
@@ -2994,7 +2994,7 @@ void main()
 		   NULL, " Non puoi averne di più.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300753", 256, TRUE);
 	OutputLine(NULL, "……あっはははははははははははははははははははははははははははははははははははははははははははは！！！」",
-		   NULL, "...... ahahahahahahahahAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...... ahahahahahahahahAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAH!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　魅音が、俺の小指の先端に当てられた釘をぐっと抑えつけた＠
