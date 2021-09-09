@@ -1,4 +1,4 @@
-1.0.2 [XX-XX-2021]:
+1.0.2 [09-09-2021]:
  - Aggiornata la traduzione, correggendo vari errori segnalati
  - Tradotta una riga che per errore veniva mostrata in inglese
 
