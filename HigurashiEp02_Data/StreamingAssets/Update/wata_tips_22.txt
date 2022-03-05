@@ -400,7 +400,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>園崎県議</color>", NULL, "<color=#f5e6d3>Deputato Sonozaki</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s20/00/saburo44009", 256, TRUE);
 	OutputLine(NULL, "それを土足で踏みにじろうという馬鹿がいるッッ！！！",
-		   NULL, "Che razza di idiota vorrebbe mettere piede là dentro??!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Che razza di idiota vorrebbe mettere piede là dentro?!?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

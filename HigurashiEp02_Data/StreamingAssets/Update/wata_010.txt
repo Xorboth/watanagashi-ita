@@ -1158,7 +1158,7 @@ void main()
 //　だからこそ、そんな沙都子なりの精一杯の心遣いに心を打たれた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だからこそ、そんな沙都子なりの精一杯の心遣いに心を打たれた。",
-		   NULL, "Questo dimostra quando Satoko voglia mostrare a Rena qualcosa che la tiri su di morale.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ciò dimostra quanto Satoko voglia mostrare a Rena qualcosa che la tiri su di morale.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

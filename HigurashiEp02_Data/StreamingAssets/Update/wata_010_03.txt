@@ -1545,7 +1545,7 @@ void main()
 		   NULL, "\"... Kei-chan, dici sul serio?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300147", 256, TRUE);
 	OutputLine(NULL, "　もし冗談だったら、かなり怒るよ？」",
-		   NULL, " Mi arrabbierò moltissimo se è uno scherzo.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Mi arrabbierò moltissimo se si tratta di uno scherzo.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1589,14 +1589,14 @@ void main()
 		   NULL, " Se fosse uno scherzo, dovresti sorridere, e non arrabbiarti.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200200", 256, TRUE);
 	OutputLine(NULL, "だって冗談なんだから。",
-		   NULL, " Se fosse uno scherzo.", Line_WaitForInput);
+		   NULL, " In fondo, sarebbe uno scherzo.", Line_WaitForInput);
 	DisableWindow();
 	ModDrawCharacter(3, 2, "sprite/re2a_komaru_a2_", "0", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
 
 //......私たちはそれが冗談であることを確かめなくちゃいけない。＠
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200201", 256, TRUE);
 	OutputLine(NULL, "……私たちはそれが冗談であることを確かめなくちゃいけない。」",
-		   NULL, " ... dobbiamo essere sicuri che non lo sia.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... dobbiamo essere certi che non lo sia.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2357,7 +2357,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200219", 256, TRUE);
 	OutputLine(NULL, "「魅ぃちゃん、私、念のため、本宅の方も見てくるね！",
-		   NULL, "\"Mii-chan, io vado a controllare la casa principale, giusto per sicurezza, d'accordo?", Line_WaitForInput);
+		   NULL, "\"Mii-chan, io vado a controllare l'edificio principale, giusto per sicurezza, d'accordo?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s02/02/130200220", 256, TRUE);
 	OutputLine(NULL, "　すぐ戻るから！」",
 		   NULL, " Torno subito!\"", GetGlobalFlag(GLinemodeSp));
@@ -2372,7 +2372,7 @@ void main()
 	OutputLine(NULL, "　レナが駆け出して行った。",
 		   NULL, "Rena corre via.", Line_WaitForInput);
 	OutputLine(NULL, "……本宅って何だ？",
-		   NULL, " ... cosa? Casa principale?", Line_Normal);
+		   NULL, " ... cosa? Edificio principale?", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 1000 );
@@ -2456,7 +2456,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100686", 256, TRUE);
 	OutputLine(NULL, "「……本宅って言ったか？",
-		   NULL, "\"...... Rena ha detto 'casa principale', vero?", Line_WaitForInput);
+		   NULL, "\"...... Rena ha detto 'edificio principale', giusto?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100687", 256, TRUE);
 	OutputLine(NULL, "　そっちで暮らした方が楽だろうに…。」",
 		   NULL, " Non sarebbe meglio se vivessero lì...?\"", GetGlobalFlag(GLinemodeSp));
@@ -2507,7 +2507,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100689", 256, TRUE);
 	OutputLine(NULL, "「…梨花ちゃんも…………沙都子も、……大変なんだな。」",
-		   NULL, "\"... Rika-chan...... e Satoko-chan... sono proprio due bambine forti, eh?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... Rika-chan...... e Satoko-chan... sono due bambine forti.\"", GetGlobalFlag(GLinemodeSp));
 
 	FadeOutBGM( 1, 1000, TRUE );
 	FadeOutBGM( 2, 1000, TRUE );

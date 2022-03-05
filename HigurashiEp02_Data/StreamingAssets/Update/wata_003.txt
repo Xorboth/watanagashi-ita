@@ -2160,7 +2160,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s19/04/500400024", 256, TRUE);
 	OutputLine(NULL, "「なな、何をしますのー！！！",
-		   NULL, "\"C-c-che accidenti stai facendo??!!", Line_WaitForInput);
+		   NULL, "\"C-c-che accidenti stai facendo?!?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s19/04/500400025", 256, TRUE);
 	OutputLine(NULL, "　レディの頭を何だとお思いですのー！！！」",
 		   NULL, " Non si fanno queste cose alla testa di una lady!!!\"", GetGlobalFlag(GLinemodeSp));
@@ -2396,7 +2396,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200029", 256, TRUE);
 	OutputLine(NULL, "「あ、あれーー？！？！",
-		   NULL, "\"C-cosaaa??!!", Line_WaitForInput);
+		   NULL, "\"C-cosaaa?!?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200030", 256, TRUE);
 	OutputLine(NULL, "　レナのカレー…しょっぱいよ？　しょっぱいよ？！」",
 		   NULL, " Il curry di Rena... è salato? Salato?!\"", GetGlobalFlag(GLinemodeSp));
@@ -3551,7 +3551,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s19/04/500400040", 256, TRUE);
 	OutputLine(NULL, "「な、何ですってぇええぇええッ？！？！」",
-		   NULL, "\"C-come hai dettooOOoOOo??!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"C-come hai dettooOOoOOo?!?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

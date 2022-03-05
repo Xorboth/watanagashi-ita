@@ -363,7 +363,7 @@ void main()
 		   NULL, "\"Eh?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/990200455", 256, TRUE);
 	OutputLine(NULL, "　はぅ〜〜〜？！？！",
-		   NULL, " Hau~~~??!!", Line_WaitForInput);
+		   NULL, " Hau~~~?!?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s19/02/990200456", 256, TRUE);
 	OutputLine(NULL, "　……けけけけ、",
 		   NULL, " ... Ke-Ke-Ke-Ke...", Line_Continue);
@@ -2718,7 +2718,7 @@ void main()
 	SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "　…お、お花見だとぉおぉおおッ？！？！",
-		   NULL, " \"Hanami\", seriamente??!!", Line_Normal);
+		   NULL, " \"Hanami\", seriamente?!?!", Line_Normal);
 	ClearMessage();
 
 //「お、お、お花見なんて、酒盛りして痴態をさらすオヤジイベントの定番だろうがぁあぁあぁぁッ！！＠

@@ -11,7 +11,7 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#6972c1>梨花</color>", NULL, "<color=#6972c1>Rika</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 5, "ps3/s20/05/440500016", 256, TRUE);
 	OutputLine(NULL, "「……他にも、金融業とか、不動産業とか、アパレル産業とか、アミューズメント産業とか。",
-		   NULL, "\"... tra questi ci sono anche un'istitutofinanziario, un'agenzia immobiliare, un negozio di abbigliamento e parte del divertimento locale.", Line_Continue);
+		   NULL, "\"... tra questi ci sono anche un istituto finanziario, un'agenzia immobiliare, un negozio di abbigliamento e parte del divertimento locale.", Line_Continue);
 	OutputLine(NULL, "いろいろやってると言ってますです。」",
 		   NULL, " Fanno proprio un sacco di cose.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }

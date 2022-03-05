@@ -1804,7 +1804,7 @@ void main()
 		   NULL, "\"Avanti, chi pensa che sia stata opera di un essere umano~?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400203", 256, TRUE);
 	OutputLine(NULL, "　圭一さんが狙われる理由がちゃんと説明できませんと、人間が犯人とは立証できませんでしてよ〜？！？！」",
-		   NULL, " A meno che non riusciate a spiegare il perché la vita di Keiichi-san fosse minacciata, non potete dimostrare che il colpevole è umano~??!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " A meno che non riusciate a spiegare il perché la vita di Keiichi-san fosse minacciata, non potete dimostrare che il colpevole è umano~?!?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

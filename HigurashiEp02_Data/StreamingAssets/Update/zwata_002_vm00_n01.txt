@@ -176,9 +176,9 @@ void dialog010()
 //「お、お前ら全員知ってるじゃねぇかぁあぁあ？！？＠　それを何で書かなねぇんだよぉおぉおお？！？＠
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「お、お前ら全員知ってるじゃねぇかぁあぁあ？！？！",
-		   NULL, "\"Q-quindi lo conoscete tutti, giustoOoO??!!", Line_WaitForInput);
+		   NULL, "\"Q-quindi lo conoscete tutti, giustoOoO?!?!", Line_WaitForInput);
 	OutputLine(NULL, "　それを何で書かなねぇんだよぉおぉおお？！？！",
-		   NULL, " E allora perché non l'avete scrittooOoOO??!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " E allora perché non l'avete scrittooOoOO?!?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

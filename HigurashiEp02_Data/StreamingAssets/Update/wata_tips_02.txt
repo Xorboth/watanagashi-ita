@@ -457,7 +457,7 @@ void main()
 //　魅音と同一人物であると知りながら、まるで新しい友人と知り合ったような、そんな不思議な感覚があった￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音と同一人物であると知りながら、まるで新しい友人と知り合ったような、そんな不思議な感覚があった。",
-		   NULL, "Ho una strana sensazione, come se avessi strinto una nuova amicizia ma, al tempo stesso, fossi consapevole che si tratta sempre della stessa persona.", Line_Normal);
+		   NULL, "Ho una strana sensazione, come se avessi stretto una nuova amicizia ma, al tempo stesso, fossi consapevole che si tratta sempre della stessa persona.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	SetValidityOfInput( FALSE );

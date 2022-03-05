@@ -19,7 +19,7 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300673", 256, TRUE);
 	OutputLine(NULL, "「……じゃあそろそろいい？",
-		   NULL, "\"... ora posso iniziare?", Line_WaitForInput);
+		   NULL, "\"... posso iniziare?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300674", 256, TRUE);
 	OutputLine(NULL, "　この拷問はね、とてもシンプル。",
 		   NULL, " Questo metodo di tortura è molto semplice.", Line_WaitForInput);
@@ -40,7 +40,7 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps2/03/130300678", 540, TRUE);
 	OutputLine(NULL, "それが終わったら次は右手。",
-		   NULL, "Quando avrò finito, passerò alla destra.", Line_WaitForInput);
+		   NULL, "Finito con quella, passerò alla destra.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps2/03/130300679", 540, TRUE);
 	OutputLine(NULL, "……それが終わったら次は、…………まだ意識があったら教えるね。",
 		   NULL, " ... dopodiché......... se sarai ancora cosciente, te lo dirò.", GetGlobalFlag(GLinemodeSp));
@@ -49,10 +49,10 @@ void dialog002()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps2/03/130300680", 540, TRUE);
 	OutputLine(NULL, "指先って、たくさんの神経が集まってるから、圭ちゃんが想像するよりもはるかに痛いよ。",
-		   NULL, "Ci sono tanti nervi nelle dita, quindi sarà molto più doloroso di quanto tu possa immaginare.", Line_WaitForInput);
+		   NULL, "Ci sono molti nervi nelle dita, perciò soffrirai molto più di quanto riesci a immaginare.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps2/03/130300681", 540, TRUE);
 	OutputLine(NULL, "…両手３０本を打ち終える前に、失神しちゃう人もいるそうだから…。」",
-		   NULL, " ... alcuni svengono prima che possa finire di piantare trenta chiodi in totale...\"", Line_Normal);
+		   NULL, " ... alcune persone svengono prima di raggiungere i trenta chiodi, quindi...\"", Line_Normal);
 }
 
 void dialog003()

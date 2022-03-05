@@ -290,7 +290,7 @@ void main()
 	SetSpeedOfMessage( FALSE, 0, );
 
 	OutputLine(NULL, "知るわけないでしょーッ！！！」",
-		   NULL, " che diavolo vuoi che ne sappia??!!\"", Line_Normal);
+		   NULL, " che diavolo vuoi che ne sappia?!?!\"", Line_Normal);
 	ClearMessage();
 
 //「わっはっはっは！＠　まぁいいや＠バカな話してたら目が覚めた。＠
@@ -527,7 +527,7 @@ void main()
 //　......で、今日はそのリターンマッチのつもりってわけかよ？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……で、今日はそのリターンマッチのつもりってわけかよ？！",
-		   NULL, "... quindi... intende dire che oggi si prenderà la rivincita??!!", Line_Normal);
+		   NULL, "... quindi... intende dire che oggi si prenderà la rivincita?!?!", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -2998,7 +2998,7 @@ void main()
 //　まさか......もう決着したのかッ？！？＠　何のゲームで？＠　こうもあっさり？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まさか……もう決着したのかッ？！？！",
-		   NULL, "Non può essere... ha già finito??!!", Line_WaitForInput);
+		   NULL, "Non può essere... ha già finito?!?!", Line_WaitForInput);
 	OutputLine(NULL, "　何のゲームで？！",
 		   NULL, " Che gioco hanno scelto?!", Line_WaitForInput);
 	OutputLine(NULL, "　こうもあっさり？！",
@@ -3355,7 +3355,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>少年</color>", NULL, "<color=#f5e6d3>Giovane</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/boya99003", 256, TRUE);
 	OutputLine(NULL, "「え、えぇええぇッ？！？！",
-		   NULL, "\"C-cosaaa??!!", Line_WaitForInput);
+		   NULL, "\"C-cosaaa?!?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 0, "ps3/s19/00/boya99004", 256, TRUE);
 	OutputLine(NULL, "　そんな！！",
 		   NULL, " È impossibile!!", Line_WaitForInput);
@@ -3973,7 +3973,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei09530", 256, TRUE);
 	OutputLine(NULL, "「ほ、本気って何だよッ？！？！",
-		   NULL, "\"C-cosa vorresti insinuare??!!", Line_WaitForInput);
+		   NULL, "\"C-cosa vorresti insinuare?!?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei09540", 256, TRUE);
 	OutputLine(NULL, "　気合でルーレットの目をコントロールしろってのかよッ？！？！",
 		   NULL, " Che posso controllare l'ago della ruota con la forza di volontà?!?!", Line_WaitForInput);
@@ -4032,7 +4032,7 @@ void main()
 //　本気の俺なら、この運だけのゲームを開始１０秒で決着できたって？！？＠　本気の俺って...、本気の俺って...ッ！！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本気の俺なら、この運だけのゲームを開始１０秒で決着できたって？！？！",
-		   NULL, "E che avrei risolto questa faccenda in dieci secondi??!!", Line_WaitForInput);
+		   NULL, "E che avrei risolto questa faccenda in dieci secondi?!?!", Line_WaitForInput);
 	OutputLine(NULL, "　本気の俺って…、本気の俺って…ッ！！！！",
 		   NULL, " Se facessi sul serio... se facessi sul serio...!!!!", Line_Normal);
 	ClearMessage();
@@ -4044,7 +4044,7 @@ void main()
 	OutputLine(NULL, "信じてた！！",
 		   NULL, " Credevano in me!!", Line_WaitForInput);
 	OutputLine(NULL, "……その期待を裏切ったッ？！？！",
-		   NULL, " ... ho tradito le loro aspettative??!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... ho tradito le loro aspettative?!?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -4918,7 +4918,7 @@ void main()
 //　本気になったこの前原圭一を前に...本当で勝てるつもりでいやがるッ！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　本気になったこの前原圭一を前に…本当で勝てるつもりでいやがるッ！！！",
-		   NULL, "Pensano davvero di poter vincere contro Keiichi Maebara quando fa sul serio??!!", Line_Normal);
+		   NULL, "Pensano davvero di poter vincere contro Keiichi Maebara quando fa sul serio?!?!", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/mati_o2", "left", 0, 0, 300 );

@@ -1343,7 +1343,7 @@ void main()
 	ModPlayVoiceLS(7, 5, "ps3/s02/05/130500015", 256, TRUE);
 	ModPlayVoiceLS(8, 0, "ps3/s02/00/yataa03006", 256, TRUE);
 	OutputLine(NULL, "「「「えぇ…？！？！」」」",
-		   NULL, "\"\"\"Ehhh...??!!\"\"\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"\"\"Ehhh...?!?!\"\"\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3210,7 +3210,7 @@ void main()
 	OutputLine(NULL, "　俺か？！",
 		   NULL, "È colpa mia?!", Line_WaitForInput);
 	OutputLine(NULL, "　俺が勝手に勘違ってるだけなのか？！？！",
-		   NULL, " Ho inteso tutt'altro??!!", Line_Normal);
+		   NULL, " Ho inteso tutt'altro?!?!", Line_Normal);
 	ClearMessage();
 
 //「じゃ、じゃあ、お前は俺を何でこんな所に呼び出したんだよー！！＠
@@ -3240,11 +3240,11 @@ void main()
 //　......えぇえぇ？！？＠　まままま、まさか？！？＠　詩音のヤツ、また何か...嫌ぁなことを企んでないか？！？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……えぇえぇ？！？！",
-		   NULL, "...... eeeeeeh??!!", Line_WaitForInput);
+		   NULL, "...... eeeeeeh?!?!", Line_WaitForInput);
 	OutputLine(NULL, "　まままま、まさか？！？！",
-		   NULL, " P-p-p-possibile che...??!!", Line_WaitForInput);
+		   NULL, " P-p-p-possibile che...?!?!", Line_WaitForInput);
 	OutputLine(NULL, "　詩音のヤツ、また何か…嫌ぁなことを企んでないか？！？！",
-		   NULL, " Shion... non starà mica architettando un'altra delle sue idee??!!", Line_Normal);
+		   NULL, " Shion... non starà mica architettando un'altra delle sue idee?!?!", Line_Normal);
 	ClearMessage();
 
 	PlayBGM( 1, "msys13", 56, 0 );
@@ -8844,7 +8844,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100194", 256, TRUE);
 	OutputLine(NULL, "「………はぁ〜〜〜〜？！？！」",
-		   NULL, "\"......... cosaaaa??!!\"", Line_Normal);
+		   NULL, "\"......... cosaaaa?!?!\"", Line_Normal);
 	ClearMessage();
 
 //　詩音が、圭ちゃんは怖がりだなぁと馬鹿笑いしながら背中をドンと叩く＠

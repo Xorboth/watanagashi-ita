@@ -8351,7 +8351,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/500300217", 256, TRUE);
 	OutputLine(NULL, "「「えぇええぇえぇぇ〜〜…？！？！」」",
-		   NULL, "\"\"EeEEeEeehHH~~...??!!~~...?!?!\"\"", Line_Continue);
+		   NULL, "\"\"EeEEeEeehHH~~...?!?!~~...?!?!\"\"", Line_Continue);
 
 	PlaySE( 3, "wa_006", 56, 64 );
 	ShakeScreen( 1, 50, 20, 5, 0, );

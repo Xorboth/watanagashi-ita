@@ -1897,7 +1897,7 @@ void main()
 		   NULL, " Tutto quello che volevo fare era vedere la danza di Rika-chan!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100413", 256, TRUE);
 	OutputLine(NULL, "　それを詩音が勝手に連れ出したんじゃないか？！？！",
-		   NULL, " Sei stata tu a portarmi via, non è così, Shion??!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sei stata tu a portarmi via, non è così, Shion?!?!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100414", 256, TRUE);
 	OutputLine(NULL, "　あの２人が泥棒しようが逢引きしようが知ったことじゃないッ！！！",
@@ -1915,7 +1915,7 @@ void main()
 		   NULL, "Dicevate tutti 'Kei-chan, dovresti proprio vedere cosa c'è dentro', e poi mi avete convinto e trascinato!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100417", 256, TRUE);
 	OutputLine(NULL, "　どうしてくれるんだよ？！？！",
-		   NULL, " Perché diavolo l'avete fatto??!!", Line_WaitForInput);
+		   NULL, " Perché diavolo l'avete fatto?!?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100418", 256, TRUE);
 	OutputLine(NULL, "　俺は全然関係ないんだぞ？！？！",
 		   NULL, " Non c'entro nulla con questa faccenda!!!", Line_WaitForInput);
@@ -1928,7 +1928,7 @@ void main()
 		   NULL, "Cosa farai, eh?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100421", 256, TRUE);
 	OutputLine(NULL, "　どうやって責任を取ってくれるんだよッ？！？！",
-		   NULL, " Come ti assumerai la responsabilità di tutto questo??!!", Line_WaitForInput);
+		   NULL, " Come ti assumerai la responsabilità di tutto questo?!?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100422", 256, TRUE);
 	OutputLine(NULL, "　えぇ？！",
 		   NULL, " Allora?!", Line_WaitForInput);

@@ -275,7 +275,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300513", 256, TRUE);
 	OutputLine(NULL, "「…………………ないものねだりじゃないの？",
-		   NULL, "\"...... sei invidioso di qualcosa che non esiste.", Line_WaitForInput);
+		   NULL, "\"...... eri invidioso di qualcosa che non esisteva.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300514", 256, TRUE);
 	OutputLine(NULL, "　双子なんて、昔は人をからかったりしてそこそこに面白かったけど。",
 		   NULL, " Sì, è vero che noi gemelle eravamo solite divertirci e fare un sacco di scherzi alla gente...", GetGlobalFlag(GLinemodeSp));
@@ -449,7 +449,7 @@ void main()
 		   NULL, "\"............ sì.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300519", 256, TRUE);
 	OutputLine(NULL, "……誰よりも惨たらしい死に方をさせてやろうと、ずっと考えて閉じ込めておいたけど。",
-		   NULL, " ... stavo pensando di darle la morte più terribile di tutte, quindi la sto tenendo prigioniera.", Line_WaitForInput);
+		   NULL, " ... pensavo di darle la morte più terribile di tutte, quindi la sto tenendo prigioniera.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300520", 256, TRUE);
 	OutputLine(NULL, "………今日まで、その方法はとうとう思いつかなかった。」",
 		   NULL, " ...... ma non mi è mai venuto in mente un buon metodo.\"", GetGlobalFlag(GLinemodeSp));
@@ -1415,7 +1415,7 @@ void main()
 		   NULL, "\"............ Shion?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101108", 256, TRUE);
 	OutputLine(NULL, "　……………詩音かッ？！？！」",
-		   NULL, " ............ Shion??!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ............ Shion?!?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1607,7 +1607,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300564", 256, TRUE);
 	OutputLine(NULL, "「安心しなよ。",
-		   NULL, "\"Sta' tranquilla.", Line_WaitForInput);
+		   NULL, "\"Sentito? Tranquilla.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300565", 256, TRUE);
 	OutputLine(NULL, "あんたは殺さない。",
 		   NULL, " Non ti ucciderò.", Line_WaitForInput);
@@ -1667,17 +1667,17 @@ void main()
 //　そんなに死にたければ、この男を殺した後に、ゆっくりとひき肉にしてやるよ＠...古式に則り、四肢の先端から少しずつ＠ガリゴリと削ってミンチにしてやる＠...あの肉挽き機はあんたのためにとっておいてあるんだからね＠/
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300569", 256, TRUE);
 	OutputLine(NULL, "　そんなに死にたければ、この男を殺した後に、ゆっくりとひき肉にしてやるよ。",
-		   NULL, " Se desideri così tanto morire, allora dopo che avrò ucciso quest'uomo, mi prenderò tutto il tempo per macinare le tue carni.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Se desideri così tanto morire, allora dopo che avrò ucciso quest'uomo, mi prenderò tutto il tempo per macinarti le carni.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300570", 256, TRUE);
 	OutputLine(NULL, "…古式に則り、四肢の先端から少しずつ。",
-		   NULL, "... proprio come dicono le tradizioni, lo farò molto lentamente, cominciando dagli arti.", Line_WaitForInput);
+		   NULL, "... seguirò a puntino le antiche tradizioni: lentamente e cominciando dagli arti.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300571", 256, TRUE);
 	OutputLine(NULL, "ガリゴリと削ってミンチにしてやる。",
 		   NULL, " Ti macinerò fino a farti diventare carne tritata.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300572", 256, TRUE);
 	OutputLine(NULL, "…あの肉挽き機はあんたのためにとっておいてあるんだからね。",
-		   NULL, " Ho preparato quel tritatutto apposta per te, in fondo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ho preparato quel tritatutto apposta per te, sai?", GetGlobalFlag(GLinemodeSp));
 
 	DisableWindow();
 	ModDrawCharacter(3, 3, "sprite/me2_akuwarai_a1_", "1", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
@@ -1729,7 +1729,7 @@ void main()
 //　魅音が三日月をさらに切り込んだような...信じられないくらい残酷に口元を歪ませて...笑っていた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　魅音が三日月をさらに切り込んだような…信じられないくらい残酷に口元を歪ませて…笑っていた。",
-		   NULL, " la bocca di Mion è distorta in una forma talmente sottile e arcuata da sembrare una luna crescente... simile a un sorriso.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "la bocca di Mion è distorta in una forma talmente sottile e arcuata da sembrare una luna crescente... simile a un sorriso.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2619,7 +2619,7 @@ void main()
 		   NULL, " Mion Sonozaki.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300627", 256, TRUE);
 	OutputLine(NULL, "…恐怖で頭が変になっちゃった？　くっくっく！」",
-		   NULL, " ... per il terrore ti ha dato di volta il cervello? Uhuhuh!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Hai talmente paura che ti ha dato di volta il cervello? Uhuhuh!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2630,7 +2630,7 @@ void main()
 		   NULL, "\"............ no.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101123", 256, TRUE);
 	OutputLine(NULL, "…お前が、……園崎魅音であるはずがない…！」",
-		   NULL, " ... è impossibile... che tu possa essere Mion Sonozaki...!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "... tu... non puoi essere Mion Sonozaki...!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2858,7 +2858,7 @@ void main()
 		   NULL, "\"Puoi farcela, Mion...!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101137", 256, TRUE);
 	OutputLine(NULL, "　こんな…鬼畜生に負けるな…！！！",
-		   NULL, " Non... farti battere da questo demone del cazzo...!!!!", Line_WaitForInput);
+		   NULL, " Non... farti battere da questo demone da quattro soldi...!!!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101138", 256, TRUE);
 	OutputLine(NULL, "　本当に強い…お前の力を見せてくれぇえぇえ！！！」",
 		   NULL, " Sei forte... fammi vedere di che pasta sei fatta!!!\"", GetGlobalFlag(GLinemodeSp));
@@ -2899,7 +2899,7 @@ void main()
 		   NULL, " Mion!!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101141", 256, TRUE);
 	OutputLine(NULL, "　どこで…お前はこんな鬼に負けちまったんだ？！",
-		   NULL, " Quand'è... che ti sei fatta fregare da questo demone da quattro soldi?!", Line_WaitForInput);
+		   NULL, " Quand'è... che ti sei fatta fregare da questo stupido demone?!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101142", 256, TRUE);
 	OutputLine(NULL, "　お前はこんな弱いヤツじゃないだろ？！",
 		   NULL, " Non sei così debole, vero?!", Line_WaitForInput);
@@ -3221,7 +3221,7 @@ void main()
 		   NULL, " Non mi sorprende.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300665", 256, TRUE);
 	OutputLine(NULL, "………だけどね、そこからドミノ倒しみたいにパタパタパタといろんなものが倒れ始めて、…収拾がつかなくなってしまった。",
-		   NULL, " ...... però, ecco, è tutto cominciato a cadere a pezzi, come le tessere del domino... e non sono più stata in grado di controllarlo.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ...... però, da lì, è tutto cominciato a cadere a pezzi, come le tessere del domino... e non sono più stata in grado di controllarlo.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300666", 256, TRUE);
 	OutputLine(NULL, "……初めの小さなひとつを倒したあなたに自覚がないのは当然だろうけど、………あなたが元凶なの。」",
@@ -3278,7 +3278,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101147", 256, TRUE);
 	OutputLine(NULL, "「……そんな、……うそ…だろ……？」",
-		   NULL, "\"... no... non può essere... vero...?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... no... non può essere... vero...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3361,7 +3361,7 @@ void main()
 //　......俺って言う鈍感野郎は...いっぺん死ななきゃ...治らないっていうのか......！！￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……俺って言う鈍感野郎は…いっぺん死ななきゃ…治らないっていうのか……！！！",
-		   NULL, "... l'unico modo per curare... un inguaribile idiota come me... è la morte...??!!", Line_Normal);
+		   NULL, "... l'unico modo per curare... un inguaribile idiota come me... è la morte...?!?!", Line_Normal);
 	ClearMessage();
 
 //「...............ぅぅぅ............ぅぅ......！！＠
@@ -3467,7 +3467,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101151", 256, TRUE);
 	OutputLine(NULL, "「……気の済むようにするといい。",
-		   NULL, "\"... fa' in fretta.", Line_WaitForInput);
+		   NULL, "\"... pianta tutti i chiodi che vuoi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101152", 256, TRUE);
 	OutputLine(NULL, "……そのかわり、…二つ約束しろ。」",
 		   NULL, " ... in cambio, però... promettimi due cose.\"", GetGlobalFlag(GLinemodeSp));
@@ -3510,7 +3510,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "………この期に及んで…自分より詩音の心配ができるわけ…？」",
-		   NULL, " dopo tutto questo... riesci ancora a mettere Shion prima di te stesso...?\"", Line_Normal);
+		   NULL, " dopo tutto questo... riesci ancora a mettere Shion al primo posto...?\"", Line_Normal);
 	ClearMessage();
 
 //「...もう一つは、!w900......気が済んだら、...もうお前は消えろ＠.........その体を、!w800......魅音に返してやってくれ＠.....................それだけだ。＠
@@ -3527,7 +3527,7 @@ void main()
 		   NULL, " è che quando sarai soddisfatto... te ne andrai per sempre.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101156", 256, TRUE);
 	OutputLine(NULL, "………その体を、",
-		   NULL, " ...... restituisci quel corpo...", Line_Continue);
+		   NULL, " ...... e restituirai quel corpo...", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 800 );
@@ -3823,14 +3823,14 @@ void main()
 	OutputLine(NULL, "　一定の間隔で繰り返される鈍い音。",
 		   NULL, "Un rumore sordo che si ripete a intervalli.", Line_WaitForInput);
 	OutputLine(NULL, "……振動を伴う重い音。",
-		   NULL, " ... un rumore basso, accompagnato da delle vibrazioni.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... un rumore grave, accompagnato da delle vibrazioni.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　この地下祭具殿の鉄扉に大勢が体当たりをしているのだ...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この地下祭具殿の鉄扉に大勢が体当たりをしているのだ…。",
-		   NULL, "Un gruppo di persone sta sbattendo contro le porte di metallo di questa caverna sotterranea...", Line_Normal);
+		   NULL, "Un gruppo di persone sta cercando di aprire con la forza le porte di metallo della caverna sotterranea...", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -3879,7 +3879,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101167", 256, TRUE);
 	OutputLine(NULL, "「…さっき、俺に喰らわせたのはそれか。",
-		   NULL, "\"... è con quella che prima mi hai colpito?", Line_WaitForInput);
+		   NULL, "\"... è con quella che mi hai colpito prima?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101168", 256, TRUE);
 	OutputLine(NULL, "………子供の玩具には向かねぇぞ。」",
 		   NULL, " ...... non è un giocattolo con cui dovrebbero giocare le bambine come te.\"", GetGlobalFlag(GLinemodeSp));
@@ -3904,7 +3904,7 @@ void main()
 //　スタンガンを俺に当てるつもりらしい＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　スタンガンを俺に当てるつもりらしい。",
-		   NULL, "Sembra voler usare la stun gun su di me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ha intenzione di usare di nuovo la stun gun su di me.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3998,7 +3998,7 @@ void main()
 		   NULL, "\"...... ho fatto una promessa prima di venire qui.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130101170", 256, TRUE);
 	OutputLine(NULL, "何があっても、俺の中の魅音は変わらない。」",
-		   NULL, " Qualsiasi cosa succeda, la Mion che c'è dentro di me non cambierà mai.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Qualsiasi cosa succeda, la Mion che è dentro di me non cambierà mai.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4019,7 +4019,7 @@ void main()
 		   NULL, " non avvicinarti.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300724", 256, TRUE);
 	OutputLine(NULL, "……それは私の屍に取り憑いた…鬼なんだから。」",
-		   NULL, " ... perché quel giorno, il demone... avrà preso il controllo del mio cadavere.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... perché entro quel giorno, il demone... avrà preso il controllo del mio cadavere.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
