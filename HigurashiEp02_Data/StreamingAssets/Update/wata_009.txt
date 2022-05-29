@@ -2231,7 +2231,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600157", 256, TRUE);
 	OutputLine(NULL, "「図書館って、駅前の市立図書館ですか？",
-		   NULL, "\"Quella pubblica vicino alla stazione?", Line_WaitForInput);
+		   NULL, "\"Quella pubblica accanto alla stazione?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600158", 256, TRUE);
 	OutputLine(NULL, "　別にいいですよ。",
 		   NULL, " Sì, va bene.", Line_WaitForInput);
@@ -2377,10 +2377,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100281", 256, TRUE);
 	OutputLine(NULL, "「魅音と違って、詩音は待ち合わせ時間を守るなぁ…。",
-		   NULL, "\"Wow, Mion non arriva mai in orario agli appuntamenti...", Line_WaitForInput);
+		   NULL, "\"A differenza di Mion, Shion rispetta gli orari degli appuntamenti...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100282", 256, TRUE);
 	OutputLine(NULL, "しみじみ。」",
-		   NULL, " davvero.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "interessante.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 	DisableWindow();
@@ -2441,7 +2441,7 @@ void main()
 		   NULL, " Hai sbagliato, infatti sono rimasta a casa tutto il giorno.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600168", 256, TRUE);
 	OutputLine(NULL, "私、お姉より要領いいですから。」",
-		   NULL, " In fondo, sono molto più astuta di Mion.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " In fondo, sono più furba di mia sorella.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2484,7 +2484,7 @@ void main()
 		   NULL, " Mia mamma doveva riconsegnare dei libri entro oggi.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100288", 256, TRUE);
 	OutputLine(NULL, "…図書館は遠いのか？」",
-		   NULL, " ... la biblioteca è lontana?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... è lontana?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2567,7 +2567,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100289", 256, TRUE);
 	OutputLine(NULL, "「…どこの図書館も似たようなもんだな。」",
-		   NULL, "\"... è proprio vero che ogni biblioteca è simile a tutte le altre.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"... è proprio vero che tutte le biblioteche sono uguali.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2851,7 +2851,7 @@ void main()
 		   NULL, " quel negozio di giocattoli sembrava di proprietà di tuoi parenti.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100303", 256, TRUE);
 	OutputLine(NULL, "そう言えば、エンジェルモートも親類の人が経営してるんじゃないのか？」",
-		   NULL, " Questo significa che i Sonozaki gestiscono anche l'Angel Mort?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Significa che i Sonozaki gestiscono anche l'Angel Mort?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2872,7 +2872,7 @@ void main()
 		   NULL, "\"La mia famiglia ha un certo peso nel settore finanziario e immobiliare.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600192", 256, TRUE);
 	OutputLine(NULL, "あと、商工会議所の役員も何割かは園崎姓か、その親類が就いてます。",
-		   NULL, " Molti impiegati della Camera di Commercio portano il cognome Sonozaki, o sono loro parenti.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Molti impiegati della camera di commercio portano il cognome Sonozaki, o sono loro parenti.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600193", 256, TRUE);
 	OutputLine(NULL, "興宮一帯を票田に、市議会議員と県議会議員にも園崎がいますし。」",
@@ -2887,7 +2887,7 @@ void main()
 		   NULL, "\"...... aspetta un momento.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s02/01/130100305", 256, TRUE);
 	OutputLine(NULL, "…なんだか…すごい話になって来たぞ。」",
-		   NULL, " ... questa storia... sta diventando incredibile.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... mi sembra... fin troppo incredibile.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　興宮の町中に親類が経営する店があって、特に金融・不動産に強い...＠
@@ -2900,7 +2900,7 @@ void main()
 //　しかもその上、商工会議所の役員の何割かが親類で、しかも地元選出の議員までいて...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　しかもその上、商工会議所の役員の何割かが親類で、しかも地元選出の議員までいて…。",
-		   NULL, "Inoltre, molti di questi sono presenti nella Camera di Commercio, addirittura alcuni sono a capo degli uffici governativi...", Line_Normal);
+		   NULL, "Inoltre, molti di questi sono presenti nella camera di commercio, addirittura alcuni sono a capo degli uffici governativi...", Line_Normal);
 	ClearMessage();
 
 //「...ひょっとして＠......園崎家って、この辺り一帯じゃ...すごいんじゃ...？＠
@@ -2922,10 +2922,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700001", 256, TRUE);
 	OutputLine(NULL, "「えぇ。",
-		   NULL, "\"Sì.", Line_WaitForInput);
+		   NULL, "\"Esatto.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700002", 256, TRUE);
 	OutputLine(NULL, "凄いんです。",
-		   NULL, " È pazzesco.", Line_WaitForInput);
+		   NULL, "Pazzesco, non trovi?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700003", 256, TRUE);
 	OutputLine(NULL, "んっふっふっふ！」",
 		   NULL, " Nfufufu!\"", Line_Normal);
@@ -2957,7 +2957,7 @@ void main()
 		   NULL, " Buon pomeriggio.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700006", 256, TRUE);
 	OutputLine(NULL, "今日はデートですかな？",
-		   NULL, " È un appuntamento per caso?", Line_WaitForInput);
+		   NULL, " È un appuntamento, per caso?", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700007", 256, TRUE);
 	OutputLine(NULL, "　羨ましいですねぇ。」",
 		   NULL, " Ah, cosa darei per tornare giovane.\"", GetGlobalFlag(GLinemodeSp));
