@@ -126,7 +126,7 @@ void dialog010()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#945c44>富竹</color>", NULL, "<color=#945c44>Tomitake</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 8, "ps3/s19/08/500800078", 256, TRUE);
 	OutputLine(NULL, "「バラバラ殺人だよ。",
-		   NULL, "\"Uno di quegli omicidi con smembramento.", Line_WaitForInput);
+		   NULL, "\"Uno di quegli omicidi dove si fa sparire il cadavere,", Line_WaitForInput);
 	ModPlayVoiceLS(4, 8, "ps2/08/500800079", 540, TRUE);
 	OutputLine(NULL, "ひところ流行ったろ。」",
 		   NULL, " Erano frequenti tempo fa.\"", Line_Normal);

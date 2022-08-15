@@ -3948,7 +3948,7 @@ void main()
 //　バラバラ殺人の犯人だって、捕まりたくないだろうから必死に逃げて隠れてるだろうし＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　バラバラ殺人の犯人だって、捕まりたくないだろうから必死に逃げて隠れてるだろうし。",
-		   NULL, "Gli artefici dello smembramento non volevano certo essere beccati, quindi non mi sorprende che avessero un disperato bisogno di scappare e nascondersi.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Gli artefici del brutale omicidio non volevano certo essere beccati, quindi non mi sorprende che avessero un disperato bisogno di scappare e nascondersi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

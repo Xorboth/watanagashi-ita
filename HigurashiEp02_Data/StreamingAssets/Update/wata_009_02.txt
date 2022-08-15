@@ -1661,7 +1661,7 @@ void main()
 //　最初のバラバラ殺人は犯人が特定され、ほとんどは逮捕された＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　最初のバラバラ殺人は犯人が特定され、ほとんどは逮捕された。",
-		   NULL, "Quasi tutti i responsabili dello smembramento di anni fa sono stati arrestati.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Quasi tutti i responsabili dell'uomo ucciso e fatto a pezzi anni fa sono stati arrestati.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　最後の１人は依然逃亡中だが、...事件の全容は解明され、一応、解決したと言っていい￥

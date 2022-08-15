@@ -828,7 +828,7 @@ void main()
 //『デザートフェスタ開催・本日招待客さま貸切です＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「デザートフェスタ開催・本日招待客さま貸切です」",
-		   NULL, " 『Oggi Festa del Dessert - Ingresso solo su prenotazione.』", GetGlobalFlag(GLinemodeSp));
+		   NULL, " 『Oggi Festival dei Dessert - Ingresso solo su prenotazione.』", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

@@ -1041,7 +1041,7 @@ void main()
 		   NULL, " avvenne il primo incidente.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600353", 256, TRUE);
 	OutputLine(NULL, "…現場監督のバラバラ殺人があったのは。",
-		   NULL, " ... ovvero lo smembramento del direttore dei lavori della diga.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... ovvero l'omicidio del capocantiere della diga.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600354", 256, TRUE);
 	OutputLine(NULL, "…園崎家が主犯格の男を買収したのではと囁かれてますが、…何しろ今日も逃走中ですからね。」",
@@ -1259,7 +1259,7 @@ void main()
 		   NULL, "\"... alla fine, la sua delinquenza la portò in una posizione di autorità all'interno del ramo principale dei Sonozaki.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600377", 256, TRUE);
 	OutputLine(NULL, "…大石がバラバラ殺人以降の事件を疑いたくなるのも、まぁ無理ないことです。」",
-		   NULL, " ... non mi sorprenderei se Ooishi la credesse colpevole dello smembramento e di tutti i crimini degli anni seguenti.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " ... non mi sorprenderei se Ooishi la credesse colpevole dell'omicidio della diga e di tutti i crimini degli anni seguenti.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 //　.....................魅音の昔話を聞かされ...しばし放心する￥
