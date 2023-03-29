@@ -64,7 +64,7 @@ void dialog004()
 
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300473", 256, TRUE);
 	OutputLine(NULL, "「圭ちゃんが持ってたら、確実に明日から変態扱いだね。うん！」",
-		   NULL, "\"Se andassi in giro con quella, Kei-chan, saresti subito preso per un maniaco. Eh già!\"", Line_Normal);
+		   NULL, "\"Ti prenderebbero subito per un maniaco se te ne andassi in giro con quella, Kei-chan!\"", Line_Normal);
 
 	ClearMessage();
 }
@@ -74,7 +74,7 @@ void dialog005()
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 
 	OutputLine(NULL, "　百万長者ゲーム。",
-		   NULL, "È un gioco chiamato \"Billionaire.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "È il Monopoli.", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }

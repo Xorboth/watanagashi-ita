@@ -35,7 +35,7 @@ void dialog003()
 	OutputLine(NULL, "「……魅ぃに百億兆者ゲームを借りたことをコロリと忘れてしまったら、",
 		   NULL, "\"...... una volta, mi sono completamente dimenticata di restituire a Mii il Monopoli che mi aveva prestato,", Line_Continue);
 	OutputLine(NULL, "リアルで百億兆者ゲームをプレイさせたるどーと凄まれましたのです。」",
-		   NULL, " e mi ha minacciato dicendomi che mia vrebbe costretta a giocare un Monopoli nella vita reale.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " e mi ha minacciato dicendomi che mi avrebbe costretta a giocare un Monopoli nella vita reale.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

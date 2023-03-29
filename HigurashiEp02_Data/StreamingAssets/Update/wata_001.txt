@@ -5663,7 +5663,7 @@ void main()
 		   NULL, "\"Ahahahaha!", Line_WaitForInput);
 	ModPlayVoiceLS(4, 3, "ps3/s19/03/990300472", 256, TRUE);
 	OutputLine(NULL, "　圭ちゃんには一番似合わないのが出てきちゃったねぇ！」",
-		   NULL, " Kei-chan ha preso quella che gli si addice meno!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Kei-chan si è beccato quella che gli si addice meno!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -5671,10 +5671,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei10150", 256, TRUE);
 	OutputLine(NULL, "「…なんつーのか、プリティーって言うかキュートって言うか、",
-		   NULL, "\"... come dire... sì, è carina...", Line_WaitForInput);
+		   NULL, "\"Devo ammettere che è carina e ben realizzata...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei10160", 256, TRUE);
 	OutputLine(NULL, "…可愛いのは認めるんだが…着せ替え人形はちょっとなぁ…。」",
-		   NULL, " ... cioè, è vero che è bella e carina... devo ammetterlo... ma una bambola a cui si possono cambiare i vestiti... è un po' troppo per me...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "ma una bambola a cui si possono cambiare i vestiti... è un po' troppo per me...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
