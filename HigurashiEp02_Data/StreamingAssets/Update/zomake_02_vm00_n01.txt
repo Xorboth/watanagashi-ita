@@ -11,7 +11,7 @@ void dialog001()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#fcdb77>沙都子</color>", NULL, "<color=#fcdb77>Satoko</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 4, "ps3/s20/04/440400179", 256, TRUE);
 	OutputLine(NULL, "「意見も何も…、今回のシナリオで解明編なのではありませんことー？",
-		   NULL, "\"Un'opinione sincera... la storia di oggi non sembrava un capitolo risolutivo?", Line_WaitForInput);
+		   NULL, "\"Secondo me... la storia di oggi sembrava un capitolo risolutivo.", Line_WaitForInput);
 }
 
 void dialog002()

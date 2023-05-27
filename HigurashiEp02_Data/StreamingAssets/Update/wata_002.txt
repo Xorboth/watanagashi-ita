@@ -4266,14 +4266,14 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>ウェイトレス</color>", NULL, "<color=#f5e6d3>Cameriera</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 6, "ps3/s19/06/990600001", 256, TRUE);
 	OutputLine(NULL, "「あ、…も！",
-		   NULL, "\"Oh... s—!", Line_Continue);
+		   NULL, "\"Oh... no!", Line_Continue);
 
 	// (backup) SetValidityOfInput( FALSE );
 	Wait( 1000 );
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "　も、申し訳ございません…。」",
-		   NULL, " s-sono mortificata...\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " S-Sono mortificata...\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

@@ -662,7 +662,7 @@ void main()
 		   NULL, "\"Penso di si.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200192", 256, TRUE);
 	OutputLine(NULL, "じゃあ自由意見で行きましょうか。",
-		   NULL, " Bene, sentiamo qualche opinione sincera.", Line_WaitForInput);
+		   NULL, " Bene, sentiamo le vostre opinioni.", Line_WaitForInput);
 	ModPlayVoiceLS(4, 2, "ps3/s20/02/440200193", 256, TRUE);
 	OutputLine(NULL, "誰か意見のある人はいますか〜？！」",
 		   NULL, " Qualcuno vuole dire qualcosa~?!\"", Line_Normal);
