@@ -3000,7 +3000,7 @@ void main()
 
 	ModPlayVoiceLS(4, 5, "org/rika1000", 256, TRUE);
 	OutputLine(NULL, "「……メイドさん衣装、カチューシャ、ガーターベルト付きで１位の人の荷物を運ぶのですよ。」",
-		   NULL, "\"Vestirsi da cameriera, completo di cerchietto e parigine, mentre porta in spalla la roba del vincitore.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Vestirsi da cameriera, completo di cerchietto e giarrettiera, mentre porta in spalla la roba del vincitore.\"", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
