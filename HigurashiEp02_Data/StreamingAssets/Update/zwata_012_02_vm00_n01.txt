@@ -8,140 +8,34 @@ void dialog000()
 
 void dialog001()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300361_1", 256, TRUE);
-	OutputLine(NULL, "「この頃には、…もう鬼ヶ淵村の不可侵性は失われていました。",
-		   NULL, "\"A quel punto... il villaggio di Onigafuchi aveva ormai perso la sua individualità.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps2/03/130300363", 540, TRUE);
-	OutputLine(NULL, "……かつて仙人と崇められた村人たちは、非人扱いを受け…。",
-		   NULL, " ... gli abitanti, un tempo venerati come creature ultraterrene, venivano ora trattati in modo crudele e disumano...", GetGlobalFlag(GLinemodeSp));
-
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-
-//　...神聖な鬼ヶ淵村は、いつの間にか、業病患者の隔離集落の成れの果てであるという根も葉もないレッテルを貼られ、...苦難の時代を迎えることになったのでした。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps2/03/130300364", 540, TRUE);
-	OutputLine(NULL, "　…神聖な鬼ヶ淵村は、いつの間にか、疫病患者の隔離集落の成れの果てであるという根も葉もないレッテルを貼られ、",
-		   NULL, "Il sacro villaggio di Onigafuchi era stato isolato ed etichettato come un crogiolo di persone affette da malattie incurabili, una mera ombra di quel che era prima...", Line_Continue);
-	OutputLine(NULL, "…苦難の時代を迎えることになったのでした。」",
-		   NULL, " e si trovò sull'orlo del precipizio.\"", Line_Normal);
 }
 
 void dialog002()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps2/03/130300365", 540, TRUE);
-	OutputLine(NULL, "「……裁判も起こしました。",
-		   NULL, "\"...... la vicenda andò anche in tribunale.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps2/03/130300366", 540, TRUE);
-	OutputLine(NULL, "…出身の問題は離婚する重要な理由にはなりえないと訴えて。",
-		   NULL, " ... adducendo che il luogo di nascita non poteva essere motivo sufficiente per richiedere il divorzio.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps2/03/130300367", 540, TRUE);
-	OutputLine(NULL, "…でも敗訴しました。",
-		   NULL, " ... tuttavia, tale causa venne persa.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps2/03/130300368", 540, TRUE);
-	OutputLine(NULL, "……出身の虚偽は、結婚の上での重大な詐称行為にあたるのだそうで……。」",
-		   NULL, "... mentire sul luogo di nascita costituisce un grave atto di mancanza di fiducia nei confronti del matrimonio...\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
 void dialog003()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps2/03/130300372", 540, TRUE);
-	OutputLine(NULL, "「……太平洋戦争中は、国民一丸のスローガンが流れながらも、…雛見沢村の人々はさまざまな差別を受け続けました。",
-		   NULL, "\"... durante la guerra del Pacifico, nonostante gli slogan che incitavano all'azione come un paese unito... coloro che erano nati a Hinamizawa continuavano a soffrire le più gravi discriminazioni.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300361_6", 256, TRUE);
-	OutputLine(NULL, "……数えだしたらキリがないくらい。",
-		   NULL, " ... troppe per poter essere elencate.", GetGlobalFlag(GLinemodeSp));
 }
 
 void dialog004()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps2/03/130300381", 540, TRUE);
-	if (GetGlobalFlag(GADVMode)) { OutputLine(NULL, "", NULL, "<size=-2>", Line_Continue); }
-	OutputLine(NULL, "「宗平は中国大陸に出兵し、ハルピンで食料倉庫の管理をしていたと言い、撤退時に上官や仲間たちと共謀して、軍の缶詰をごっそりと盗み出していたのでした。",
-		   NULL, "\"Sohei diceva di essersi occupato di magazzini di scorte alimentari ad Harbin, dopo essere stato mandato in Cina. Una volta giunta l'ora di tornare, strette un accordo segreto coi suoi superiori per portare illegalmente con sé grandi quantità di beni in scatola.", GetGlobalFlag(GLinemodeSp));
 }
 
 void dialog005()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300388", 256, TRUE);
-	OutputLine(NULL, "「…ですが、…昭和３０年頃に、またしても逆風が吹き始めます。",
-		   NULL, "\"... però... intorno al 1955, il vento inizò ad andare in un'altra direzione...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300389", 256, TRUE);
-	OutputLine(NULL, "…それが「人肉缶詰疑惑」でした。」",
-		   NULL, " ... a causa dell' 'Incidente della Carne in Scatola.'\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-
-//　人肉缶詰......＠
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　人肉缶詰……。",
-		   NULL, "Carne in scatola......", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
 void dialog006()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300390", 256, TRUE);
-	OutputLine(NULL, "「祖父、園崎宗平の上官だったと名乗る男が告白したのです。",
-		   NULL, "\"Qualcuno che disse essere stato un superiore di mio nonno, Sohei Sonozaki, confessò...", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300391", 256, TRUE);
-	OutputLine(NULL, "…あの缶詰は人肉の缶詰だったと。」",
-		   NULL, " che quei beni in scatola erano stati realizzati con carne umana.\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 }
 
 void dialog007()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300392", 256, TRUE);
-	OutputLine(NULL, "「宗平がいた部隊は、それよりはもっと温情的な研究をしていました。",
-		   NULL, "\"Le ricerche condotte dall'unità di Sohei erano assai più realistiche e meno dure di come dici.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300393", 256, TRUE);
-	OutputLine(NULL, "…それは、戦地での困難な食料調達に関する具体的な手法の研究でした。」",
-		   NULL, " ... ricercavano metodi concreti per ridurre la difficoltà del consegnare cibo sui campi di battaglia.\"", Line_Normal);
 }
 
 void dialog008()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300395", 256, TRUE);
-	OutputLine(NULL, "「……そう。",
-		   NULL, "\"... esatto.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300396", 256, TRUE);
-	OutputLine(NULL, "…彼らは、人間を食材として扱う方法を研究していたのです。",
-		   NULL, " ... la ricerca prevedeva modi per sopravvivere usando 'ingredienti' che di norma non lo sono.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300397", 256, TRUE);
-	OutputLine(NULL, "…彼らは、時には敵の、時には戦友の血肉を食んででも戦い抜くことが、国に報いる究極の奉仕になる。",
-		   NULL, "... per i soldati, continuare a combattere, anche a discapito di dover sfruttare le più inimmaginabili fonti di energie, era il più alto servizio che si potesse servire alla patria.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300398", 256, TRUE);
-	OutputLine(NULL, "…そういう教義を大真面目に組み上げて行ったのです。",
-		   NULL, " ... ed erano ciecamente devoti a questa dottrina.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300399", 256, TRUE);
-	OutputLine(NULL, "……滑稽な話ですね。",
-		   NULL, " ... da non credere.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300400", 256, TRUE);
-	OutputLine(NULL, "祖父を人肉食いと蔑んでおきながら、自分たちはさらにその上を行っていたのですから。",
-		   NULL, "Pensavano che mio nonno fosse un discendente dei mangia-uomini, e invece erano proprio gli altri a oltrepassare qualsiasi limite.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300401", 256, TRUE);
-	OutputLine(NULL, "祖父はいつも思っていたそうです。",
-		   NULL, " Era un pensiero che lo coglieva spesso.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300402", 256, TRUE);
-	OutputLine(NULL, "例え自分が卑しい食人鬼だとしても、彼らはそれよりも遥かに醜い鬼なんだと。",
-		   NULL, "Per quanto dicessero che fosse un bieco demone mangia-uomini, in verità erano gli altri a essere i veri mostri.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300403", 256, TRUE);
-	OutputLine(NULL, "だからいくら蔑まれたって、ちっとも堪えないと。」",
-		   NULL, " Quindi, per quanto venisse sbeffeggiato, non gliene importava niente.\"", Line_Normal);
 }
 
 void dialog009()
@@ -156,23 +50,4 @@ void dialog010()
 
 void dialog011()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300406", 256, TRUE);
-	OutputLine(NULL, "「……真偽はわかりません。",
-		   NULL, "\"... non so se sia vero.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300407", 256, TRUE);
-	OutputLine(NULL, "晩年まで宗平は人肉であることを否定し続けました。",
-		   NULL, " Sohei negò fino al giorno della sua morte che quella fosse carne umana.", GetGlobalFlag(GLinemodeSp));
-
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-//　ですが、雛見沢の急激な復興を妬む人々は、人肉を売って財を成した鬼畜と呼び、...村人をまたしても蔑み始めたのです＠......また、子供たちがはやし立てられ、石を投げつけられる時代に戻ってしまったのです。￥
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300408", 256, TRUE);
-	OutputLine(NULL, "　ですが、雛見沢の急激な復興を妬む人々は、人肉を売って財を成した鬼畜と呼び、…村人をまたしても蔑み始めたのです。",
-		   NULL, "Dall'altra parte, coloro che avevano visto di cattivo occhio la rinascita di Hinamizawa gli diedero del selvaggio per aver fatto soldi con della carne umana... e gli abitanti tornarono di nuovo a essere etichettati.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 3, "ps3/s02/03/130300409", 256, TRUE);
-	OutputLine(NULL, "……また、子供たちがはやし立てられ、石を投げつけられる時代に戻ってしまったのです。」",
-		   NULL, "... tornarono i tempi dei bambini maltrattati e a cui venivano lanciate addosso pietre.\"", Line_Normal);
 }

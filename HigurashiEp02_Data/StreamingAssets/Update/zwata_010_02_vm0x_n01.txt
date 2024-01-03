@@ -8,23 +8,8 @@ void dialog000()
 
 void dialog001()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600367", 256, TRUE);
-	OutputLine(NULL, "「うちのお父さん、ヤクザの大物ですから。",
-		   NULL, "\"Nostro padre è un pezzo grosso della yakuza.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600368", 256, TRUE);
-	OutputLine(NULL, "…年少のお姉でも、若いガラの悪いのを何人も従えることができました。」",
-		   NULL, " ... persino da piccola, mia sorella riusciva a tenere sotto controllo i malviventi della zona.\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
 void dialog002()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600370", 256, TRUE);
-	OutputLine(NULL, "何度も補導されたんですよ…今は何だかのんびりした雰囲気だから想像も付かないでしょうが。",
-		   NULL, " Fu tenuta sotto custodia molte volte... anche se adesso è talmente spensierata che risulta difficile da immaginare.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600372", 256, TRUE);
-	OutputLine(NULL, "…子供ですから、すぐに釈放してもらえたみたいですけどね。",
-		   NULL, " ... e il fatto che fosse una ragazzina l'aiutava a uscirsene fuori dai guai.", GetGlobalFlag(GLinemodeSp));
 }

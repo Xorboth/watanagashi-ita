@@ -1176,11 +1176,18 @@ void main()
 
 
 //「うちのお父さん、ヤクザの大物ですから＠...年少のお姉でも、若いガラの悪いのを何人も従えることができました＠で、様々な嫌がらせや妨害をやってのけたんです。＠
-
-	//VoiceMatching
-	if(GetGlobalFlag(GCensor) >= 5){ModCallScriptSection("zwata_010_02_vm0x_n01","dialog001");}
-	if(GetGlobalFlag(GCensor) <= 4){ModCallScriptSection("zwata_010_02_vm00_n01","dialog001");}
-	//VoiceMatchingEnd
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "org/shion1016", 256, TRUE);
+	OutputLine(NULL, "「うちのお父さん、ヤクザの大物ですから。",
+		   NULL, "\"Nostro padre è un pezzo grosso della yakuza.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "org/shion1017", 256, TRUE);
+	OutputLine(NULL, "…年少のお姉でも、若いガラの悪いのを何人も従えることができました。",
+		   NULL, " ... persino da piccola, mia sorella riusciva a tenere sotto controllo i malviventi della zona.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "org/shion1018", 256, TRUE);
+	OutputLine(NULL, "で、様々な嫌がらせや妨害をやってのけたんです。」",
+		   NULL, "Spesso faceva loro scherzi o gli metteva i bastoni tra le ruote.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //「.........あの...魅音が...？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
@@ -1190,14 +1197,20 @@ void main()
 	ClearMessage();
 
 //「...今は何だかのんびりした雰囲気だから想像も付かないでしょうが＠器物破損から脅迫、暴行まで一通りこなして、何度も補導されたんですよ＠...子供ですから、すぐに釈放してもらえたみたいですけどね＠...お姉は、自分の年齢が武器になることを知ってたみたいです。＠
-
-	//VoiceMatching
-	if(GetGlobalFlag(GCensor) >= 5){ModCallScriptSection("zwata_010_02_vm0x_n01","dialog002");}
-	if(GetGlobalFlag(GCensor) <= 4){ModCallScriptSection("zwata_010_02_vm00_n01","dialog002");}
-	//VoiceMatchingEnd
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "org/shion1019", 256, TRUE);
+	OutputLine(NULL, "「…今は何だかのんびりした雰囲気だから想像も付かないでしょうが。",
+		   NULL, "\"... adesso è sempre spensierata ed è difficile da immaginare.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 6, "org/shion1020", 256, TRUE);
+	OutputLine(NULL, "器物破損から脅迫、暴行まで一通りこなして、何度も補導されたんですよ。",
+		   NULL, " Ma le venne imputato di tutto, dalla distruzione di proprietà, alle minacce, alle violenze, e spesso finì in commissariato.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 6, "org/shion1021", 256, TRUE);
+	OutputLine(NULL, "…子供ですから、すぐに釈放してもらえたみたいですけどね。",
+		   NULL, "... ma il fatto che fosse una ragazzina l'aiutava a uscirsene fuori dai guai.", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 6, "ps3/s02/06/130600373", 256, TRUE);
+	ModPlayVoiceLS(4, 6, "org/shion1022", 256, TRUE);
 	OutputLine(NULL, "…お姉は、自分の年齢が武器になることを知ってたみたいです。」",
 		   NULL, "... aveva imparato che la sua età poteva essere usata come arma.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }

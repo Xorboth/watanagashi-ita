@@ -12,93 +12,18 @@ void dialog001()
 
 void dialog002()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei15130_01", 256, TRUE);
-	OutputLine(NULL, "「いや、お祭りの話は前に魅音たちからも聞いたけどさ。……確か梨花ちゃん、お祭りの実行委員なんだよな。それと関係あるのか？」",
-		   NULL, "\"Mi avete già parlato del festival e che Rika-chan fa parte del comitato che lo organizza. Ha qualcosa a che fare con questo?", Line_Normal);
-
-
-	DisableWindow();
-	ModSetLayerFilter(3, 256, "none");
-	ModDrawCharacterWithFiltering(3, 2, "sprite/re3a_def_a1_", "0", "right", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 300, TRUE );
-
-//「梨花ちゃんは綿流しの巫女さんだから、奉納の演舞をすることになっててね＠その練習なの。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200081", 256, TRUE);
-	OutputLine(NULL, "「梨花ちゃんは綿流しの巫女さんだから、奉納の演舞をすることになっててね。",
-		   NULL, "\"Rika-chan è la sacerdotessa del Watanagashi, quindi dovrà eseguire una danza rituale.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200082", 256, TRUE);
-	OutputLine(NULL, "その練習なの。」",
-		   NULL, "Si allena in questa danza.\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
 void dialog003()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　そう言えば…お袋が夕飯の時、そんな話をしていたような気がする。",
-		   NULL, "Ora che ci penso, ho la sensazione che mia mamma ne abbia parlato a cena l'altro giorno.", Line_Normal);
-	ClearMessage();
-
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "つまり梨花ちゃんがその巫女役をつとめるってことか。",
-		   NULL, " Quindi Rika-chan è la sacerdotessa del santuario shintoista?", Line_Normal);
-
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei15130_02", 256, TRUE);
-	OutputLine(NULL, "「なるほどな。確か、布団とかどてらの供養だって言ってたよな。…じゃあ、あれか？　演舞か何かで、中に入ってる綿を取り出したりするのか？」",
-		   NULL, "\"Ora ricordo. Mia mamma ha detto che vengono usati dei futon come offerte. ... e che l'imbottitura di cotone viene estratta durante un ballo cerimoniale, mi pare?\"", Line_Normal);
 }
 
 void dialog004()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200087", 256, TRUE);
-	OutputLine(NULL, "「祭壇にもお布団を積み上げているし。",
-		   NULL, "\"Vengono raccolti dei futon sull'altare.", Line_WaitForInput);
 }
 
 void dialog005()
 {
-	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200083", 256, TRUE);
-	OutputLine(NULL, "綿流しはね、毎年６月の日曜日に神社でやるお祭りなの。",
-		   NULL, " Il Watanagashi è un festival che si tiene una domenica di giugno al santuario.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 2, "ps3/s19/02/500200084", 256, TRUE);
-	OutputLine(NULL, "とってもにぎわうんだよ！」",
-		   NULL, "È sempre pieno di gente!\"", Line_Normal);
-//	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-	DisableWindow();
-	ModDrawCharacter(3, 2, "sprite/re3a_warai_a1_", "2", 160, 0, 0, FALSE, 0, 0, 0, 0, 0, 0, 0, 20, 200, TRUE );
-
-//そう言って魅音とレナがちょっと感心したように、にっこりと笑いながらうなずき返す。
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "そう言って魅音とレナがちょっと感心したように、にっこりと笑いながらうなずき返す。",
-		   NULL, "Mion e Rena fanno un cenno con la testa e sorridono con aria entusiasta.", Line_WaitForInput);
-
-//どうやら今度の想像は当たっていたようだ。kまぁ、はじめに聞いたときは布団を沢に積み上げるイメージが真っ先に思い浮かんだけど、k……それだと流れも堰き止められるし、なにより後始末が大変だしな。
-	OutputLine(NULL, "どうやら今度の想像は当たっていたようだ。",
-		   NULL, "Ho fatto centro.", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
-
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "まぁ、はじめに聞いたときは布団を沢に積み上げるイメージが真っ先に思い浮かんだけど、",
-		   NULL, " Anche se, quando ne ho sentito parlare per la prima volta, credevo che avrebbero gettato dei futon nella palude.", Line_WaitForInput);
-	OutputLine(NULL, "……それだと流れも堰き止められるし、なにより後始末が大変だしな。",
-		   NULL, " ... ma poi bloccherebbe lo scorrere dell'acqua, e sarebbe una vera rottura da ripulire.", Line_Normal);
-
-//圭一「……それにしてもご先祖様とか戦没者とか、針とか包丁とかの供養ってのは聞いたことあるけど。布団の供養っては初耳だな。どんな謂れがあるんだ？」
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 1, "ps3/s19/01/hr_kei15130_03", 256, TRUE);
-	OutputLine(NULL, "「……それにしてもご先祖様とか戦没者とか、針とか包丁とかの供養ってのは聞いたことあるけど。",
-		   NULL, "\"Ho sentito di festival in cui si offrono aghi o coltelli da cucina ai propri antenati o ai caduti...", Line_Continue);
-	OutputLine(NULL, "布団の供養っては初耳だな。",
-		   NULL, " ma un'offerta di futon mi suona nuova.", Line_Continue);
-	OutputLine(NULL, "どんな謂れがあるんだ？」",
-		   NULL, " Che storia c'è dietro?\"", GetGlobalFlag(GLinemodeSp));
-
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
 void dialog006()
@@ -127,14 +52,4 @@ void dialog007()
 
 void dialog008()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>詩音</color>", NULL, "<color=#5ec69a>Shion</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 6, "ps3/s19/06/500600093", 256, TRUE);
-	OutputLine(NULL, "「それよりもさっきのあれ。",
-		   NULL, "\"Piuttosto, cosa più importante...", Line_WaitForInput);
-
-	ModPlayVoiceLS(4, 6, "ps3/s19/06/500600094", 256, TRUE);
-	OutputLine(NULL, "……驚きましたか？」",
-		   NULL, " ti sei sorpreso?\"", GetGlobalFlag(GLinemodeSp));
-
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }

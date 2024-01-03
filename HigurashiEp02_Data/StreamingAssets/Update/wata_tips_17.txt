@@ -69,7 +69,7 @@ void main()
 //　数年前のダム闘争では、反対同盟の会長職に公由家が就いたが、これはあくまでも名目上で、実際には園崎家が影のリーダーとして君臨していた￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　数年前のダム闘争では、反対同盟の会長職に公由家が就いたが、これはあくまでも名目上で、実際には園崎家が影のリーダーとして君臨していた。",
-		   NULL, "Durante gli scontri per la diga di qualche anno fa, i Kimiyoshi si misero a capo della fazione opposta ai lavori, ma soltanto in nome—in verità, era la famiglia Sonozaki a tirare le fila nell'ombra.", Line_Normal);
+		   NULL, "Durante gli scontri per la diga di qualche anno fa, i Kimiyoshi si misero a capo della fazione opposta ai lavori, ma soltanto in nome—in verità, era la famiglia Sonozaki a muovere i fili nell'ombra.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 3, "wa_021", 56, 64 );

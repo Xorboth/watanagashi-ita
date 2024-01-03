@@ -115,49 +115,18 @@ void dialog007()
 
 void dialog008()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700020", 256, TRUE);
-	OutputLine(NULL, "「園崎家はこの地域一帯を牛耳ってる暴力団です。",
-		   NULL, "\"I Sonozaki sono un gruppo malavitoso che tiene tutta la regione sotto controllo.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700021", 256, TRUE);
-	OutputLine(NULL, "ちなみに彼女のお父さんは、関東でも有名な暴力団グループの大幹部さんです。",
-		   NULL, " Per l'appunto, il padre è un pezzo grosso di questo 'gruppo', ben noto nella regione del Kanto.", GetGlobalFlag(GLinemodeSp));
 }
 
 void dialog009()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700024", 256, TRUE);
-	OutputLine(NULL, "　高い塀に有刺鉄線と監視カメラで守られた、典型的な暴力団の組長宅ですよ。",
-		   NULL, "È l'incarnazione della casa da boss mafioso, protetta da alte mura, filo spinato e telecamere.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700025", 256, TRUE);
-	OutputLine(NULL, "今度ぜひ遊びに行ってみてください。」",
-		   NULL, " Se ti capita, vai a darci un'occhiata.\"", GetGlobalFlag(GLinemodeSp));
-	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
 void dialog010()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
-	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700026", 256, TRUE);
-	OutputLine(NULL, "「いえいえいえいえいえ。",
-		   NULL, "\"No, no, no, no, no.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700027", 256, TRUE);
-	OutputLine(NULL, "まさかまさか。",
-		   NULL, " Certo che no.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700028", 256, TRUE);
-	OutputLine(NULL, "園崎魅音さんが継ぐのはそんなチンケな暴力団組織だけじゃありません。",
-		   NULL, " Mion Sonozaki-san non erediterà solo le redini di un noioso gruppo criminale.", Line_WaitForInput);
-	ModPlayVoiceLS(4, 11, "ps3/s02/11/130700029", 256, TRUE);
-	OutputLine(NULL, "彼女が継ぐのは園崎家そのものですよ。",
-		   NULL, " Erediterà l'intera famiglia Sonozaki.", GetGlobalFlag(GLinemodeSp));
 }
 
 void dialog011()
 {
-	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
-	OutputLine(NULL, "　魅音は跡継ぎだとか言ってたけど……まさか…その暴力団の…？",
-		   NULL, "Shion ha detto che Mion è l'erede...... ma... di un'organizzazione criminale...?", Line_Normal);
 }
 
 void dialog012()

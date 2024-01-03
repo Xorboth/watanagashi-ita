@@ -5,7 +5,3 @@ void main()
 void dialog000()
 {
 }
-
-void dialog001()
-{
-}
