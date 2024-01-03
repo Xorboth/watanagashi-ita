@@ -1,3 +1,7 @@
+1.0.6 [03-01-2023]:
+ - Aggiornata la traduzione all'ultima versione della patch per Watanagashi di 07th-Mod (commit c744af54986d1609a7cc0d9544e0ab8eb16f82e0 del 02-11-2023)
+ - Corretti alcuni errori
+
 1.0.5 [27-05-2023]:
  - Aggiornata la traduzione, correggendo vari errori ed editando alcune frasi
 
